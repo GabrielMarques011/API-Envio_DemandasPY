@@ -228,7 +228,7 @@ def main():
 
     distribuir_chamados()  # Executa imediatamente
 
-    print("🚀 Agendado para rodar a cada 10 minutos. CTRL+C para parar.")
+    print("🚀 Agendado para rodar a cada 10 minutos.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

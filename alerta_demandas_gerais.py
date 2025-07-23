@@ -271,7 +271,7 @@ def main():
 
     consulta_demandas()  # Executa imediatamente
 
-    print("🚀 Agendado para rodar a cada 30 minutos. CTRL+C para parar.")
+    print("🚀 Agendado para rodar a cada 30 minutos.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

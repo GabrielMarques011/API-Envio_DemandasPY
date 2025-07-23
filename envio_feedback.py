@@ -194,7 +194,7 @@ def main():
     
     distribuir_feed()  # Executa imediatamente
 
-    print("✅ Agendado para rodar todo dia às 18h. CTRL+C para parar.")
+    print("✅ Agendado para rodar todo dia às 18h.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

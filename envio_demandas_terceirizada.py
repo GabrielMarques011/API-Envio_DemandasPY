@@ -205,7 +205,7 @@ def distribuir_chamados():
                 nome_tec = funcionarios_map.get(tecnico_id, f"Técnico {tecnico_id}")
 
                 # monta a mensagem, agora incluindo o cliente
-                mensagem = "⚠️ Atualização de Demandas ⚠️\n\n"
+                mensagem = "⚠️ Envio de Demandas ⚠️\n\n"
                 mensagem += f"Responsável: *{nome_tec}*\n\n"
                 mensagem += f"- Cliente: *{nome_cliente}*\n"
                 # mensagem += f"Total: *{total}* chamados\n"

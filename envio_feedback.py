@@ -66,9 +66,8 @@ def enviar_whatsapp(id_fila, mensagem, token):
 def filtrar_por_intervalo(registros, inicio, fim):
     return [r for r in registros if inicio <= r['data_criacao'] <= fim]
 
+# UTILIZANDO PARA ENCAMINHAR CHAMADOS REFERENTE A FEEDBACK, ID: 205.
 def distribuir_feed():
-    # UTILIZANDO PARA ENCAMINHAR CHAMADOS REFERENTE A FEEDBACK, ID: 205.
-
     headers_listar = {
         'Authorization': token,
         'Content-Type': 'application/json',
@@ -80,7 +79,7 @@ def distribuir_feed():
         'Content-Type': 'application/json'
     }
 
-    # 1. Buscar chamados abertos (mesmo código que já tem)
+    # 1. Buscar chamados abertos
     url_oss = 'https://assinante.nmultifibra.com.br/webservice/v1/su_oss_chamado'
 
     body_oss = {
@@ -167,8 +166,6 @@ def distribuir_feed():
         else:
             print(f"Erro ao atualizar chamado {id_chamado}: {response_put.status_code} - {response_put.text}")
 
-    # FIM do for: agora envia a mensagem resumida
-
     if chamados_por_tecnico:
         whatsapp_token = autenticar_whats_ticket()
 
@@ -184,9 +181,9 @@ def distribuir_feed():
             nome_tec = funcionarios_map.get(tec_id, f"Técnico {tec_id}")
             mensagem_final += f"- {tec_id} *{nome_tec}*: {qtd} Feedback{'s' if qtd > 1 else ''} encaminhado{'s' if qtd > 1 else ''}\n"
 
-        # Enviar via WhatsApp (ajuste o id_fila conforme necessário)
+        # Enviar via WhatsApp
         if whatsapp_token:
-            enviar_whatsapp(id_fila=26, mensagem=mensagem_final.strip(), token=whatsapp_token)
+            enviar_whatsapp(id_fila=23, mensagem=mensagem_final.strip(), token=whatsapp_token)
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")

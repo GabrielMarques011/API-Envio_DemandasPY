@@ -44,6 +44,7 @@ def autenticar_whats_ticket():
         print(f"❌ Erro ao autenticar no WhatsTicket: {e}")
         return None
 
+
 def enviar_whatsapp(id_fila, mensagem, token):
     if not token:
         print("❌ Token WhatsTicket não disponível.")
@@ -59,6 +60,7 @@ def enviar_whatsapp(id_fila, mensagem, token):
         print(f"✅ Mensagem enviada no WhatsApp (fila {id_fila})")
     except requests.exceptions.RequestException as e:
         print(f"❌ Erro ao enviar WhatsApp: {e}")
+
 
 def filtrar_por_intervalo(registros, inicio, fim):
     return [r for r in registros if inicio <= r['data_criacao'] <= fim]

@@ -271,7 +271,7 @@ def distribuir_chamados():
                 nome_a = assuntos_map.get(str(a_id), f"Assunto {a_id}")
                 mensagem += f"- *{nome_a}* : {qtd} chamado{'s' if qtd > 1 else ''}\n"
 
-            enviar_whatsapp(id_fila=23, mensagem=mensagem.strip(), token=whatsapp_token)
+            enviar_whatsapp(id_fila=31, mensagem=mensagem.strip(), token=whatsapp_token)
 
         indice_tecnico = (indice_tecnico + 1) % num_tecnicos
         salvar_indice_atual(indice_tecnico)
@@ -282,13 +282,13 @@ def distribuir_chamados():
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
-    # Cron de 10 em 10 minutos entre 7h e 21h
-    trigger = CronTrigger(minute="*/10", hour="7-21", second="0")
+    # Cron de 10 em 10 minutos entre 7h e 19h
+    trigger = CronTrigger(minute="*/20", hour="7-19", second="0")
     scheduler.add_job(distribuir_chamados, trigger=trigger)
 
-    distribuir_chamados()  # Executa imediatamente
+    # distribuir_chamados()  # Executa imediatamente
 
-    print("🚀 Agendado para rodar a cada 10 minutos.")
+    print("🚀 Agendado para rodar a cada 20 minutos.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

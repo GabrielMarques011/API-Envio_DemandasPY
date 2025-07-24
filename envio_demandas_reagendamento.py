@@ -3,24 +3,11 @@ import json
 import time
 import signal
 import sys
-from collections import defaultdict
 from collections import defaultdict, Counter
 from datetime import datetime, timedelta
-from pandas import json_normalize
+from pytz import timezone
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
-from collections import defaultdict, Counter
-from datetime import datetime
-from pytz import timezone
-
-
-mes_passado = datetime.now() - timedelta(days=30)
-mes_passado_inicio = mes_passado.strftime('%Y-%m-01 00:00:00')
-mes_passado_fim = mes_passado.strftime('%Y-%m-31 23:59:59')
-
-""" data_inicial = '2025-06-01 00:00:00'
-data_final = '2025-06-30 23:59:59' """
-
 from dotenv import load_dotenv
 import os
 
@@ -28,7 +15,6 @@ import os
 load_dotenv()
 
 token = os.getenv('TOKEN_API')
-
 BASE_URL = 'http://10.0.100.128:5009'
 
 # Expediente dos colaboradores
@@ -43,19 +29,38 @@ expediente_colaboradores = {
     377: { 'inicio': '10:00', 'fim': '16:00' },  # DIEGO
 }
 
+# Lista de assuntos permitidos
+assuntos_permitidos = [
+    "Configuração de Roteador",
+    "Sinal fora do padrão",
+    "Ter - OS Sinal fora do padrão",
+    "Troca de equipamento",
+    "Vistoria Técnica - NMULTIFIBRA",
+    "Retenção",
+    "Cabeamento fora do padrão",
+    "Ter - OS de cabeamento fora do padrão",
+    "Transferência de endereço",
+    "Mudança de Ponto",
+    "Mudança de Ponto - Empresa",
+    "ONU Alarmada",
+    "Problema de energia (Fonte/ONU)",
+    "Quedas de Conexão",
+    "Ter - OS de quedas",
+    "Sem Conexão",
+    "Ter - OS de sem conexão",
+    "Lentidão",
+    "Ter - OS de lentidão"
+]
+
 def dentro_do_expediente(tecnico_id):
     agora = datetime.now(timezone('America/Sao_Paulo')).time()
     horario = expediente_colaboradores.get(tecnico_id)
-
     if not horario:
         return False
-
     inicio = datetime.strptime(horario['inicio'], '%H:%M').time()
     fim = datetime.strptime(horario['fim'], '%H:%M').time()
-
     return inicio <= agora <= fim
 
-# Lê o índice de rodízio do arquivo
 def carregar_ultimo_indice():
     try:
         with open("rodizio_index.txt", "r") as f:
@@ -63,11 +68,9 @@ def carregar_ultimo_indice():
     except:
         return 0
 
-# Salva o índice de rodízio no arquivo
 def salvar_indice_atual(indice):
     with open("rodizio_index.txt", "w") as f:
         f.write(str(indice))
-
 
 def autenticar_whats_ticket():
     try:
@@ -86,12 +89,10 @@ def autenticar_whats_ticket():
         print(f"❌ Erro ao autenticar no WhatsTicket: {e}")
         return None
 
-
 def enviar_whatsapp(id_fila, mensagem, token):
     if not token:
         print("❌ Token WhatsTicket não disponível.")
         return
-
     try:
         response = requests.post(
             f'{BASE_URL}/messages/{id_fila}',
@@ -103,23 +104,14 @@ def enviar_whatsapp(id_fila, mensagem, token):
     except requests.exceptions.RequestException as e:
         print(f"❌ Erro ao enviar WhatsApp: {e}")
 
-
-def filtrar_por_intervalo(registros, inicio, fim):
-    return [r for r in registros if inicio <= r['data_criacao'] <= fim]
-
-# UTILIZANDO PARA ENCAMINHAR CHAMADOS REFERENTE A TERCEIRIZADA, ID: 492. // FILTRANDO E CONFIRMANDO CHAMADO COM STATUS ABERTO ANTES DE ENCAMINHAR
-def distribuir_chamados():
-
-     # Filtro por expediente e domingo
+def distribuir_reagendamento():
     hoje = datetime.now(timezone('America/Sao_Paulo')).weekday()
     if hoje == 6:
         print("📅 Hoje é domingo. Cancelando envio.")
         return
 
-    # TOKEN para o WhatsTicket
     whatsapp_token = autenticar_whats_ticket()
 
-    # CONFIGURAÇÃO DE HEADERS
     headers_listar = {
         'Authorization': token,
         'Content-Type': 'application/json',
@@ -130,11 +122,10 @@ def distribuir_chamados():
         'Content-Type': 'application/json'
     }
 
-    # 1. Buscar chamados abertos (sua lógica)
     url_oss = 'https://assinante.nmultifibra.com.br/webservice/v1/su_oss_chamado'
     body_oss = {
         "qtype": "status",
-        "query": "A",
+        "query": "RAG",
         "oper": "=",
         "page": "1",
         "rp": "1000"
@@ -142,67 +133,29 @@ def distribuir_chamados():
     response_oss = requests.post(url_oss, headers=headers_listar, json=body_oss)
     registros_oss = response_oss.json().get('registros', [])
 
-    # 2. Mapear id -> nome de assuntos (sua lógica)
+    # Mapear id_assunto -> nome
     url_assuntos = 'https://assinante.nmultifibra.com.br/webservice/v1/su_oss_assunto'
-    response_assuntos = requests.post(url_assuntos, headers=headers_listar, json={"page":"1","rp":"1000"})
+    response_assuntos = requests.post(url_assuntos, headers=headers_listar, json={"page": "1", "rp": "1000"})
     registros_assuntos = response_assuntos.json().get('registros', [])
     assuntos_map = {str(a['id']): a['assunto'] for a in registros_assuntos}
 
-    id_assunto_desejado = '492'
+    # Filtrar os chamados com status RAG e assunto permitido
     filtrados = [
         os for os in registros_oss
-        if os.get('id_assunto') == id_assunto_desejado and os.get('status') == 'A'
+        if os.get('status') == 'RAG' and assuntos_map.get(str(os.get('id_assunto'))) in assuntos_permitidos
     ]
-    # print(f'Total chamados abertos com assunto {id_assunto_desejado}: {len(filtrados)}')
+
+    print(f'Total chamados RAG com assuntos permitidos: {len(filtrados)}')
 
     ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377]
 
-    # Dicionário que vai acumular os assuntos por técnico
-    chamados_por_tecnico = defaultdict(list)
-
-    # CONFIGURAÇÃO DE HEADERS
-    headers_listar = {
-        'Authorization': token,
-        'Content-Type': 'application/json',
-        'ixcsoft': 'listar'
-    }
-    headers_put = {
-        'Authorization': token,
-        'Content-Type': 'application/json'
-    }
-
-    # 2.1) Chamados Abertos
-    url_oss = 'https://assinante.nmultifibra.com.br/webservice/v1/su_oss_chamado'
-    body_oss = {"qtype":"status","query":"A","oper":"=","page":"1","rp":"1000"}
-    response_oss = requests.post(url_oss, headers=headers_listar, json=body_oss)
-    registros_oss = response_oss.json().get('registros', [])
-
-    # 2.2) Mapa de Assuntos
-    url_assuntos = 'https://assinante.nmultifibra.com.br/webservice/v1/su_oss_assunto'
-    resp_asc = requests.post(url_assuntos, headers=headers_listar, json={"page":"1","rp":"1000"})
-    assuntos_map = {str(a['id']): a['assunto'] for a in resp_asc.json().get('registros', [])}
-
-    # 2.3) Filtrar só o assunto 492
-    id_assunto_desejado = '492'
-    filtrados = [
-        os for os in registros_oss
-        if os.get('id_assunto') == id_assunto_desejado and os.get('status') == 'A'
-    ]
-
-    print(f'Total chamados abertos com assunto {id_assunto_desejado}: {len(filtrados)}')  # << só uma vez
-
-    # 2.4) Mapa de técnicos para rodízio e para nomes
-    ids_tecnicos = [355,345,359,354,337,313,367,377]
-
-    # Busca nomes uma única vez
+    # Mapear id_técnico -> nome
     url_func = 'https://assinante.nmultifibra.com.br/webservice/v1/funcionarios'
-    body_func = {'qtype':'id','query':'0','oper':'>','page':'1','rp':'1000'}
+    body_func = {'qtype': 'id', 'query': '0', 'oper': '>', 'page': '1', 'rp': '1000'}
     resp_func = requests.post(url_func, headers=headers_listar, json=body_func)
     funcionarios_map = {int(f['id']): f['funcionario'] for f in resp_func.json().get('registros', [])}
 
-    # Dicionário acumulador (fora do loop)
     chamados_por_tecnico = defaultdict(list)
-
     indice_tecnico = carregar_ultimo_indice()
     num_tecnicos = len(ids_tecnicos)
 
@@ -221,7 +174,7 @@ def distribuir_chamados():
             break
 
         id_chamado = chamado['id']
-        busca = {"qtype":"id","query":str(id_chamado),"oper":"=","page":"1","rp":"1"}
+        busca = {"qtype": "id", "query": str(id_chamado), "oper": "=", "page": "1", "rp": "1"}
         resp_busca = requests.post(url_oss, headers=headers_listar, json=busca)
         regs = resp_busca.json().get('registros', [])
         if not regs:
@@ -263,13 +216,13 @@ def distribuir_chamados():
             chamados_por_tecnico[tecnico_id].append(chamado['id_assunto'])
             contagem = Counter(chamados_por_tecnico[tecnico_id])
             nome_tec = funcionarios_map.get(tecnico_id, f"Técnico {tecnico_id}")
+            nome_assunto = assuntos_map.get(str(chamado['id_assunto']), f"Assunto {chamado['id_assunto']}")
 
             mensagem = "⚠️ Envio de Demandas ⚠️\n\n"
             mensagem += f"Responsável: *{nome_tec}*\n\n"
             mensagem += f"- Cliente: *{nome_cliente}*\n"
-            for a_id, qtd in contagem.items():
-                nome_a = assuntos_map.get(str(a_id), f"Assunto {a_id}")
-                mensagem += f"- *{nome_a}* : {qtd} chamado{'s' if qtd > 1 else ''}\n"
+            mensagem += f"- Assunto: *{nome_assunto}* (Reagendamento de OS)\n"
+
 
             enviar_whatsapp(id_fila=31, mensagem=mensagem.strip(), token=whatsapp_token)
 
@@ -278,22 +231,18 @@ def distribuir_chamados():
 
     print("⏱️ Executando rotina de encaminhar chamados…")
 
-
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
+    trigger = CronTrigger(minute="*/25", hour="7-19", second="0")
+    scheduler.add_job(distribuir_reagendamento, trigger=trigger)
 
-    # Cron de 10 em 10 minutos entre 7h e 21h
-    trigger = CronTrigger(minute="*/10", hour="7-21", second="0")
-    scheduler.add_job(distribuir_chamados, trigger=trigger)
+    # distribuir_reagendamento()  # Executa imediatamente
 
-    distribuir_chamados()  # Executa imediatamente
-
-    print("🚀 Agendado para rodar a cada 10 minutos.")
+    print("🚀 Agendado para rodar a cada 25 minutos.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
         print("\n⛔ Encerrando scheduler...")
-
 
 if __name__ == "__main__":
     main()

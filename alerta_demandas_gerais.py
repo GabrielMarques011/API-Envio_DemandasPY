@@ -260,13 +260,13 @@ def consulta_demandas():
     print("➡️ Enviando mensagem geral:", mensagem_geral)
 
     if whatsapp_token:
-        enviar_whatsapp(id_fila=23, mensagem=mensagem_geral, token=whatsapp_token)
+        enviar_whatsapp(id_fila=31, mensagem=mensagem_geral, token=whatsapp_token)
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
     # Cron de 10 em 10 minutos entre 7h e 21h
-    trigger = CronTrigger(minute="*/30", hour="7-21", second="0")
+    trigger = CronTrigger(minute="*/40", hour="7-21", second="0")
     scheduler.add_job(consulta_demandas, trigger=trigger)
 
     consulta_demandas()  # Executa imediatamente

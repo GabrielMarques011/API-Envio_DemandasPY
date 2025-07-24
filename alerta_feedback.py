@@ -216,18 +216,17 @@ def consulta_feed():
     print("➡️ Enviando mensagem geral:", mensagem_geral)
 
     if whatsapp_token:
-        enviar_whatsapp(id_fila=23, mensagem=mensagem_geral, token=whatsapp_token)
+        enviar_whatsapp(id_fila=31, mensagem=mensagem_geral, token=whatsapp_token)
 
     # enviar_telegram(mensagem_geral)
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
-    # Cron de 10 em 10 minutos entre 7h e 21h
     trigger = CronTrigger(minute=0, hour="7-19", second=0)
     scheduler.add_job(consulta_feed, trigger=trigger)
 
-    consulta_feed()  # Executa imediatamente
+    # consulta_feed()  # Executa imediatamente
 
     print("🚀 Agendado para rodar a cada 1 hora, das 7 até 19 horas.")
     try:

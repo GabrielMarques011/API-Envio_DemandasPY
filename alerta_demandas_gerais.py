@@ -254,7 +254,7 @@ def consulta_demandas():
 
         mensagem_blocos.append(bloco.strip())
 
-    mensagem_geral = "⚠️ Contagem de Demandas Encaminhadas ⚠️\n\n"
+    mensagem_geral = "📊 *Contagem de Demandas Encaminhadas* 📊\n\n"
     mensagem_geral += "\n\n------------------------------\n\n".join(mensagem_blocos)
 
     print("➡️ Enviando mensagem geral:", mensagem_geral)

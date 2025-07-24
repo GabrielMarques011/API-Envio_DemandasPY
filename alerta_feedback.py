@@ -198,7 +198,7 @@ def consulta_feed():
 
     whatsapp_token = autenticar_whats_ticket()
 
-    mensagem_geral = "⚠️ Contagem de Feedbacks Gerais Distribuidas ⚠️\n\n"
+    mensagem_geral = "📊 *Contagem de Feedbacks Gerais Distribuidas* 📊\n\n"
 
     for id_tec, assuntos_ids in chamados_por_tecnico.items():
         nome_tec = tecnicos_info.get(id_tec, f"Técnico {id_tec}")

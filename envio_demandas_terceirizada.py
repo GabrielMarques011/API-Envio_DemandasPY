@@ -9,6 +9,10 @@ from datetime import datetime, timedelta
 from pandas import json_normalize
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
+from collections import defaultdict, Counter
+from datetime import datetime
+from pytz import timezone
+
 
 mes_passado = datetime.now() - timedelta(days=30)
 mes_passado_inicio = mes_passado.strftime('%Y-%m-01 00:00:00')
@@ -26,6 +30,44 @@ load_dotenv()
 token = os.getenv('TOKEN_API')
 
 BASE_URL = 'http://10.0.100.128:5009'
+
+# Expediente dos colaboradores
+expediente_colaboradores = {
+    355: { 'inicio': '15:00', 'fim': '21:00' },  # RUBENS
+    345: { 'inicio': '06:00', 'fim': '16:00' },  # JOÃO MIYAKE
+    359: { 'inicio': '10:00', 'fim': '17:00' },  # PEDRO
+    354: { 'inicio': '06:00', 'fim': '11:00' },  # EDUARDO
+    337: { 'inicio': '11:00', 'fim': '21:00' },  # ALISON
+    313: { 'inicio': '11:00', 'fim': '21:00' },  # JOÃO GOMES
+    367: { 'inicio': '06:00', 'fim': '16:00' },  # RODRIGO
+    377: { 'inicio': '10:00', 'fim': '16:00' },  # DIEGO
+}
+
+def dentro_do_expediente(tecnico_id):
+    agora = datetime.now(timezone('America/Sao_Paulo')).time()
+    horario = expediente_colaboradores.get(tecnico_id)
+
+    if not horario:
+        return False
+
+    inicio = datetime.strptime(horario['inicio'], '%H:%M').time()
+    fim = datetime.strptime(horario['fim'], '%H:%M').time()
+
+    return inicio <= agora <= fim
+
+# Lê o índice de rodízio do arquivo
+def carregar_ultimo_indice():
+    try:
+        with open("rodizio_index.txt", "r") as f:
+            return int(f.read())
+    except:
+        return 0
+
+# Salva o índice de rodízio no arquivo
+def salvar_indice_atual(indice):
+    with open("rodizio_index.txt", "w") as f:
+        f.write(str(indice))
+
 
 def autenticar_whats_ticket():
     try:
@@ -67,6 +109,12 @@ def filtrar_por_intervalo(registros, inicio, fim):
 
 # UTILIZANDO PARA ENCAMINHAR CHAMADOS REFERENTE A TERCEIRIZADA, ID: 492. // FILTRANDO E CONFIRMANDO CHAMADO COM STATUS ABERTO ANTES DE ENCAMINHAR
 def distribuir_chamados():
+
+     # Filtro por expediente e domingo
+    hoje = datetime.now(timezone('America/Sao_Paulo')).weekday()
+    if hoje == 6:
+        print("📅 Hoje é domingo. Cancelando envio.")
+        return
 
     # TOKEN para o WhatsTicket
     whatsapp_token = autenticar_whats_ticket()
@@ -155,69 +203,81 @@ def distribuir_chamados():
     # Dicionário acumulador (fora do loop)
     chamados_por_tecnico = defaultdict(list)
 
-    # 3) LOOP ÚNICO DE ENCAMINHAMENTO
-    for i, chamado in enumerate(filtrados):
+    indice_tecnico = carregar_ultimo_indice()
+    num_tecnicos = len(ids_tecnicos)
+
+    for chamado in filtrados:
+        tentativas = 0
+        while tentativas < num_tecnicos:
+            tecnico_id = ids_tecnicos[indice_tecnico]
+            if dentro_do_expediente(tecnico_id):
+                break
+            else:
+                print(f"⏳ Técnico {tecnico_id} está fora do expediente. Pulando.")
+                indice_tecnico = (indice_tecnico + 1) % num_tecnicos
+                tentativas += 1
+        else:
+            print("⚠️ Nenhum técnico disponível no expediente para encaminhar o chamado.")
+            break
+
         id_chamado = chamado['id']
-        
-        # 3.1) Busca detalhada
         busca = {"qtype":"id","query":str(id_chamado),"oper":"=","page":"1","rp":"1"}
         resp_busca = requests.post(url_oss, headers=headers_listar, json=busca)
         regs = resp_busca.json().get('registros', [])
         if not regs:
             print(f"Chamado {id_chamado} não encontrado.")
+            indice_tecnico = (indice_tecnico + 1) % num_tecnicos
+            salvar_indice_atual(indice_tecnico)
             continue
         detalhado = regs[0]
-        
-        # 3.2) Atualiza campos
-        tecnico_id = ids_tecnicos[i % len(ids_tecnicos)]
+
         detalhado['id_tecnico'] = tecnico_id
         detalhado['status'] = 'EN'
         detalhado['setor'] = '5'
-        
-        # 3.3) PUT de atualização
+
         resp_put = requests.put(f"{url_oss}/{id_chamado}", headers=headers_put, json=detalhado)
         if resp_put.status_code != 200:
             print(f"Erro ao atualizar {id_chamado}: {resp_put.status_code}")
+            indice_tecnico = (indice_tecnico + 1) % num_tecnicos
+            salvar_indice_atual(indice_tecnico)
             continue
-        
-        print(f"Chamado {id_chamado} encaminhado para técnico {tecnico_id}")  # << só um print
-        
+
+        print(f"Chamado {id_chamado} encaminhado para técnico {tecnico_id}")
+
         if whatsapp_token:
-                # --- AQUI COMEÇA A BUSCA DO CLIENTE ---
-                id_cliente = detalhado.get('id_cliente')
-                url_cliente = 'https://assinante.nmultifibra.com.br/webservice/v1/cliente'
-                payload_cliente = {
-                    "qtype": "id",
-                    "query": str(id_cliente),
-                    "oper": "=",
-                    "page": "1",
-                    "rp": "1"
-                }
-                resp_cliente = requests.post(url_cliente, headers=headers_listar, json=payload_cliente)
-                if resp_cliente.status_code == 200 and resp_cliente.json().get('registros'):
-                    nome_cliente = resp_cliente.json()['registros'][0].get('razao', f"Cliente {id_cliente}")
-                else:
-                    nome_cliente = f"Cliente {id_cliente}"
-                # --- FIM DA BUSCA DO CLIENTE ---
+            id_cliente = detalhado.get('id_cliente')
+            url_cliente = 'https://assinante.nmultifibra.com.br/webservice/v1/cliente'
+            payload_cliente = {
+                "qtype": "id",
+                "query": str(id_cliente),
+                "oper": "=",
+                "page": "1",
+                "rp": "1"
+            }
+            resp_cliente = requests.post(url_cliente, headers=headers_listar, json=payload_cliente)
+            if resp_cliente.status_code == 200 and resp_cliente.json().get('registros'):
+                nome_cliente = resp_cliente.json()['registros'][0].get('razao', f"Cliente {id_cliente}")
+            else:
+                nome_cliente = f"Cliente {id_cliente}"
 
-                # acumula e conta os assuntos
-                chamados_por_tecnico[tecnico_id].append(chamado['id_assunto'])
-                contagem = Counter(chamados_por_tecnico[tecnico_id])
-                total = sum(contagem.values())
-                nome_tec = funcionarios_map.get(tecnico_id, f"Técnico {tecnico_id}")
+            chamados_por_tecnico[tecnico_id].append(chamado['id_assunto'])
+            contagem = Counter(chamados_por_tecnico[tecnico_id])
+            nome_tec = funcionarios_map.get(tecnico_id, f"Técnico {tecnico_id}")
 
-                # monta a mensagem, agora incluindo o cliente
-                mensagem = "⚠️ Envio de Demandas ⚠️\n\n"
-                mensagem += f"Responsável: *{nome_tec}*\n\n"
-                mensagem += f"- Cliente: *{nome_cliente}*\n"
-                # mensagem += f"Total: *{total}* chamados\n"
-                for a_id, qtd in contagem.items():
-                    nome_a = assuntos_map.get(str(a_id), f"Assunto {a_id}")
-                    mensagem += f"- *{nome_a}* : {qtd} chamado{'s' if qtd>1 else ''}\n"
+            mensagem = "⚠️ Envio de Demandas ⚠️\n\n"
+            mensagem += f"Responsável: *{nome_tec}*\n\n"
+            mensagem += f"- Cliente: *{nome_cliente}*\n"
+            for a_id, qtd in contagem.items():
+                nome_a = assuntos_map.get(str(a_id), f"Assunto {a_id}")
+                mensagem += f"- *{nome_a}* : {qtd} chamado{'s' if qtd > 1 else ''}\n"
 
-                enviar_whatsapp(id_fila=23, mensagem=mensagem.strip(), token=whatsapp_token)
-    
+            enviar_whatsapp(id_fila=23, mensagem=mensagem.strip(), token=whatsapp_token)
+
+        indice_tecnico = (indice_tecnico + 1) % num_tecnicos
+        salvar_indice_atual(indice_tecnico)
+
     print("⏱️ Executando rotina de encaminhar chamados…")
+
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
@@ -233,6 +293,7 @@ def main():
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
         print("\n⛔ Encerrando scheduler...")
+
 
 if __name__ == "__main__":
     main()

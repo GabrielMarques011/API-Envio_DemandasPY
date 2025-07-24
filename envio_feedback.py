@@ -185,6 +185,7 @@ def distribuir_feed():
         if whatsapp_token:
             enviar_whatsapp(id_fila=23, mensagem=mensagem_final.strip(), token=whatsapp_token)
 
+
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
@@ -199,6 +200,7 @@ def main():
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
         print("\n⛔ Encerrando scheduler...")
+
 
 if __name__ == "__main__":
     main()

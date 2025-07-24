@@ -269,7 +269,7 @@ def main():
     trigger = CronTrigger(minute="*/40", hour="7-21", second="0")
     scheduler.add_job(consulta_demandas, trigger=trigger)
 
-    consulta_demandas()  # Executa imediatamente
+    # consulta_demandas()  # Executa imediatamente
 
     print("🚀 Agendado para rodar a cada 30 minutos.")
     try:

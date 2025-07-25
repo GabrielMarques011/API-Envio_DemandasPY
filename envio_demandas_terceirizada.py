@@ -44,16 +44,55 @@ expediente_colaboradores = {
 }
 
 def dentro_do_expediente(tecnico_id):
-    agora = datetime.now(timezone('America/Sao_Paulo')).time()
-    horario = expediente_colaboradores.get(tecnico_id)
+    agora = datetime.now(timezone('America/Sao_Paulo'))
+    dia_semana = agora.weekday() 
+    hora_atual = agora.time()
 
-    if not horario:
+    def hora_para_minutos(h):
+        return h.hour * 60 + h.minute
+
+    # Estagiários com horário fixo aos sábados
+    estagiarios_sabado = {
+        355: { 'inicio': '12:00', 'fim': '17:00' },  # RUBENS
+        377: { 'inicio': '06:00', 'fim': '13:00' },  # DIEGO
+        354: { 'inicio': '06:00', 'fim': '13:00' },  # EDUARDO
+    }
+
+    grupo_sabado_1 = [313]  # ROSA E GOMES (307 removido)
+    grupo_sabado_2 = [345, 337, 367]
+
+    if dia_semana == 6:  # Domingo
         return False
 
-    inicio = datetime.strptime(horario['inicio'], '%H:%M').time()
-    fim = datetime.strptime(horario['fim'], '%H:%M').time()
+    elif dia_semana == 5:  # Sábado
+        # Estagiários com horário fixo
+        if tecnico_id in estagiarios_sabado:
+            h_inicio = datetime.strptime(estagiarios_sabado[tecnico_id]['inicio'], '%H:%M').time()
+            h_fim = datetime.strptime(estagiarios_sabado[tecnico_id]['fim'], '%H:%M').time()
+            return h_inicio <= hora_atual <= h_fim
 
-    return inicio <= agora <= fim
+        # Alternância de grupos CLT
+        ano = agora.year
+        primeiro_dia = datetime(ano, 1, 1)
+        dias_passados = (agora - primeiro_dia).days
+        semana_do_ano = (dias_passados + primeiro_dia.weekday()) // 7 + 1
+
+        grupo_atual = grupo_sabado_2 if semana_do_ano % 2 == 0 else grupo_sabado_1
+        if tecnico_id in grupo_atual:
+            h_inicio = datetime.strptime('06:00', '%H:%M').time()
+            h_fim = datetime.strptime('16:00', '%H:%M').time()
+            return h_inicio <= hora_atual <= h_fim
+
+        return False
+
+    else:
+        # Dias normais (segunda a sexta)
+        horario = expediente_colaboradores.get(tecnico_id)
+        if not horario:
+            return False
+        h_inicio = datetime.strptime(horario['inicio'], '%H:%M').time()
+        h_fim = datetime.strptime(horario['fim'], '%H:%M').time()
+        return h_inicio <= hora_atual <= h_fim
 
 # Lê o índice de rodízio do arquivo
 def carregar_ultimo_indice():

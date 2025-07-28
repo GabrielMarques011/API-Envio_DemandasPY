@@ -33,6 +33,7 @@ BASE_URL = 'http://10.0.100.128:5009'
 
 # Expediente dos colaboradores
 expediente_colaboradores = {
+    307: { 'inicio': '06:00', 'fim': '16:00' },  # ROSA
     355: { 'inicio': '15:00', 'fim': '21:00' },  # RUBENS
     345: { 'inicio': '06:00', 'fim': '16:00' },  # JOÃO MIYAKE
     359: { 'inicio': '10:00', 'fim': '17:00' },  # PEDRO
@@ -58,7 +59,7 @@ def dentro_do_expediente(tecnico_id):
         354: { 'inicio': '06:00', 'fim': '13:00' },  # EDUARDO
     }
 
-    grupo_sabado_1 = [313]  # ROSA E GOMES (307 removido)
+    grupo_sabado_1 = [313, 307]  # ROSA E GOMES (307 removido)
     grupo_sabado_2 = [345, 337, 367]
 
     if dia_semana == 6:  # Domingo
@@ -194,7 +195,7 @@ def distribuir_chamados():
     ]
     # print(f'Total chamados abertos com assunto {id_assunto_desejado}: {len(filtrados)}')
 
-    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377]
+    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307]
 
     # Dicionário que vai acumular os assuntos por técnico
     chamados_por_tecnico = defaultdict(list)
@@ -231,7 +232,7 @@ def distribuir_chamados():
     print(f'Total chamados abertos com assunto {id_assunto_desejado}: {len(filtrados)}')  # << só uma vez
 
     # 2.4) Mapa de técnicos para rodízio e para nomes
-    ids_tecnicos = [355,345,359,354,337,313,367,377]
+    ids_tecnicos = [355,345,359,354,337,313,367,377,307]
 
     # Busca nomes uma única vez
     url_func = 'https://assinante.nmultifibra.com.br/webservice/v1/funcionarios'

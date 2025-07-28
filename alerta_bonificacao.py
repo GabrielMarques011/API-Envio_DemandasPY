@@ -71,7 +71,7 @@ def consultando_retencao():
 
     print(f"🔍 Filtrando de {primeiro_dia_mes} até {ultimo_dia_mes}")
 
-    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377]
+    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307]
     funcionarios_map = {
         355: "Rubens Leite",
         345: "João Miyake",
@@ -154,7 +154,7 @@ def consultando_upgrade():
     print(f"Filtrando de {primeiro_dia_mes} até {ultimo_dia_mes}")
 
     # Lista dos técnicos que quer contar
-    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377]
+    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307]
 
     # Mapeamento exemplo de id técnico para nome (substitua pelo seu)
     funcionarios_map = {
@@ -232,7 +232,19 @@ def consultando_solucionados():
     print(f"🔍 Buscando chamados SOLUCIONADOS de {primeiro_dia_mes} até {ultimo_dia_mes}")
 
     ids_assuntos = [9, 100, 345, 246, 101, 11, 201, 331, 103]
-    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377]
+    assuntos_map = {
+        9: "Solucionado - Sem conexão",
+        100: "Solucionado - Quedas de conexão",
+        345: "Solucionado - Problemas com softwares",
+        246: "Solucionado - Problemas com linha telefônica",
+        101: "Solucionado - Liberação de IP válido",
+        11: "Solucionado - Lentidão",
+        201: "Solucionado - Erro ao acessar sites ou jogos",
+        331: "Solucionado - Alteração de Nome / Senha Wi-Fi",
+        103: "Solucionado - Outros"
+    }
+
+    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307]
     funcionarios_map = {
         355: "Rubens Leite",
         345: "João Miyake",
@@ -252,6 +264,7 @@ def consultando_solucionados():
     }
 
     contagem = {tec: 0 for tec in ids_tecnicos}
+    contagem_assuntos = {tec: {} for tec in ids_tecnicos}
 
     for assunto in ids_assuntos:
         page = 1
@@ -263,8 +276,8 @@ def consultando_solucionados():
                 "page": str(page),
                 "rp": "200",
                 "grid_param": f"""[
-                {{"TB":"data_criacao","OP":">=","P":"{primeiro_dia_mes}","C":"AND","G":"data_criacao"}},
-                {{"TB":"data_criacao","OP":"<=","P":"{ultimo_dia_mes}","C":"AND","G":"data_criacao"}}
+                    {{"TB":"data_criacao","OP":">=","P":"{primeiro_dia_mes}","C":"AND","G":"data_criacao"}},
+                    {{"TB":"data_criacao","OP":"<=","P":"{ultimo_dia_mes}","C":"AND","G":"data_criacao"}}
                 ]"""
             }
 
@@ -274,12 +287,7 @@ def consultando_solucionados():
                     print(f"Erro na requisição assunto {assunto} página {page}: {response.status_code} - {response.text}")
                     break
 
-                try:
-                    resposta_json = response.json()
-                except ValueError:
-                    print(f"❌ Erro: resposta da API não é JSON para assunto {assunto} página {page}. Conteúdo: {response.text}")
-                    break
-
+                resposta_json = response.json()
                 registros = resposta_json.get('registros', [])
                 total = int(resposta_json.get('total', 0))
                 if not registros:
@@ -290,8 +298,8 @@ def consultando_solucionados():
                     tec_id = int(r.get('id_responsavel_tecnico', 0))
                     if tec_id in contagem:
                         contagem[tec_id] += 1
+                        contagem_assuntos[tec_id][assunto] = contagem_assuntos[tec_id].get(assunto, 0) + 1
 
-                # Se já leu todas as páginas
                 if page * 200 >= total:
                     break
                 page += 1
@@ -300,22 +308,29 @@ def consultando_solucionados():
                 print(f"❌ Erro na requisição para o assunto {assunto} página {page}: {e}")
                 break
 
-    # Enviar WhatsApp com resultado consolidado
-    token_whats = autenticar_whats_ticket()
-    mensagem = "✅ *Chamados Solucionados - Mês Atual:* ✅\n\n"
-    ordenado = sorted(contagem.items(), key=lambda x: x[1], reverse=True)
+        # Enviar WhatsApp com resultado consolidado
+        token_whats = autenticar_whats_ticket()
+        mensagem = "✅ *Chamados Solucionados - Mês Atual:* ✅\n\n"
+        ordenado = sorted(contagem.items(), key=lambda x: x[1], reverse=True)
 
-    for i, (tec, qtd) in enumerate(ordenado, start=1):
-        nome = funcionarios_map.get(tec, f"Téc {tec}")
-        mensagem += f"{i}° - {nome}: *{qtd}* solucionados\n"
-        
-    total_solucionados = sum(contagem.values())
-    mensagem += f"\n*Total: {total_solucionados} Solucionados*"
+        total_geral = 0
 
-    try:
-        enviar_whatsapp(id_fila=29, mensagem=mensagem.strip(), token=token_whats)
-    except Exception as e:
-        print(f"❌ Erro ao enviar WhatsApp: {e}")
+        for i, (tec, qtd) in enumerate(ordenado, start=1):
+            nome = funcionarios_map.get(tec, f"Téc {tec}")
+            mensagem += f"{i}° - {nome}: *{qtd}* solucionados\n"
+
+            if tec in contagem_assuntos:
+                for assunto, q in contagem_assuntos[tec].items():
+                    assunto_nome = assuntos_map.get(assunto, f"Assunto {assunto}")
+                    mensagem += f"       - {assunto_nome}: {q}\n"
+
+        total_geral += qtd
+        mensagem += f"📊 *Total Geral:* {total_geral} solucionados"
+
+        try:
+            enviar_whatsapp(id_fila=29, mensagem=mensagem.strip(), token=token_whats)
+        except Exception as e:
+            print(f"Erro ao enviar WhatsApp: {e}")
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")

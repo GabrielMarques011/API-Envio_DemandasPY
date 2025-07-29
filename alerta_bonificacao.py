@@ -80,7 +80,8 @@ def consultando_retencao():
         337: "Alison da Silva",
         313: "João Gomes",
         367: "Rodrigo Akira",
-        377: "Diego Sousa"
+        377: "Diego Sousa",
+        307: "Gabriel Rosa"
     }
 
     url = 'https://assinante.nmultifibra.com.br/webservice/v1/su_ticket'
@@ -165,7 +166,8 @@ def consultando_upgrade():
         337: "Alison da Silva",
         313: "João Gomes",
         367: "Rodrigo Akira",
-        377: "Diego Sousa"
+        377: "Diego Sousa",
+        307: "Gabriel Rosa"
     }
 
     url= 'https://assinante.nmultifibra.com.br/webservice/v1/su_ticket'
@@ -253,7 +255,8 @@ def consultando_solucionados():
         337: "Alison da Silva",
         313: "João Gomes",
         367: "Rodrigo Akira",
-        377: "Diego Sousa"
+        377: "Diego Sousa",
+        307: "Gabriel Rosa"
     }
 
     url = 'https://assinante.nmultifibra.com.br/webservice/v1/su_ticket'
@@ -308,34 +311,37 @@ def consultando_solucionados():
                 print(f"❌ Erro na requisição para o assunto {assunto} página {page}: {e}")
                 break
 
-        # Enviar WhatsApp com resultado consolidado
-        token_whats = autenticar_whats_ticket()
-        mensagem = "✅ *Chamados Solucionados - Mês Atual:* ✅\n\n"
-        ordenado = sorted(contagem.items(), key=lambda x: x[1], reverse=True)
+    # Agora sim: enviar WhatsApp só uma vez ao final
+    token_whats = autenticar_whats_ticket()
+    mensagem = "✅ *Chamados Solucionados - Mês Atual:* ✅\n\n"
+    ordenado = sorted(contagem.items(), key=lambda x: x[1], reverse=True)
 
-        total_geral = 0
+    total_geral = 0
 
-        for i, (tec, qtd) in enumerate(ordenado, start=1):
-            nome = funcionarios_map.get(tec, f"Téc {tec}")
-            mensagem += f"{i}° - {nome}: *{qtd}* solucionados\n"
+    for i, (tec, qtd) in enumerate(ordenado, start=1):
+        nome = funcionarios_map.get(tec, f"Téc {tec}")
+        if i > 1:
+            mensagem += "\n"
+        mensagem += f"{i}° - {nome}: *{qtd}* solucionados\n"
 
-            if tec in contagem_assuntos:
-                for assunto, q in contagem_assuntos[tec].items():
-                    assunto_nome = assuntos_map.get(assunto, f"Assunto {assunto}")
-                    mensagem += f"       - {assunto_nome}: {q}\n"
+        if tec in contagem_assuntos:
+            for assunto, q in contagem_assuntos[tec].items():
+                assunto_nome = assuntos_map.get(assunto, f"Assunto {assunto}")
+                mensagem += f"       - {assunto_nome}: {q}\n"
 
         total_geral += qtd
-        mensagem += f"📊 *Total Geral:* {total_geral} solucionados"
 
-        try:
-            enviar_whatsapp(id_fila=29, mensagem=mensagem.strip(), token=token_whats)
-        except Exception as e:
-            print(f"Erro ao enviar WhatsApp: {e}")
+    mensagem += f"\n📊 *Total Geral:* {total_geral} solucionados"
+
+    try:
+        enviar_whatsapp(id_fila=29, mensagem=mensagem.strip(), token=token_whats)
+    except Exception as e:
+        print(f"Erro ao enviar WhatsApp: {e}")
 
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
-    trigger = CronTrigger(minute=0, hour="12,16", second=0)
+    trigger = CronTrigger(minute=0, hour="16", second=0)
     scheduler.add_job(consultando_retencao, trigger=trigger)
     scheduler.add_job(consultando_upgrade, trigger=trigger)
     scheduler.add_job(consultando_solucionados, trigger=trigger)
@@ -344,7 +350,7 @@ def main():
     consultando_upgrade()  # Executa imediatamente
     consultando_solucionados()  # Executa imediatamente
 
-    print("🚀 Agendado para rodar às 12h e 16h todos os dias.")
+    print("🚀 Agendado para rodar às 16h todos os dias.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

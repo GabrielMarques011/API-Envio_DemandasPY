@@ -29,6 +29,27 @@ def consulta_sinalAlto():
     url_contrato = "https://assinante.nmultifibra.com.br/webservice/v1/cliente_contrato"
     url_cliente = "https://assinante.nmultifibra.com.br/webservice/v1/cliente"
 
+    # Mapeamento de OLTs por ID
+    olt_map = {
+        1: "OLT_COTIA_01_ANTIGA",
+        2: "OLT_ITPV_01",
+        3: "OLT_EMBU_01",
+        4: "OLT_COTIA_02_ANTIGA",
+        7: "OLT_COTIA_03_ANTIGA",
+        9: "OLT_TRMS_02",
+        12: "OLT_VGPA_01",
+        14: "OLT_COTIA_03",
+        15: "OLT_TRMS_01",
+        16: "OLT_CCDA_01",
+        17: "OLT_GRVN_01",
+        20: "OLT_CCDA_02",
+        21: "OLT_COTIA_01",
+        22: "OLT_COTIA_04",
+        23: "OLT_COTIA_05",
+        24: "OLT_COTIA_02",
+        26: "OLT_CPTR_01"
+    }
+
     # Cabeçalhos
     headers = {
         "Authorization": token,
@@ -44,6 +65,7 @@ def consulta_sinalAlto():
         "page": "1",
         "rp": "1000"
     }
+    
     response_radpop = requests.post(url_radpop, headers=headers, json=body_radpop)
     clientes_fibra = response_radpop.json().get("registros", [])
 
@@ -113,9 +135,12 @@ def consulta_sinalAlto():
                     "comercial": cliente_info.get("telefone_comercial", "") or ""
                 }
 
+        id_olt = int(cliente.get("id_transmissor", 0))
+
         contratos_validos.append({
-            "id": id_contrato,
-            "olt": cliente.get("id_transmissor", ""),
+            "id_cliente": str(id_cliente) if id_cliente else "",
+            "id_contrato": str(id_contrato),
+            "olt": olt_map.get(id_olt, "OLT Desconhecida"),
             "login": cliente.get("id_login", ""),
             "ponid": cliente.get("ponid", ""),
             "mac": cliente.get("mac", ""),

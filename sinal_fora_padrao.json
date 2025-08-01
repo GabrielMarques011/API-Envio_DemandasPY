@@ -1,23 +1,23 @@
 [
   {
-    "id_cliente": "86750",
-    "id_contrato": "125140",
-    "olt": "OLT_EMBU_01",
-    "login": "90703",
-    "ponid": "0/1/1",
-    "mac": "48575443EB61F8B1",
-    "rx": "-29.21",
-    "tx": "-31.55",
+    "id_cliente": "70726",
+    "id_contrato": "100583",
+    "olt": "OLT_CCDA_01",
+    "login": "73688",
+    "ponid": "0/14/3",
+    "mac": "48575443E4900AAA",
+    "rx": "-22.59",
+    "tx": "-30.00",
     "endereco": {
-      "rua": "Rua das Violetas",
-      "numero": "553",
-      "bairro": "Ressaca"
+      "rua": "Rua Manoel Roque",
+      "numero": "79",
+      "bairro": "Bairro Cachoeira"
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 98261-8311",
-      "comercial": "(11) 97396-9810"
+      "whatsapp": "(11) 99905-6525",
+      "celular": "(11) 99905-6525",
+      "comercial": "(11) 93286-2641"
     }
   },
   {
@@ -27,7 +27,7 @@
     "login": "90579",
     "ponid": "0/11/4",
     "mac": "48575443165CC4AF",
-    "rx": "-26.77",
+    "rx": "-27.69",
     "tx": "-35.23",
     "endereco": {
       "rua": "Rua Wellington Diego do Carmo",
@@ -63,35 +63,14 @@
     }
   },
   {
-    "id_cliente": "78215",
-    "id_contrato": "114871",
-    "olt": "OLT_COTIA_03",
-    "login": "81528",
-    "ponid": "0/7/12",
-    "mac": "4857544329CD24A3",
-    "rx": "-24.43",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Alameda Chavantes",
-      "numero": "145",
-      "bairro": "Morada Santa Fé"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94703-7023",
-      "celular": "(11) 94703-7023",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "57740",
     "id_contrato": "113634",
     "olt": "OLT_GRVN_01",
     "login": "80422",
     "ponid": "0/1/6",
     "mac": "48575443182B76AF",
-    "rx": "-24.43",
-    "tx": "-30.97",
+    "rx": "-24.56",
+    "tx": "-31.55",
     "endereco": {
       "rua": "R. Eunice",
       "numero": "1225",
@@ -105,34 +84,13 @@
     }
   },
   {
-    "id_cliente": "85811",
-    "id_contrato": "123957",
-    "olt": "OLT_GRVN_01",
-    "login": "89670",
-    "ponid": "0/10/4",
-    "mac": "4857544357F530AC",
-    "rx": "-28.54",
-    "tx": "-30.46",
-    "endereco": {
-      "rua": "Rua Elisa Giglio de Oliveira",
-      "numero": "313",
-      "bairro": "Paisagem Renoir"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 94020-5252",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "85948",
     "id_contrato": "124101",
     "olt": "OLT_CCDA_02",
     "login": "89800",
     "ponid": "0/2/7",
     "mac": "485754433C4A53A9",
-    "rx": "-25.37",
+    "rx": "-25.23",
     "tx": "-30.97",
     "endereco": {
       "rua": "Rua Beija Flor",
@@ -147,56 +105,14 @@
     }
   },
   {
-    "id_cliente": "85910",
-    "id_contrato": "124063",
-    "olt": "OLT_CCDA_02",
-    "login": "89768",
-    "ponid": "0/2/7",
-    "mac": "4857544378F798AA",
-    "rx": "-23.87",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Beija Flor",
-      "numero": "120",
-      "bairro": "Campininha"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 96405-1657",
-      "celular": "(11) 96405-1657",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "85630",
-    "id_contrato": "123752",
-    "olt": "OLT_CCDA_01",
-    "login": "89485",
-    "ponid": "0/16/3",
-    "mac": "48575443CCB1D5B1",
-    "rx": "-21.74",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Estrada da Campininha",
-      "numero": "308",
-      "bairro": "SOROCAMIRIM"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 95031-6741",
-      "celular": "(11) 95031-6741",
-      "comercial": "(11) 99290-8055"
-    }
-  },
-  {
     "id_cliente": "61748",
     "id_contrato": "89784",
     "olt": "OLT_TRMS_02",
     "login": "63486",
     "ponid": "0/4/3",
     "mac": "46524B57276BBAFD",
-    "rx": "-30.96",
-    "tx": "-33.98",
+    "rx": "-29.21",
+    "tx": "-33.02",
     "endereco": {
       "rua": "R. Fênix",
       "numero": "612",
@@ -217,7 +133,7 @@
     "ponid": "0/5/13",
     "mac": "46524B5727830C7A",
     "rx": "-28.54",
-    "tx": "-30.00",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rodovia Bunjiro Nakao",
       "numero": "49800",
@@ -258,8 +174,8 @@
     "login": "89173",
     "ponid": "0/16/2",
     "mac": "48575443BA7976AA",
-    "rx": "-24.56",
-    "tx": "-30.97",
+    "rx": "-24.95",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Estrada da Água Espraiada",
       "numero": "506",
@@ -357,6 +273,27 @@
     }
   },
   {
+    "id_cliente": "79143",
+    "id_contrato": "116016",
+    "olt": "OLT_CCDA_01",
+    "login": "82589",
+    "ponid": "0/7/7",
+    "mac": "485754437EEAD8AF",
+    "rx": "-21.74",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Guilhermina do Rosário Ferreira Albuquerque",
+      "numero": "331",
+      "bairro": "Centro (Caucaia do Alto)"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 98914-0449",
+      "celular": "(11) 94328-0346",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "61649",
     "id_contrato": "105010",
     "olt": "OLT_TRMS_01",
@@ -401,9 +338,9 @@
   {
     "id_cliente": "84725",
     "id_contrato": "122607",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "88456",
-    "ponid": "0/12/7",
+    "ponid": "0/5/15",
     "mac": "48575443BF5483A3",
     "rx": "-31.54",
     "tx": "-30.00",
@@ -422,9 +359,9 @@
   {
     "id_cliente": "80095",
     "id_contrato": "117150",
-    "olt": "OLT_COTIA_03",
+    "olt": "OLT_TRMS_01",
     "login": "83608",
-    "ponid": "0/7/12",
+    "ponid": "0/4/9",
     "mac": "485754438943E0B1",
     "rx": "-22.52",
     "tx": "-30.46",
@@ -438,27 +375,6 @@
       "whatsapp": "(11) 91332-1770",
       "celular": "(11) 91332-1770",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "84337",
-    "id_contrato": "122148",
-    "olt": "OLT_CCDA_01",
-    "login": "88057",
-    "ponid": "0/15/7",
-    "mac": "48575443F358CEB1",
-    "rx": "-30.96",
-    "tx": "-36.99",
-    "endereco": {
-      "rua": "Rua Antônio Vaz Pires",
-      "numero": "496",
-      "bairro": "Água Espraiada (Caucaia do Alto)"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 95079-9428",
-      "celular": "(11) 91169-4929",
-      "comercial": "(11) 95079-9428"
     }
   },
   {
@@ -489,8 +405,8 @@
     "login": "87081",
     "ponid": "0/4/2",
     "mac": "48575443E479BAA3",
-    "rx": "-19.79",
-    "tx": "-30.00",
+    "rx": "-20.36",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Fênix",
       "numero": "612",
@@ -573,7 +489,7 @@
     "login": "87371",
     "ponid": "0/3/14",
     "mac": "48575443164F13AF",
-    "rx": "-24.43",
+    "rx": "-23.98",
     "tx": "-30.00",
     "endereco": {
       "rua": "Estrada dos Fischer'S",
@@ -615,8 +531,8 @@
     "login": "68026",
     "ponid": "0/7/11",
     "mac": "48575443D5E027AF",
-    "rx": "-24.95",
-    "tx": "-33.02",
+    "rx": "-25.23",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Vargem Grande Paulista",
       "numero": "183",
@@ -798,34 +714,13 @@
     }
   },
   {
-    "id_cliente": "64031",
-    "id_contrato": "92588",
-    "olt": "OLT_CCDA_01",
-    "login": "66034",
-    "ponid": "0/15/1",
-    "mac": "48575443AD566DA7",
-    "rx": "-23.01",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Engenho do Camorim",
-      "numero": "389",
-      "bairro": "Portal do Quilombo"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94709-6080",
-      "celular": "(11) 96259-3603",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "82908",
     "id_contrato": "120493",
     "olt": "OLT_TRMS_02",
     "login": "86596",
     "ponid": "0/2/7",
     "mac": "48575443D5D3AEAF",
-    "rx": "-26.02",
+    "rx": "-25.37",
     "tx": "-30.00",
     "endereco": {
       "rua": "Rua Austrália",
@@ -857,27 +752,6 @@
       "contato": "",
       "whatsapp": "(11) 91268-8597",
       "celular": "(11) 96118-7202",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "82751",
-    "id_contrato": "120310",
-    "olt": "OLT_EMBU_01",
-    "login": "86453",
-    "ponid": "0/7/0",
-    "mac": "48575443BB49F0AA",
-    "rx": "-25.08",
-    "tx": "-30.46",
-    "endereco": {
-      "rua": "Estrada do Caputera",
-      "numero": "1298",
-      "bairro": "Ressaca"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 99543-4996",
       "comercial": ""
     }
   },
@@ -1023,7 +897,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "(11) 99105-5801",
+      "whatsapp": "(11) 91337-2730",
       "celular": "(11) 91337-2730",
       "comercial": "(11) 99105-5801"
     }
@@ -1047,6 +921,27 @@
       "whatsapp": "(11) 96382-4304",
       "celular": "(11) 96382-4304",
       "comercial": "(11) 97370-8537"
+    }
+  },
+  {
+    "id_cliente": "82310",
+    "id_contrato": "119778",
+    "olt": "OLT_TRMS_02",
+    "login": "86005",
+    "ponid": "0/1/9",
+    "mac": "48575443D5DD1DAF",
+    "rx": "-23.66",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Agostinho dos Santos",
+      "numero": "390",
+      "bairro": "Parque Mirante da Mata"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 95087-4171",
+      "celular": "(11) 95087-4171",
+      "comercial": ""
     }
   },
   {
@@ -1099,7 +994,7 @@
     "ponid": "0/3/15",
     "mac": "48575443D5984FAF",
     "rx": "-27.96",
-    "tx": "-30.97",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Rua Taubaté",
       "numero": "100",
@@ -1117,9 +1012,9 @@
     "id_contrato": "118101",
     "olt": "OLT_COTIA_02",
     "login": "84519",
-    "ponid": "0/7/7",
+    "ponid": "0/7/12",
     "mac": "48575443CC3065B1",
-    "rx": "-30.45",
+    "rx": "-28.54",
     "tx": "-35.23",
     "endereco": {
       "rua": "Alameda da Paz",
@@ -1134,14 +1029,35 @@
     }
   },
   {
+    "id_cliente": "81556",
+    "id_contrato": "118930",
+    "olt": "OLT_CCDA_01",
+    "login": "85269",
+    "ponid": "0/17/13",
+    "mac": "48575443D5AF0CAF",
+    "rx": "-23.01",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Estrada do Pinheirinho",
+      "numero": "576",
+      "bairro": "da Capelinha"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 95077-9530",
+      "celular": "(11) 97554-7139",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "81551",
     "id_contrato": "118915",
     "olt": "OLT_TRMS_02",
     "login": "85254",
     "ponid": "0/3/3",
     "mac": "48575443D5D071AF",
-    "rx": "-27.69",
-    "tx": "-31.55",
+    "rx": "-27.44",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua Oma",
       "numero": "115",
@@ -1162,7 +1078,7 @@
     "ponid": "0/3/6",
     "mac": "485754431B5F5B9E",
     "rx": "-28.54",
-    "tx": "-33.02",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Estrada dos Fischer's",
       "numero": "1180",
@@ -1236,48 +1152,6 @@
       "whatsapp": "(11) 99892-6970",
       "celular": "(11) 99892-6970",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "74904",
-    "id_contrato": "117710",
-    "olt": "OLT_GRVN_01",
-    "login": "84154",
-    "ponid": "0/10/10",
-    "mac": "485754437C3E2AAF",
-    "rx": "-25.85",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Estrada do Lutero",
-      "numero": "65",
-      "bairro": "Paisagem Renoir"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 98615-8535",
-      "celular": "(11) 99929-2949",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "24671",
-    "id_contrato": "98948",
-    "olt": "OLT_CCDA_01",
-    "login": "72059",
-    "ponid": "0/6/1",
-    "mac": "48575443BB533FAA",
-    "rx": "-25.68",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Benedicto Nunes de Oliveira",
-      "numero": "663",
-      "bairro": "Jardim São Luiz (Caucaia do Alto)"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94060-9457",
-      "celular": "(11) 96381-9047",
-      "comercial": "(11) 94060-9457"
     }
   },
   {
@@ -1371,8 +1245,8 @@
     "login": "83572",
     "ponid": "0/13/15",
     "mac": "485754437EF340AF",
-    "rx": "-27.69",
-    "tx": "-32.22",
+    "rx": "-27.44",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua João Pires Pereira",
       "numero": "31",
@@ -1434,8 +1308,8 @@
     "login": "80054",
     "ponid": "0/2/8",
     "mac": "48575443166338AF",
-    "rx": "-25.53",
-    "tx": "-32.22",
+    "rx": "-25.23",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua Nossa Senhora de Fátima",
       "numero": "61",
@@ -1455,8 +1329,8 @@
     "login": "80079",
     "ponid": "0/2/7",
     "mac": "48575443166260AF",
-    "rx": "-24.81",
-    "tx": "-31.55",
+    "rx": "-25.23",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua: beija flor",
       "numero": "123",
@@ -1498,7 +1372,7 @@
     "ponid": "0/4/13",
     "mac": "46524B57278250BA",
     "rx": "-30.00",
-    "tx": "-35.23",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
       "numero": "78",
@@ -1518,7 +1392,7 @@
     "login": "83450",
     "ponid": "0/6/8",
     "mac": "48575443A2857BAF",
-    "rx": "-25.85",
+    "rx": "-25.53",
     "tx": "-30.00",
     "endereco": {
       "rua": "Rua Benedita Pires de Oliveira",
@@ -1540,7 +1414,7 @@
     "ponid": "0/13/9",
     "mac": "485754432EFDB9AE",
     "rx": "-26.99",
-    "tx": "-30.46",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua José Espinosa Lopes",
       "numero": "995",
@@ -1581,7 +1455,7 @@
     "login": "83132",
     "ponid": "0/1/10",
     "mac": "485754437EF03DAF",
-    "rx": "-25.53",
+    "rx": "-25.68",
     "tx": "-30.97",
     "endereco": {
       "rua": "Rua Mongagua",
@@ -1659,27 +1533,6 @@
     }
   },
   {
-    "id_cliente": "79452",
-    "id_contrato": "116472",
-    "olt": "OLT_COTIA_02",
-    "login": "82996",
-    "ponid": "0/15/5",
-    "mac": "485754437C432BAF",
-    "rx": "-29.21",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Rua das Bananeiras",
-      "numero": "181",
-      "bairro": "Jardim Petrópolis"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97419-4451",
-      "celular": "(11) 97419-4451",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "6799",
     "id_contrato": "44474",
     "olt": "OLT_COTIA_02",
@@ -1750,7 +1603,7 @@
     "ponid": "0/1/10",
     "mac": "485754437EECDCAF",
     "rx": "-27.44",
-    "tx": "-33.02",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Francisco Alves",
       "numero": "326",
@@ -1791,8 +1644,8 @@
     "login": "82806",
     "ponid": "0/2/11",
     "mac": "485754437C42F9AF",
-    "rx": "-26.19",
-    "tx": "-31.55",
+    "rx": "-26.02",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua das Cruzadas",
       "numero": "65",
@@ -1802,27 +1655,6 @@
       "contato": "",
       "whatsapp": "(11) 95985-5844",
       "celular": "(11) 96165-1017",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "79314",
-    "id_contrato": "116229",
-    "olt": "OLT_CCDA_01",
-    "login": "82780",
-    "ponid": "0/15/7",
-    "mac": "485754437C4222AF",
-    "rx": "-22.52",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Leopardo",
-      "numero": "74",
-      "bairro": "Água Espraiada (Caucaia do Alto)"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 91023-1546",
       "comercial": ""
     }
   },
@@ -1854,8 +1686,8 @@
     "login": "82658",
     "ponid": "0/3/5",
     "mac": "485754430C2F40A4",
-    "rx": "-29.21",
-    "tx": "-32.22",
+    "rx": "-30.45",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Estrada Morro Grande",
       "numero": "2033",
@@ -1875,8 +1707,8 @@
     "login": "82666",
     "ponid": "0/1/9",
     "mac": "48575443AD73CEA7",
-    "rx": "-23.28",
-    "tx": "-30.46",
+    "rx": "-23.18",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
       "numero": "390",
@@ -1932,35 +1764,14 @@
     }
   },
   {
-    "id_cliente": "45295",
-    "id_contrato": "115737",
-    "olt": "OLT_GRVN_01",
-    "login": "82335",
-    "ponid": "0/4/11",
-    "mac": "485754437C4A54AF",
-    "rx": "-29.21",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Estrada do Capuava",
-      "numero": "6380",
-      "bairro": "Jardim São Vicente"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99593-2916",
-      "celular": "(11) 99593-2916",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "78939",
     "id_contrato": "115764",
     "olt": "OLT_TRMS_02",
     "login": "82358",
     "ponid": "0/1/10",
     "mac": "48575443A283AFAF",
-    "rx": "-25.23",
-    "tx": "-33.98",
+    "rx": "-25.37",
+    "tx": "-35.23",
     "endereco": {
       "rua": "Rua Francisco Alves",
       "numero": "287",
@@ -2001,7 +1812,7 @@
     "login": "82283",
     "ponid": "0/15/7",
     "mac": "48575443A2848DAF",
-    "rx": "-26.99",
+    "rx": "-27.21",
     "tx": "-33.98",
     "endereco": {
       "rua": "Estrada da Água Espraiada",
@@ -2022,8 +1833,8 @@
     "login": "82308",
     "ponid": "0/15/2",
     "mac": "48575443A28998AF",
-    "rx": "-25.23",
-    "tx": "-30.97",
+    "rx": "-25.37",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua José Bueno Filho",
       "numero": "153",
@@ -2033,27 +1844,6 @@
       "contato": "",
       "whatsapp": "(11) 97309-6381",
       "celular": "(11) 97309-6381",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "49421",
-    "id_contrato": "75067",
-    "olt": "OLT_VGPA_01",
-    "login": "49378",
-    "ponid": "0/14/6",
-    "mac": "4857544394A42CAC",
-    "rx": "-32.21",
-    "tx": "-33.98",
-    "endereco": {
-      "rua": "Rua Dakota",
-      "numero": "602",
-      "bairro": "Cidade Jardim"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94798-2648",
-      "celular": "(11) 94798-2648",
       "comercial": ""
     }
   },
@@ -2184,27 +1974,6 @@
     }
   },
   {
-    "id_cliente": "78747",
-    "id_contrato": "115522",
-    "olt": "OLT_COTIA_05",
-    "login": "82112",
-    "ponid": "0/1/0",
-    "mac": "485754437C464AAF",
-    "rx": "-32.21",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Ipanema",
-      "numero": "258",
-      "bairro": "Jardim Pioneiro"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 98189-0977",
-      "celular": "(11) 98189-0977",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "35306",
     "id_contrato": "94582",
     "olt": "OLT_COTIA_03",
@@ -2296,7 +2065,7 @@
     "ponid": "0/12/10",
     "mac": "485754439D522EAF",
     "rx": "-26.77",
-    "tx": "-32.22",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Rua Francisco do Amaral Gorgel",
       "numero": "191",
@@ -2316,8 +2085,8 @@
     "login": "81951",
     "ponid": "0/3/0",
     "mac": "48575443E49B81AA",
-    "rx": "-27.96",
-    "tx": "-40.00",
+    "rx": "-28.24",
+    "tx": "-36.99",
     "endereco": {
       "rua": "Rua Uganda",
       "numero": "102",
@@ -2327,6 +2096,27 @@
       "contato": "",
       "whatsapp": "(11) 91119-5873",
       "celular": "(11) 91119-5873",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "35202",
+    "id_contrato": "58272",
+    "olt": "OLT_GRVN_01",
+    "login": "33241",
+    "ponid": "0/10/3",
+    "mac": "48575443183113AF",
+    "rx": "-24.56",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Tundra",
+      "numero": "121",
+      "bairro": "Paisagem Renoir"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99910-2988",
+      "celular": "(11) 94018-5380",
       "comercial": ""
     }
   },
@@ -2398,7 +2188,7 @@
     "id_contrato": "87600",
     "olt": "OLT_COTIA_02",
     "login": "61460",
-    "ponid": "0/7/7",
+    "ponid": "0/7/13",
     "mac": "48575443165E28AF",
     "rx": "-23.37",
     "tx": "-32.22",
@@ -2421,7 +2211,7 @@
     "login": "81832",
     "ponid": "0/1/12",
     "mac": "485754431660EAAF",
-    "rx": "-23.01",
+    "rx": "-22.92",
     "tx": "-30.97",
     "endereco": {
       "rua": "Avenida Geraldo dos Santos",
@@ -2442,8 +2232,8 @@
     "login": "81848",
     "ponid": "0/7/1",
     "mac": "48575443182175AF",
-    "rx": "-23.87",
-    "tx": "-32.22",
+    "rx": "-23.76",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rodovia Raposo Tavares, km 22,5",
       "numero": "22",
@@ -2464,7 +2254,7 @@
     "ponid": "0/7/1",
     "mac": "485754437C4879AF",
     "rx": "-23.37",
-    "tx": "-30.46",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rodovia Raposo Tavares, km 22,5",
       "numero": "22",
@@ -2474,27 +2264,6 @@
       "contato": "",
       "whatsapp": "(11) 91327-0121",
       "celular": "(11) 96577-5119",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "78379",
-    "id_contrato": "115076",
-    "olt": "OLT_CCDA_01",
-    "login": "81708",
-    "ponid": "0/17/0",
-    "mac": "48575443182162AF",
-    "rx": "-24.43",
-    "tx": "-33.98",
-    "endereco": {
-      "rua": "Estrada da Cachoeirinha",
-      "numero": "2244",
-      "bairro": "Cachoeira"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99004-3100",
-      "celular": "(11) 99004-3100",
       "comercial": ""
     }
   },
@@ -2562,35 +2331,14 @@
     }
   },
   {
-    "id_cliente": "20385",
-    "id_contrato": "114892",
-    "olt": "OLT_ITPV_01",
-    "login": "81548",
-    "ponid": "0/2/13",
-    "mac": "4857544318307DAF",
-    "rx": "-28.24",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Serra dos Gradaús",
-      "numero": "24",
-      "bairro": "Jardim Rosemary"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 95245-6917",
-      "celular": "(11) 95245-6917",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "57254",
     "id_contrato": "114536",
     "olt": "OLT_GRVN_01",
     "login": "81225",
     "ponid": "0/1/10",
     "mac": "485754431832FAAF",
-    "rx": "-28.24",
-    "tx": "-35.23",
+    "rx": "-27.96",
+    "tx": "-36.99",
     "endereco": {
       "rua": "Rua Salma",
       "numero": "271",
@@ -2625,6 +2373,27 @@
     }
   },
   {
+    "id_cliente": "78172",
+    "id_contrato": "114818",
+    "olt": "OLT_CCDA_01",
+    "login": "81482",
+    "ponid": "0/11/3",
+    "mac": "48575443181EE4AF",
+    "rx": "-22.22",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Alcina",
+      "numero": "40",
+      "bairro": "Água Espraiada (Caucaia do Alto)"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99802-3932",
+      "celular": "(11) 99802-3932",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "78128",
     "id_contrato": "114767",
     "olt": "OLT_CCDA_01",
@@ -2652,7 +2421,7 @@
     "login": "81385",
     "ponid": "0/7/4",
     "mac": "485754431662D6AF",
-    "rx": "-22.59",
+    "rx": "-25.08",
     "tx": "-33.02",
     "endereco": {
       "rua": "Rodovia Raposo Tavares, km 22,5",
@@ -2736,8 +2505,8 @@
     "login": "81260",
     "ponid": "0/7/12",
     "mac": "48575443184446AF",
-    "rx": "-28.86",
-    "tx": "-33.02",
+    "rx": "-29.21",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Sathio",
       "numero": "333",
@@ -2751,14 +2520,35 @@
     }
   },
   {
+    "id_cliente": "62524",
+    "id_contrato": "114590",
+    "olt": "OLT_ITPV_01",
+    "login": "81277",
+    "ponid": "0/2/2",
+    "mac": "48575443182752AF",
+    "rx": "-32.21",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Serra do Caiapo",
+      "numero": "76",
+      "bairro": "Jardim Rosemary"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 98768-5382",
+      "celular": "(11) 98768-5382",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "68339",
     "id_contrato": "97815",
     "olt": "OLT_CCDA_01",
     "login": "70931",
     "ponid": "0/15/4",
     "mac": "485754431821FCAF",
-    "rx": "-21.80",
-    "tx": "-30.46",
+    "rx": "-22.14",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Antônio Amaro Peixoto",
       "numero": "513",
@@ -2778,8 +2568,8 @@
     "login": "80975",
     "ponid": "0/12/8",
     "mac": "485754437A4B7EA1",
-    "rx": "-25.23",
-    "tx": "-31.55",
+    "rx": "-25.08",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Basílio da Gama",
       "numero": "198",
@@ -2841,7 +2631,7 @@
     "login": "69850",
     "ponid": "0/15/1",
     "mac": "485754431665D8AF",
-    "rx": "-22.44",
+    "rx": "-22.75",
     "tx": "-30.00",
     "endereco": {
       "rua": "Rua sao benedito do Céu",
@@ -2877,34 +2667,13 @@
     }
   },
   {
-    "id_cliente": "67153",
-    "id_contrato": "96398",
-    "olt": "OLT_CCDA_01",
-    "login": "69558",
-    "ponid": "0/15/1",
-    "mac": "48575443EA6CCDAC",
-    "rx": "-23.66",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Engenho do Camorim",
-      "numero": "405",
-      "bairro": "da Capelinha"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97135-0895",
-      "celular": "(11) 97135-0895",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "77491",
     "id_contrato": "113988",
     "olt": "OLT_TRMS_02",
     "login": "80728",
     "ponid": "0/3/15",
     "mac": "4857544318456EAF",
-    "rx": "-29.58",
+    "rx": "-30.00",
     "tx": "-36.99",
     "endereco": {
       "rua": "Rua Fênix",
@@ -2925,8 +2694,8 @@
     "login": "27608",
     "ponid": "0/4/11",
     "mac": "48575443BB43B5AA",
-    "rx": "-28.86",
-    "tx": "-33.98",
+    "rx": "-29.58",
+    "tx": "-35.23",
     "endereco": {
       "rua": "Rua Major Izidoro",
       "numero": "253",
@@ -2958,27 +2727,6 @@
       "whatsapp": "(11) 97787-5903",
       "celular": "(11) 93474-0966",
       "comercial": "(11) 97787-5903"
-    }
-  },
-  {
-    "id_cliente": "1512",
-    "id_contrato": "113702",
-    "olt": "OLT_GRVN_01",
-    "login": "80485",
-    "ponid": "0/3/0",
-    "mac": "48575443184433AF",
-    "rx": "-29.21",
-    "tx": "-32.22",
-    "endereco": {
-      "rua": "Rua Riacho",
-      "numero": "149",
-      "bairro": "Jardim Guerreiro"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97144-5351",
-      "celular": "(11) 94210-9828",
-      "comercial": "(11) 99902-3299"
     }
   },
   {
@@ -3051,7 +2799,7 @@
     "login": "80219",
     "ponid": "0/3/12",
     "mac": "48575443182A8FAF",
-    "rx": "-23.66",
+    "rx": "-23.56",
     "tx": "-30.00",
     "endereco": {
       "rua": "Estrada Morro Grande",
@@ -3083,27 +2831,6 @@
       "contato": "",
       "whatsapp": "(11) 94732-7477",
       "celular": "(11) 94732-7477",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "64008",
-    "id_contrato": "92555",
-    "olt": "OLT_COTIA_01",
-    "login": "66007",
-    "ponid": "0/11/3",
-    "mac": "485754431846F8AF",
-    "rx": "-31.54",
-    "tx": "-35.23",
-    "endereco": {
-      "rua": "Rua Tornoplex",
-      "numero": "124",
-      "bairro": "Jardim Leonor"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94649-0268",
-      "celular": "(11) 94649-0268",
       "comercial": ""
     }
   },
@@ -3178,7 +2905,7 @@
     "ponid": "0/12/4",
     "mac": "485754431653D3AF",
     "rx": "-23.66",
-    "tx": "-33.98",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Felipe Tena",
       "numero": "124",
@@ -3255,6 +2982,27 @@
     }
   },
   {
+    "id_cliente": "75793",
+    "id_contrato": "112439",
+    "olt": "OLT_CCDA_02",
+    "login": "79274",
+    "ponid": "0/1/12",
+    "mac": "48575443330959AE",
+    "rx": "-28.24",
+    "tx": "-31.55",
+    "endereco": {
+      "rua": "Rua José Manuel de Oliveira",
+      "numero": "743",
+      "bairro": "Caucaia do Alto"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99460-8307",
+      "celular": "(11) 99460-8307",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "74766",
     "id_contrato": "112286",
     "olt": "OLT_COTIA_02",
@@ -3297,6 +3045,27 @@
     }
   },
   {
+    "id_cliente": "75960",
+    "id_contrato": "112242",
+    "olt": "OLT_CCDA_01",
+    "login": "79084",
+    "ponid": "0/16/5",
+    "mac": "48575443AD7231A7",
+    "rx": "-25.85",
+    "tx": "-33.02",
+    "endereco": {
+      "rua": "Estrada da Estação",
+      "numero": "507",
+      "bairro": "Centro (Caucaia do Alto)"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 97139-5631",
+      "celular": "(11) 97139-5631",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "75633",
     "id_contrato": "111890",
     "olt": "OLT_TRMS_01",
@@ -3325,7 +3094,7 @@
     "ponid": "0/3/12",
     "mac": "48575443182799AF",
     "rx": "-24.31",
-    "tx": "-30.00",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Estrada Morro Grande",
       "numero": "3000",
@@ -3335,6 +3104,48 @@
       "contato": "",
       "whatsapp": "(11) 97601-7535",
       "celular": "(11) 93037-6466",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "16837",
+    "id_contrato": "29622",
+    "olt": "OLT_VGPA_01",
+    "login": "21203",
+    "ponid": "0/7/0",
+    "mac": "485754437909A7AA",
+    "rx": "-33.00",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Casuarina",
+      "numero": "195",
+      "bairro": "Jardim Floresta"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 98560-6633",
+      "celular": "(11) 98560-6633",
+      "comercial": "(11) 98402-6920"
+    }
+  },
+  {
+    "id_cliente": "75805",
+    "id_contrato": "112074",
+    "olt": "OLT_VGPA_01",
+    "login": "78924",
+    "ponid": "0/7/0",
+    "mac": "485754433305E3AE",
+    "rx": "-31.54",
+    "tx": "-31.55",
+    "endereco": {
+      "rua": "Avenida Brasil",
+      "numero": "240",
+      "bairro": "Jardim Floresta"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 91434-3404",
+      "celular": "(11) 91434-3404",
       "comercial": ""
     }
   },
@@ -3366,8 +3177,8 @@
     "login": "78689",
     "ponid": "0/2/14",
     "mac": "485754432EA15AAE",
-    "rx": "-26.99",
-    "tx": "-33.02",
+    "rx": "-26.57",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua dos Jabotis",
       "numero": "362",
@@ -3377,6 +3188,27 @@
       "contato": "",
       "whatsapp": "(11) 91409-5472",
       "celular": "(11) 91409-5472",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "22440",
+    "id_contrato": "94038",
+    "olt": "OLT_TRMS_02",
+    "login": "1047",
+    "ponid": "0/1/10",
+    "mac": "46524B57236A2D4F",
+    "rx": "-21.80",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Francisco Alves",
+      "numero": "455",
+      "bairro": "Parque Mirante da Mata"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "",
+      "celular": "(11) 94029-4278",
       "comercial": ""
     }
   },
@@ -3429,8 +3261,8 @@
     "login": "78570",
     "ponid": "0/11/3",
     "mac": "485754432EA24AAE",
-    "rx": "-26.77",
-    "tx": "-32.22",
+    "rx": "-26.57",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Doutor Ladislau Retti",
       "numero": "909",
@@ -3440,6 +3272,48 @@
       "contato": "",
       "whatsapp": "(11) 99744-5678",
       "celular": "(11) 99744-5678",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "25694",
+    "id_contrato": "45716",
+    "olt": "OLT_COTIA_01",
+    "login": "2799",
+    "ponid": "0/11/3",
+    "mac": "4857544357F476AC",
+    "rx": "-33.97",
+    "tx": "-33.02",
+    "endereco": {
+      "rua": "Rua Tornoplex",
+      "numero": "131",
+      "bairro": "Jardim Leonor"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 96403-0872",
+      "celular": "(11) 96403-0872",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "75137",
+    "id_contrato": "111322",
+    "olt": "OLT_CCDA_01",
+    "login": "78207",
+    "ponid": "0/17/4",
+    "mac": "4857544318451FAF",
+    "rx": "-22.67",
+    "tx": "-32.22",
+    "endereco": {
+      "rua": "Estrada das Ameixeiras",
+      "numero": "56",
+      "bairro": "Grilos/Bigvalew"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 94778-9809",
+      "celular": "(11) 91980-3303",
       "comercial": ""
     }
   },
@@ -3461,6 +3335,48 @@
       "contato": "",
       "whatsapp": "(11) 91554-0640",
       "celular": "(11) 91554-0640",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "75135",
+    "id_contrato": "111319",
+    "olt": "OLT_CCDA_01",
+    "login": "78204",
+    "ponid": "0/17/4",
+    "mac": "485754432EA227AE",
+    "rx": "-22.22",
+    "tx": "-30.97",
+    "endereco": {
+      "rua": "estrada das ameixeiras",
+      "numero": "51",
+      "bairro": "grilos bigvalee"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 97204-0522",
+      "celular": "(11) 97204-0522",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "74948",
+    "id_contrato": "111117",
+    "olt": "OLT_CCDA_01",
+    "login": "78007",
+    "ponid": "0/17/4",
+    "mac": "485754432EA7B8AE",
+    "rx": "-21.08",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "estrada das ameixeiras ",
+      "numero": "50",
+      "bairro": "grilos zacarias "
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 96592-9563",
+      "celular": "(11) 96592-9563",
       "comercial": ""
     }
   },
@@ -3513,8 +3429,8 @@
     "login": "45260",
     "ponid": "0/1/1",
     "mac": "46524B57276BD523",
-    "rx": "-23.76",
-    "tx": "-30.97",
+    "rx": "-23.56",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Estrada Velha da Olaria",
       "numero": "1105",
@@ -3534,8 +3450,8 @@
     "login": "77915",
     "ponid": "0/2/7",
     "mac": "485754432EFD53AE",
-    "rx": "-26.19",
-    "tx": "-30.97",
+    "rx": "-26.38",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Rua Austrália",
       "numero": "277",
@@ -3545,6 +3461,27 @@
       "contato": "",
       "whatsapp": "",
       "celular": "(11) 97276-3032",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "35595",
+    "id_contrato": "58762",
+    "olt": "OLT_TRMS_02",
+    "login": "33678",
+    "ponid": "0/3/0",
+    "mac": "48575443BF5770A3",
+    "rx": "-30.45",
+    "tx": "-40.00",
+    "endereco": {
+      "rua": "Rua Uganda",
+      "numero": "220",
+      "bairro": "Outeiro de Pass?rgada"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99436-0440",
+      "celular": "(11) 99436-0440",
       "comercial": ""
     }
   },
@@ -3576,7 +3513,7 @@
     "login": "77478",
     "ponid": "0/5/11",
     "mac": "485754432E9A1EAE",
-    "rx": "-29.58",
+    "rx": "-28.86",
     "tx": "-32.22",
     "endereco": {
       "rua": "Rua dos Contos",
@@ -3598,7 +3535,7 @@
     "ponid": "0/14/5",
     "mac": "48575443AABDC5AC",
     "rx": "-24.95",
-    "tx": "-30.97",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Benedito Mendes da Silva",
       "numero": "90",
@@ -3661,7 +3598,7 @@
     "ponid": "0/2/13",
     "mac": "4857544316577CAF",
     "rx": "-26.38",
-    "tx": "-32.22",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Jabaquara",
       "numero": "124",
@@ -3723,8 +3660,8 @@
     "login": "77347",
     "ponid": "0/2/5",
     "mac": "485754432F00AEAE",
-    "rx": "-29.58",
-    "tx": "-32.22",
+    "rx": "-28.24",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua São Cristóvão",
       "numero": "247",
@@ -3766,7 +3703,7 @@
     "ponid": "0/7/12",
     "mac": "485754432F084DAE",
     "rx": "-26.57",
-    "tx": "-32.22",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Capivara",
       "numero": "348",
@@ -3808,7 +3745,7 @@
     "ponid": "0/1/10",
     "mac": "48575443E47499AA",
     "rx": "-23.66",
-    "tx": "-30.00",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Francisco Alves",
       "numero": "412",
@@ -3954,7 +3891,7 @@
     "login": "67710",
     "ponid": "0/11/1",
     "mac": "48575443AAC2F0AC",
-    "rx": "-29.21",
+    "rx": "-29.58",
     "tx": "-33.98",
     "endereco": {
       "rua": "Avenida Lyons",
@@ -3996,7 +3933,7 @@
     "login": "76204",
     "ponid": "0/1/3",
     "mac": "485754432EA82AAE",
-    "rx": "-24.20",
+    "rx": "-24.56",
     "tx": "-30.46",
     "endereco": {
       "rua": "Rua Cristina de Oliveira Neves",
@@ -4080,8 +4017,8 @@
     "login": "76100",
     "ponid": "0/2/2",
     "mac": "485754432E9CD4AE",
-    "rx": "-29.21",
-    "tx": "-33.98",
+    "rx": "-29.58",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Albania",
       "numero": "64",
@@ -4092,6 +4029,27 @@
       "whatsapp": "(11) 91239-0590",
       "celular": "(11) 91239-0590",
       "comercial": "(11) 93205-9491"
+    }
+  },
+  {
+    "id_cliente": "73089",
+    "id_contrato": "103033",
+    "olt": "OLT_GRVN_01",
+    "login": "76067",
+    "ponid": "0/7/7",
+    "mac": "46524B57236A2DF7",
+    "rx": "-22.51",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Tomás Sepé",
+      "numero": "677",
+      "bairro": "Jardim da Glória"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 96455-5832",
+      "celular": "(11) 96455-5832",
+      "comercial": ""
     }
   },
   {
@@ -4123,7 +4081,7 @@
     "ponid": "0/3/2",
     "mac": "485754432F079BAE",
     "rx": "-26.19",
-    "tx": "-32.41",
+    "tx": "-32.13",
     "endereco": {
       "rua": "Estrada Vera Bottaro de Oliveira",
       "numero": "132",
@@ -4305,34 +4263,13 @@
     }
   },
   {
-    "id_cliente": "72009",
-    "id_contrato": "101917",
-    "olt": "OLT_CCDA_02",
-    "login": "75023",
-    "ponid": "0/1/3",
-    "mac": "4857544332F98CAE",
-    "rx": "-24.43",
-    "tx": "-30.46",
-    "endereco": {
-      "rua": "Rua cristino de Oliveira Neves",
-      "numero": "200",
-      "bairro": "bairro dos Rodrigues"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 97287-0287",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "72051",
     "id_contrato": "101976",
     "olt": "OLT_VGPA_01",
     "login": "75081",
     "ponid": "0/10/1",
     "mac": "485754432E9619AE",
-    "rx": "-22.07",
+    "rx": "-22.52",
     "tx": "-30.00",
     "endereco": {
       "rua": "Rua Santo André",
@@ -4374,8 +4311,8 @@
     "login": "73985",
     "ponid": "0/15/1",
     "mac": "48575443D7A373A7",
-    "rx": "-30.00",
-    "tx": "-33.02",
+    "rx": "-29.58",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Quarenta e Três",
       "numero": "288",
@@ -4431,6 +4368,27 @@
     }
   },
   {
+    "id_cliente": "85601",
+    "id_contrato": "123712",
+    "olt": "OLT_CCDA_01",
+    "login": "89448",
+    "ponid": "0/17/4",
+    "mac": "48575443F2761BAC",
+    "rx": "-22.92",
+    "tx": "-33.02",
+    "endereco": {
+      "rua": "Rua Ameixeiras",
+      "numero": "61",
+      "bairro": "Big Valley"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 94724-7802",
+      "celular": "(11) 94724-7802",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "8906",
     "id_contrato": "14209",
     "olt": "OLT_COTIA_05",
@@ -4479,7 +4437,7 @@
     "login": "35912",
     "ponid": "0/11/11",
     "mac": "48575443F501F9AC",
-    "rx": "-29.21",
+    "rx": "-30.96",
     "tx": "-30.46",
     "endereco": {
       "rua": "Rua Roque Savioli",
@@ -4496,9 +4454,9 @@
   {
     "id_cliente": "70595",
     "id_contrato": "100448",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "73554",
-    "ponid": "0/12/8",
+    "ponid": "0/6/0",
     "mac": "4857544394A425AC",
     "rx": "-32.21",
     "tx": "-31.55",
@@ -4511,6 +4469,48 @@
       "contato": "",
       "whatsapp": "(11) 98624-9385",
       "celular": "(11) 98624-9385",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "70384",
+    "id_contrato": "100201",
+    "olt": "OLT_CCDA_01",
+    "login": "73303",
+    "ponid": "0/17/4",
+    "mac": "48575443F51077AC",
+    "rx": "-28.86",
+    "tx": "-33.02",
+    "endereco": {
+      "rua": "Estrada da Ameixeira",
+      "numero": "65",
+      "bairro": "Dos grilos"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "",
+      "celular": "(11) 94329-1727",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "70397",
+    "id_contrato": "100218",
+    "olt": "OLT_CCDA_01",
+    "login": "73320",
+    "ponid": "0/17/4",
+    "mac": "48575443F5159DAC",
+    "rx": "-20.91",
+    "tx": "-30.97",
+    "endereco": {
+      "rua": "Estrada da Ameixeira",
+      "numero": "10",
+      "bairro": "dos grilos"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99858-9761",
+      "celular": "(11) 99858-9761",
       "comercial": ""
     }
   },
@@ -4622,9 +4622,9 @@
   {
     "id_cliente": "70130",
     "id_contrato": "99913",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "73016",
-    "ponid": "0/12/5",
+    "ponid": "0/5/13",
     "mac": "48575443F5D2B0AC",
     "rx": "-27.96",
     "tx": "-30.00",
@@ -4668,8 +4668,8 @@
     "login": "68764",
     "ponid": "0/15/1",
     "mac": "48575443F5105EAC",
-    "rx": "-27.21",
-    "tx": "-32.22",
+    "rx": "-26.38",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua São Benedito do Céu",
       "numero": "34",
@@ -4685,9 +4685,9 @@
   {
     "id_cliente": "69779",
     "id_contrato": "99471",
-    "olt": "OLT_COTIA_02",
+    "olt": "OLT_COTIA_05",
     "login": "72577",
-    "ponid": "0/10/11",
+    "ponid": "0/15/3",
     "mac": "4857544394A40BAC",
     "rx": "-32.21",
     "tx": "-35.23",
@@ -4731,8 +4731,8 @@
     "login": "69216",
     "ponid": "0/15/14",
     "mac": "48575443F50C02AC",
-    "rx": "-27.44",
-    "tx": "-31.55",
+    "rx": "-27.69",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua Paulina Brenat Domingues",
       "numero": "7",
@@ -4790,9 +4790,9 @@
   {
     "id_cliente": "69474",
     "id_contrato": "99113",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "72222",
-    "ponid": "0/13/4",
+    "ponid": "0/6/12",
     "mac": "48575443F50A63AC",
     "rx": "-27.44",
     "tx": "-30.46",
@@ -4836,8 +4836,8 @@
     "login": "71815",
     "ponid": "0/17/2",
     "mac": "48575443F512E2AC",
-    "rx": "-23.87",
-    "tx": "-30.97",
+    "rx": "-24.09",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Estrada José Pires Filho",
       "numero": "216",
@@ -5067,8 +5067,8 @@
     "login": "71213",
     "ponid": "0/13/0",
     "mac": "4857544394A3C2AC",
-    "rx": "-29.58",
-    "tx": "-33.98",
+    "rx": "-30.00",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Estrada Municipal do Aguassaí",
       "numero": "257",
@@ -5130,8 +5130,8 @@
     "login": "70490",
     "ponid": "0/3/6",
     "mac": "48575443F51B1BAC",
-    "rx": "-22.59",
-    "tx": "-30.46",
+    "rx": "-22.44",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Estrada dos Fischer's",
       "numero": "1180",
@@ -5193,8 +5193,8 @@
     "login": "70370",
     "ponid": "0/1/10",
     "mac": "48575443F501A6AC",
-    "rx": "-25.85",
-    "tx": "-35.23",
+    "rx": "-26.77",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Francisco Alves",
       "numero": "322",
@@ -5226,27 +5226,6 @@
       "whatsapp": "(11) 99670-9264",
       "celular": "(11) 99214-5681",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "64252",
-    "id_contrato": "96938",
-    "olt": "OLT_EMBU_01",
-    "login": "70058",
-    "ponid": "0/7/0",
-    "mac": "48575443F52085AC",
-    "rx": "-24.56",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua dos Eucaliptos",
-      "numero": "85",
-      "bairro": "Caputera"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 93736-3094",
-      "celular": "(11) 93736-3094",
-      "comercial": "(11) 93297-5271"
     }
   },
   {
@@ -5445,7 +5424,7 @@
     "login": "68944",
     "ponid": "0/15/15",
     "mac": "48575443F50224AC",
-    "rx": "-27.21",
+    "rx": "-27.44",
     "tx": "-31.55",
     "endereco": {
       "rua": "Estrada dos Pires",
@@ -5572,7 +5551,7 @@
     "ponid": "0/1/14",
     "mac": "48575443F502D5AC",
     "rx": "-33.00",
-    "tx": "-32.60",
+    "tx": "-32.70",
     "endereco": {
       "rua": "Rua Grumixamas",
       "numero": "416",
@@ -5630,9 +5609,9 @@
   {
     "id_cliente": "19033",
     "id_contrato": "111840",
-    "olt": "OLT_COTIA_02",
+    "olt": "OLT_COTIA_05",
     "login": "78687",
-    "ponid": "0/10/11",
+    "ponid": "0/15/3",
     "mac": "48575443AABC6AAC",
     "rx": "-28.86",
     "tx": "-33.02",
@@ -5754,27 +5733,6 @@
     }
   },
   {
-    "id_cliente": "65462",
-    "id_contrato": "94961",
-    "olt": "OLT_COTIA_02",
-    "login": "68235",
-    "ponid": "0/16/2",
-    "mac": "48575443A266D1AC",
-    "rx": "-29.21",
-    "tx": "-35.23",
-    "endereco": {
-      "rua": "Rua Doutora Aparecida Fernandes de Jesus Domingues",
-      "numero": "391",
-      "bairro": "Jardim Petrópolis"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 98291-8329",
-      "celular": "(11) 98291-8329",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "65552",
     "id_contrato": "94833",
     "olt": "OLT_COTIA_03_ANTIGA",
@@ -5793,27 +5751,6 @@
       "whatsapp": "",
       "celular": "(11) 98546-6380",
       "comercial": "(11) 97878-3916"
-    }
-  },
-  {
-    "id_cliente": "65790",
-    "id_contrato": "94711",
-    "olt": "OLT_COTIA_04",
-    "login": "68013",
-    "ponid": "0/6/10",
-    "mac": "4857544390FB09AC",
-    "rx": "-29.21",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Velho Horizonte",
-      "numero": "261",
-      "bairro": "Chácara Vista Alegre"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99410-2529",
-      "celular": "(11) 99410-2529",
-      "comercial": ""
     }
   },
   {
@@ -5938,14 +5875,35 @@
     }
   },
   {
+    "id_cliente": "61384",
+    "id_contrato": "89306",
+    "olt": "OLT_CCDA_01",
+    "login": "63053",
+    "ponid": "0/17/2",
+    "mac": "4857544390F88DAC",
+    "rx": "-24.20",
+    "tx": "-30.97",
+    "endereco": {
+      "rua": "TV Rosalina Nunes da Silva",
+      "numero": "235",
+      "bairro": "Carmo Messias"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 97321-2503",
+      "celular": "(11) 97321-2503",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "65548",
     "id_contrato": "94419",
     "olt": "OLT_COTIA_05",
     "login": "67744",
     "ponid": "0/15/4",
     "mac": "4857544390FA7DAC",
-    "rx": "-29.21",
-    "tx": "-35.23",
+    "rx": "-27.44",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Léon",
       "numero": "223",
@@ -5986,8 +5944,8 @@
     "login": "28601",
     "ponid": "0/10/3",
     "mac": "48575443A267AFAC",
-    "rx": "-24.09",
-    "tx": "-30.00",
+    "rx": "-24.20",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Tundra",
       "numero": "25",
@@ -6085,6 +6043,27 @@
     }
   },
   {
+    "id_cliente": "64569",
+    "id_contrato": "93228",
+    "olt": "OLT_CCDA_01",
+    "login": "66635",
+    "ponid": "0/14/8",
+    "mac": "48575443A26A0DAC",
+    "rx": "-24.09",
+    "tx": "-30.97",
+    "endereco": {
+      "rua": "Estrada Big Valley",
+      "numero": "3080",
+      "bairro": "Dos Grilos"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99507-5008",
+      "celular": "(11) 99507-5008",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "82369",
     "id_contrato": "119849",
     "olt": "OLT_COTIA_03",
@@ -6169,6 +6148,27 @@
     }
   },
   {
+    "id_cliente": "63246",
+    "id_contrato": "93199",
+    "olt": "OLT_CCDA_01",
+    "login": "66608",
+    "ponid": "0/14/8",
+    "mac": "4857544359EA4FAC",
+    "rx": "-20.27",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Joaquim Vaz de Oliveira",
+      "numero": "3059",
+      "bairro": "Big Valley"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "",
+      "celular": "(11) 98020-8824",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "20514",
     "id_contrato": "93488",
     "olt": "OLT_COTIA_01_ANTIGA",
@@ -6211,6 +6211,27 @@
     }
   },
   {
+    "id_cliente": "64274",
+    "id_contrato": "92887",
+    "olt": "OLT_GRVN_01",
+    "login": "66314",
+    "ponid": "0/10/13",
+    "mac": "4857544359E92CAC",
+    "rx": "-31.54",
+    "tx": "-31.55",
+    "endereco": {
+      "rua": "Est.do Lutero",
+      "numero": "65",
+      "bairro": "Paisagem Renoir"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99268-4790",
+      "celular": "(11) 95337-8618",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "8197",
     "id_contrato": "12788",
     "olt": "OLT_TRMS_02",
@@ -6218,7 +6239,7 @@
     "ponid": "0/1/14",
     "mac": "46524B572782BC64",
     "rx": "-32.21",
-    "tx": "-33.98",
+    "tx": "-35.23",
     "endereco": {
       "rua": "Rua Malgaxie",
       "numero": "722",
@@ -6322,8 +6343,8 @@
     "login": "66350",
     "ponid": "0/3/0",
     "mac": "4857544357F55DAC",
-    "rx": "-25.85",
-    "tx": "-30.97",
+    "rx": "-25.53",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Carmelino Nunes",
       "numero": "206",
@@ -6339,9 +6360,9 @@
   {
     "id_cliente": "64259",
     "id_contrato": "92870",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "66297",
-    "ponid": "0/14/11",
+    "ponid": "0/10/3",
     "mac": "4857544357F519AC",
     "rx": "-33.97",
     "tx": "-33.98",
@@ -6448,7 +6469,7 @@
     "login": "66100",
     "ponid": "0/4/2",
     "mac": "4857544357F546AC",
-    "rx": "-22.14",
+    "rx": "-23.46",
     "tx": "-30.97",
     "endereco": {
       "rua": "R. Fênix",
@@ -6591,9 +6612,9 @@
   {
     "id_cliente": "63490",
     "id_contrato": "91955",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "65444",
-    "ponid": "0/12/15",
+    "ponid": "0/6/7",
     "mac": "485754434EDE83AC",
     "rx": "-30.45",
     "tx": "-30.00",
@@ -6696,9 +6717,9 @@
   {
     "id_cliente": "63201",
     "id_contrato": "91589",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "65114",
-    "ponid": "0/13/9",
+    "ponid": "0/7/1",
     "mac": "485754434EE935AC",
     "rx": "-30.00",
     "tx": "-30.97",
@@ -6763,7 +6784,7 @@
     "login": "65112",
     "ponid": "0/4/7",
     "mac": "485754434EE280AC",
-    "rx": "-27.44",
+    "rx": "-27.69",
     "tx": "-30.00",
     "endereco": {
       "rua": "Estrada Fernando Nobre",
@@ -6805,8 +6826,8 @@
     "login": "64760",
     "ponid": "0/17/14",
     "mac": "485754434EDA61AC",
-    "rx": "-25.08",
-    "tx": "-31.55",
+    "rx": "-25.23",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Estrada José Pires Filho",
       "numero": "28",
@@ -6967,27 +6988,6 @@
     }
   },
   {
-    "id_cliente": "24629",
-    "id_contrato": "90314",
-    "olt": "OLT_EMBU_01",
-    "login": "63942",
-    "ponid": "0/7/0",
-    "mac": "485754434D4E7AAC",
-    "rx": "-29.21",
-    "tx": "-33.98",
-    "endereco": {
-      "rua": "Estrada da Caputera",
-      "numero": "895",
-      "bairro": "Ressaca"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(19) 99777-4433",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "35777",
     "id_contrato": "58975",
     "olt": "OLT_COTIA_03",
@@ -7027,48 +7027,6 @@
       "whatsapp": "(11) 94289-6729",
       "celular": "(11) 94289-6729",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "62617",
-    "id_contrato": "90866",
-    "olt": "OLT_COTIA_02",
-    "login": "64446",
-    "ponid": "0/2/5",
-    "mac": "485754434D499CAC",
-    "rx": "-27.44",
-    "tx": "-32.22",
-    "endereco": {
-      "rua": "Rua Moçambique",
-      "numero": "397",
-      "bairro": "Jardim Lina"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 95499-4138",
-      "celular": "(11) 95499-4138",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "8905",
-    "id_contrato": "14207",
-    "olt": "OLT_COTIA_03",
-    "login": "10627",
-    "ponid": "0/11/15",
-    "mac": "46524B572782FDB2",
-    "rx": "-29.21",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Estrada Padre Inácio",
-      "numero": "2008",
-      "bairro": "Jardim Sao Miguel"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 96972-0076",
-      "celular": "(11) 96861-1233",
-      "comercial": "(11) 96972-0076"
     }
   },
   {
@@ -7120,8 +7078,8 @@
     "login": "64088",
     "ponid": "0/12/10",
     "mac": "4857544335652DAC",
-    "rx": "-24.95",
-    "tx": "-30.46",
+    "rx": "-25.08",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Teófilo Otoní",
       "numero": "1003",
@@ -7226,7 +7184,7 @@
     "ponid": "0/1/8",
     "mac": "4857544332E1DEAC",
     "rx": "-24.68",
-    "tx": "-31.55",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua Roque Soares da Silva",
       "numero": "180",
@@ -7289,7 +7247,7 @@
     "ponid": "0/11/5",
     "mac": "4857544335691AAC",
     "rx": "-31.54",
-    "tx": "-31.55",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Av. Aquiraz, 973-1013 ",
       "numero": "156284",
@@ -7513,27 +7471,6 @@
     }
   },
   {
-    "id_cliente": "53984",
-    "id_contrato": "80458",
-    "olt": "OLT_CCDA_01",
-    "login": "54501",
-    "ponid": "0/7/5",
-    "mac": "485754437904C0AA",
-    "rx": "-22.52",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Avenida Meiremar",
-      "numero": "23",
-      "bairro": "Jd são luis "
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 93342-0559",
-      "celular": "(11) 93342-0559",
-      "comercial": "(11) 95029-0272"
-    }
-  },
-  {
     "id_cliente": "61462",
     "id_contrato": "89411",
     "olt": "OLT_COTIA_01",
@@ -7555,35 +7492,14 @@
     }
   },
   {
-    "id_cliente": "61523",
-    "id_contrato": "89492",
-    "olt": "OLT_GRVN_01",
-    "login": "63222",
-    "ponid": "0/1/6",
-    "mac": "48575443356452AC",
-    "rx": "-26.19",
-    "tx": "-33.98",
-    "endereco": {
-      "rua": "Rua Lúcia",
-      "numero": "29",
-      "bairro": "Parque Sao George"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 97600-7753",
-      "comercial": "(11) 4551-2532"
-    }
-  },
-  {
     "id_cliente": "54255",
     "id_contrato": "80800",
     "olt": "OLT_CCDA_01",
     "login": "54831",
     "ponid": "0/6/13",
     "mac": "4857544335A21DA9",
-    "rx": "-28.24",
-    "tx": "-30.97",
+    "rx": "-28.86",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua da Árvore",
       "numero": "50",
@@ -7708,8 +7624,8 @@
     "login": "62960",
     "ponid": "0/5/11",
     "mac": "48575443E4B31EAA",
-    "rx": "-24.95",
-    "tx": "-31.55",
+    "rx": "-25.08",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua João Vitorello",
       "numero": "68",
@@ -7759,7 +7675,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "(11) 96616-2202",
+      "whatsapp": "(11) 97492-8543",
       "celular": "(11) 97492-8543",
       "comercial": ""
     }
@@ -7813,8 +7729,8 @@
     "login": "62343",
     "ponid": "0/16/9",
     "mac": "48575443E4B4F4AA",
-    "rx": "-28.54",
-    "tx": "-31.55",
+    "rx": "-28.86",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Estrada Capivara",
       "numero": "936",
@@ -7877,7 +7793,7 @@
     "ponid": "0/1/10",
     "mac": "46524B57236531CD",
     "rx": "-28.86",
-    "tx": "-33.02",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Francisco Alves",
       "numero": "385",
@@ -7918,7 +7834,7 @@
     "login": "21232",
     "ponid": "0/4/10",
     "mac": "48575443E4BE3AAA",
-    "rx": "-24.31",
+    "rx": "-23.98",
     "tx": "-30.00",
     "endereco": {
       "rua": "Avenida Santa Paula",
@@ -7960,8 +7876,8 @@
     "login": "51917",
     "ponid": "0/17/4",
     "mac": "48575443E4B0F8AA",
-    "rx": "-28.86",
-    "tx": "-32.22",
+    "rx": "-29.58",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Paulo Sérgio Lemos",
       "numero": "329",
@@ -8002,7 +7918,7 @@
     "login": "9765",
     "ponid": "0/2/2",
     "mac": "46494F475400FD2E",
-    "rx": "-27.21",
+    "rx": "-26.99",
     "tx": "-32.22",
     "endereco": {
       "rua": "Rua Albania",
@@ -8024,7 +7940,7 @@
     "ponid": "0/15/4",
     "mac": "48575443E497F5AA",
     "rx": "-26.19",
-    "tx": "-33.98",
+    "tx": "-32.22",
     "endereco": {
       "rua": "Rua Antônio Amaro Peixoto",
       "numero": "848",
@@ -8164,6 +8080,27 @@
     }
   },
   {
+    "id_cliente": "59947",
+    "id_contrato": "87602",
+    "olt": "OLT_TRMS_02",
+    "login": "61462",
+    "ponid": "0/1/10",
+    "mac": "48575443BB4C34AA",
+    "rx": "-22.44",
+    "tx": "-30.97",
+    "endereco": {
+      "rua": "Rua Elvis Presley",
+      "numero": "105",
+      "bairro": "Parque Mirante da Mata"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 94293-4052",
+      "celular": "(11) 98278-8401",
+      "comercial": "(11) 98987-9191"
+    }
+  },
+  {
     "id_cliente": "29038",
     "id_contrato": "50797",
     "olt": "OLT_TRMS_01",
@@ -8275,8 +8212,8 @@
     "login": "60551",
     "ponid": "0/6/4",
     "mac": "48575443E4668FAA",
-    "rx": "-25.68",
-    "tx": "-30.00",
+    "rx": "-25.85",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Marina Custódio da Silva Freitas",
       "numero": "105",
@@ -8389,7 +8326,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "(11) 95234-0070",
+      "whatsapp": "(11) 98329-4788",
       "celular": "(11) 98329-4788",
       "comercial": "(11) 96637-5617"
     }
@@ -8444,7 +8381,7 @@
     "ponid": "0/14/3",
     "mac": "48575443BB52CCAA",
     "rx": "-24.56",
-    "tx": "-30.97",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Manoel Roque",
       "numero": "999",
@@ -8563,27 +8500,6 @@
     }
   },
   {
-    "id_cliente": "36007",
-    "id_contrato": "84967",
-    "olt": "OLT_COTIA_04",
-    "login": "58905",
-    "ponid": "0/2/0",
-    "mac": "48575443BA69C6AA",
-    "rx": "-28.86",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Castanha",
-      "numero": "201",
-      "bairro": "Jardim Estela Mari"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 91126-3553",
-      "celular": "(11) 91126-3553",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "57563",
     "id_contrato": "84753",
     "olt": "OLT_COTIA_02",
@@ -8689,27 +8605,6 @@
     }
   },
   {
-    "id_cliente": "57177",
-    "id_contrato": "84294",
-    "olt": "OLT_COTIA_01",
-    "login": "58250",
-    "ponid": "0/11/3",
-    "mac": "48575443797A73AA",
-    "rx": "-28.24",
-    "tx": "-35.23",
-    "endereco": {
-      "rua": "Rua Tornoplex",
-      "numero": "136",
-      "bairro": "Jardim Leonor"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97206-4850",
-      "celular": "(11) 97146-4850",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "57133",
     "id_contrato": "84243",
     "olt": "OLT_COTIA_01",
@@ -8779,7 +8674,7 @@
     "login": "58073",
     "ponid": "0/2/14",
     "mac": "48575443BA5DEFAA",
-    "rx": "-28.54",
+    "rx": "-30.00",
     "tx": "-31.55",
     "endereco": {
       "rua": "Rua dos Jabotis",
@@ -8920,6 +8815,27 @@
     }
   },
   {
+    "id_cliente": "56461",
+    "id_contrato": "83600",
+    "olt": "OLT_CCDA_01",
+    "login": "57572",
+    "ponid": "0/15/6",
+    "mac": "485754433C4D85A9",
+    "rx": "-23.56",
+    "tx": "-30.00",
+    "endereco": {
+      "rua": "Rua Diamantina",
+      "numero": "10",
+      "bairro": "Terras de São Felipe (Caucaia do Alto)"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99148-0711",
+      "celular": "(11) 99148-0711",
+      "comercial": "(11) 94549-6000"
+    }
+  },
+  {
     "id_cliente": "56492",
     "id_contrato": "83476",
     "olt": "OLT_COTIA_02",
@@ -8935,7 +8851,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "",
+      "whatsapp": "(11) 94489-2634",
       "celular": "(11) 94489-2634",
       "comercial": ""
     }
@@ -8990,7 +8906,7 @@
     "ponid": "0/4/13",
     "mac": "485754433C4CFDA9",
     "rx": "-23.10",
-    "tx": "-30.46",
+    "tx": "-30.00",
     "endereco": {
       "rua": "R. Agostinho dos Santos",
       "numero": "144",
@@ -9011,7 +8927,7 @@
     "ponid": "0/6/8",
     "mac": "48575443ADAE3EA7",
     "rx": "-28.54",
-    "tx": "-30.46",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua José de Andrade",
       "numero": "12",
@@ -9094,7 +9010,7 @@
     "login": "56760",
     "ponid": "0/1/9",
     "mac": "48575443798449AA",
-    "rx": "-27.44",
+    "rx": "-27.69",
     "tx": "-33.98",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
@@ -9136,8 +9052,8 @@
     "login": "56704",
     "ponid": "0/1/9",
     "mac": "485754433C4A25A9",
-    "rx": "-23.56",
-    "tx": "-30.46",
+    "rx": "-23.46",
+    "tx": "-30.97",
     "endereco": {
       "rua": "Rua Ranza",
       "numero": "109",
@@ -9214,35 +9130,14 @@
     }
   },
   {
-    "id_cliente": "53630",
-    "id_contrato": "80029",
-    "olt": "OLT_CCDA_01",
-    "login": "56440",
-    "ponid": "0/10/1",
-    "mac": "485754438C4109A4",
-    "rx": "-25.68",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Jorge Caixe",
-      "numero": "246",
-      "bairro": "Jardim Nomura"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 94762-5314",
-      "comercial": "(11) 2774-3362"
-    }
-  },
-  {
     "id_cliente": "55045",
     "id_contrato": "81741",
     "olt": "OLT_TRMS_01",
     "login": "55754",
     "ponid": "0/12/9",
     "mac": "48575443D79A89A7",
-    "rx": "-28.86",
-    "tx": "-35.23",
+    "rx": "-24.68",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Codorna",
       "numero": "54",
@@ -9262,7 +9157,7 @@
     "login": "55761",
     "ponid": "0/1/1",
     "mac": "48575443AD4F23A7",
-    "rx": "-25.53",
+    "rx": "-25.68",
     "tx": "-32.22",
     "endereco": {
       "rua": "Rua Nemitala",
@@ -9325,8 +9220,8 @@
     "login": "55758",
     "ponid": "0/12/14",
     "mac": "48575443D7A176A7",
-    "rx": "-29.21",
-    "tx": "-31.55",
+    "rx": "-29.58",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Rua Silva Teles",
       "numero": "01",
@@ -9334,7 +9229,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "(11) 91618-3388",
+      "whatsapp": "",
       "celular": "(11) 97565-6987",
       "comercial": "(11) 91422-9622"
     }
@@ -9388,8 +9283,8 @@
     "login": "55434",
     "ponid": "0/3/10",
     "mac": "48575443D79835A7",
-    "rx": "-28.86",
-    "tx": "-30.58",
+    "rx": "-30.96",
+    "tx": "-33.02",
     "endereco": {
       "rua": "Rua Horácio de Mello",
       "numero": "100",
@@ -9487,27 +9382,6 @@
     }
   },
   {
-    "id_cliente": "39036",
-    "id_contrato": "62852",
-    "olt": "OLT_TRMS_02",
-    "login": "37534",
-    "ponid": "0/1/10",
-    "mac": "46524B572369E5E3",
-    "rx": "-23.18",
-    "tx": "-30.46",
-    "endereco": {
-      "rua": "Rua Francisco Alves",
-      "numero": "325",
-      "bairro": "Parque Mirante da Mata"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97086-0236",
-      "celular": "(11) 97086-0236",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "49407",
     "id_contrato": "75048",
     "olt": "OLT_COTIA_01_ANTIGA",
@@ -9586,7 +9460,7 @@
     },
     "contatos": {
       "contato": "",
-      "whatsapp": "(11) 93044-2039",
+      "whatsapp": "(11) 98875-6232",
       "celular": "(11) 93044-2039",
       "comercial": ""
     }
@@ -9703,8 +9577,8 @@
     "login": "53621",
     "ponid": "0/6/14",
     "mac": "48575443D7AA0AA7",
-    "rx": "-26.38",
-    "tx": "-30.97",
+    "rx": "-26.77",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Rua da Paz",
       "numero": "79",
@@ -9766,7 +9640,7 @@
     "login": "53731",
     "ponid": "0/6/14",
     "mac": "48575443D7A7ADA7",
-    "rx": "-27.96",
+    "rx": "-28.54",
     "tx": "-33.98",
     "endereco": {
       "rua": "Rua das Begônias",
@@ -9798,6 +9672,27 @@
       "contato": "",
       "whatsapp": "(11) 94517-3311",
       "celular": "(11) 94517-3311",
+      "comercial": ""
+    }
+  },
+  {
+    "id_cliente": "28618",
+    "id_contrato": "50265",
+    "olt": "OLT_TRMS_02",
+    "login": "26082",
+    "ponid": "0/4/9",
+    "mac": "48575443D791F4A7",
+    "rx": "-32.21",
+    "tx": "-35.23",
+    "endereco": {
+      "rua": "Av Santa Paula",
+      "numero": "1465",
+      "bairro": "Jd Santa Paula"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "",
+      "celular": "(11) 94984-9908",
       "comercial": ""
     }
   },
@@ -9850,7 +9745,7 @@
     "login": "53315",
     "ponid": "0/2/4",
     "mac": "48575443D78CDBA7",
-    "rx": "-28.86",
+    "rx": "-28.54",
     "tx": "-33.98",
     "endereco": {
       "rua": "Rua Zaire",
@@ -9892,8 +9787,8 @@
     "login": "53079",
     "ponid": "0/14/14",
     "mac": "48575443F47D8BA6",
-    "rx": "-29.21",
-    "tx": "-32.22",
+    "rx": "-30.00",
+    "tx": "-33.98",
     "endereco": {
       "rua": "Estrada Morro Grande",
       "numero": "696",
@@ -9925,27 +9820,6 @@
       "whatsapp": "(11) 94123-8210",
       "celular": "(12) 98117-8958",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "52676",
-    "id_contrato": "78846",
-    "olt": "OLT_COTIA_03",
-    "login": "52953",
-    "ponid": "0/7/9",
-    "mac": "48575443D78B1FA7",
-    "rx": "-29.58",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Rua Mário Andreatini",
-      "numero": "253",
-      "bairro": "Graça"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 95448-3822",
-      "celular": "(11) 95448-3822",
-      "comercial": "(11) 96832-8296"
     }
   },
   {
@@ -9987,27 +9861,6 @@
       "contato": "",
       "whatsapp": "(11) 91008-8152",
       "celular": "(11) 91008-8152",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "21975",
-    "id_contrato": "38275",
-    "olt": "OLT_COTIA_01",
-    "login": "5708",
-    "ponid": "0/5/5",
-    "mac": "48575443F47BDBA6",
-    "rx": "-32.21",
-    "tx": "-30.97",
-    "endereco": {
-      "rua": "Rua Patativa",
-      "numero": "78",
-      "bairro": "Quinta dos ?ngicos"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97590-6735",
-      "celular": "(11) 99564-0345",
       "comercial": ""
     }
   },
@@ -10434,9 +10287,9 @@
   {
     "id_cliente": "2368",
     "id_contrato": "51834",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "6497",
-    "ponid": "0/13/15",
+    "ponid": "0/7/7",
     "mac": "46494F475400EEE1",
     "rx": "-26.38",
     "tx": "-32.22",
@@ -10606,8 +10459,8 @@
     "login": "49239",
     "ponid": "0/4/15",
     "mac": "48575443E66F42B4",
-    "rx": "-23.66",
-    "tx": "-30.46",
+    "rx": "-23.87",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Marquês de Pascais",
       "numero": "365",
@@ -10617,27 +10470,6 @@
       "contato": "",
       "whatsapp": "(11) 99254-6092",
       "celular": "(11) 97196-9815",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "49019",
-    "id_contrato": "74578",
-    "olt": "OLT_COTIA_01",
-    "login": "48898",
-    "ponid": "0/6/7",
-    "mac": "46524B5727826ED6",
-    "rx": "-28.86",
-    "tx": "-31.55",
-    "endereco": {
-      "rua": "Avenida Tore Albert Munck",
-      "numero": "445",
-      "bairro": "Jardim Leonor"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(06) 19846-57286",
-      "celular": "(61) 98465-7286",
       "comercial": ""
     }
   },
@@ -10890,27 +10722,6 @@
       "contato": "",
       "whatsapp": "(11) 97213-3446",
       "celular": "(11) 97213-3446",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "46409",
-    "id_contrato": "71530",
-    "olt": "OLT_COTIA_02",
-    "login": "45952",
-    "ponid": "0/7/0",
-    "mac": "46524B5727827EA8",
-    "rx": "-29.58",
-    "tx": "-36.99",
-    "endereco": {
-      "rua": "Rua das Flores",
-      "numero": "251",
-      "bairro": "Chácara das Rosas"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 96289-1007",
       "comercial": ""
     }
   },
@@ -11278,7 +11089,7 @@
     "login": "43618",
     "ponid": "0/10/10",
     "mac": "46524B57276B808B",
-    "rx": "-25.85",
+    "rx": "-26.19",
     "tx": "-33.98",
     "endereco": {
       "rua": "Estrada do Lutero",
@@ -11657,7 +11468,7 @@
     "ponid": "0/3/0",
     "mac": "48575443879C6E7F",
     "rx": "-23.10",
-    "tx": "-30.46",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Uganda",
       "numero": "920",
@@ -11734,6 +11545,27 @@
     }
   },
   {
+    "id_cliente": "43044",
+    "id_contrato": "67565",
+    "olt": "OLT_COTIA_01",
+    "login": "42091",
+    "ponid": "0/14/2",
+    "mac": "46494F4754011B77",
+    "rx": "0.00",
+    "tx": "-35.23",
+    "endereco": {
+      "rua": "Estrada Babilônia",
+      "numero": "33",
+      "bairro": "Capuava"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99960-0146",
+      "celular": "(11) 99960-0146",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "42924",
     "id_contrato": "67430",
     "olt": "OLT_COTIA_05",
@@ -11755,27 +11587,6 @@
     }
   },
   {
-    "id_cliente": "11157",
-    "id_contrato": "18728",
-    "olt": "OLT_COTIA_03",
-    "login": "14014",
-    "ponid": "0/11/7",
-    "mac": "46524B57276BB173",
-    "rx": "-22.59",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Rua Santo Agostinho",
-      "numero": "73",
-      "bairro": "Jardim Sao Miguel"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 94702-3850",
-      "celular": "(11) 94702-3850",
-      "comercial": "(11) 94762-6118"
-    }
-  },
-  {
     "id_cliente": "42648",
     "id_contrato": "67095",
     "olt": "OLT_COTIA_02",
@@ -11794,27 +11605,6 @@
       "whatsapp": "(11) 95202-3794",
       "celular": "(11) 95202-3794",
       "comercial": "(11) 99343-8244"
-    }
-  },
-  {
-    "id_cliente": "42496",
-    "id_contrato": "96282",
-    "olt": "OLT_COTIA_03",
-    "login": "69454",
-    "ponid": "0/7/9",
-    "mac": "46524B57236A1F73",
-    "rx": "-30.00",
-    "tx": "-33.98",
-    "endereco": {
-      "rua": "Rua Mário Andreatini",
-      "numero": "253",
-      "bairro": "Graça"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99190-0091",
-      "celular": "(11) 99190-0091",
-      "comercial": ""
     }
   },
   {
@@ -11845,7 +11635,7 @@
     "login": "39771",
     "ponid": "0/6/8",
     "mac": "46494F475400C4AF",
-    "rx": "-30.00",
+    "rx": "-30.96",
     "tx": "-30.00",
     "endereco": {
       "rua": "Rua Nelson Raineri",
@@ -11992,8 +11782,8 @@
     "login": "30645",
     "ponid": "0/13/1",
     "mac": "46524B57236A1AE5",
-    "rx": "-30.00",
-    "tx": "-30.97",
+    "rx": "-30.45",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Nova Trindade",
       "numero": "200",
@@ -12135,7 +11925,7 @@
     "ponid": "0/13/14",
     "mac": "46524B57236AA1E3",
     "rx": "-26.77",
-    "tx": "-33.02",
+    "tx": "-35.23",
     "endereco": {
       "rua": "Rua Lagoa do Abaeté",
       "numero": "72",
@@ -12214,9 +12004,9 @@
   {
     "id_cliente": "40494",
     "id_contrato": "64567",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "39189",
-    "ponid": "0/14/7",
+    "ponid": "0/7/15",
     "mac": "46524B57236A7EF7",
     "rx": "-27.95",
     "tx": "-30.00",
@@ -12355,27 +12145,6 @@
       "contato": "",
       "whatsapp": "",
       "celular": "(11) 99176-3461",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "19792",
-    "id_contrato": "63435",
-    "olt": "OLT_TRMS_01",
-    "login": "38094",
-    "ponid": "0/2/2",
-    "mac": "485754436434B79D",
-    "rx": "-32.21",
-    "tx": "-33.02",
-    "endereco": {
-      "rua": "Rua José Celestino Saad",
-      "numero": "245",
-      "bairro": "Jd.Ísis"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 95551-8503",
       "comercial": ""
     }
   },
@@ -12569,6 +12338,27 @@
     }
   },
   {
+    "id_cliente": "20870",
+    "id_contrato": "35992",
+    "olt": "OLT_COTIA_01",
+    "login": "5497",
+    "ponid": "0/2/10",
+    "mac": "48575443086FC19E",
+    "rx": "-26.99",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Olimpia Maria da Conceição",
+      "numero": "52",
+      "bairro": "Parque São Leonardo"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 97498-4442",
+      "celular": "(11) 99746-6876",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "23953",
     "id_contrato": "42173",
     "olt": "OLT_COTIA_02",
@@ -12617,7 +12407,7 @@
     "login": "25002",
     "ponid": "0/7/11",
     "mac": "485754432C10C0A3",
-    "rx": "-29.58",
+    "rx": "-30.45",
     "tx": "-30.97",
     "endereco": {
       "rua": "Estrada do DAE",
@@ -12639,7 +12429,7 @@
     "ponid": "0/1/5",
     "mac": "4544435260941360",
     "rx": "-25.24",
-    "tx": "-30.00",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Rezende",
       "numero": "22",
@@ -12905,48 +12695,6 @@
     }
   },
   {
-    "id_cliente": "35848",
-    "id_contrato": "59058",
-    "olt": "OLT_COTIA_02",
-    "login": "33958",
-    "ponid": "0/4/6",
-    "mac": "46524B57235F503B",
-    "rx": "-28.86",
-    "tx": "-30.97",
-    "endereco": {
-      "rua": "Rua Chang Sheng Kai - Blia",
-      "numero": "559",
-      "bairro": "Parque Rincão"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11) 99713-3504",
-      "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "14693",
-    "id_contrato": "25395",
-    "olt": "OLT_COTIA_01",
-    "login": "18984",
-    "ponid": "0/2/14",
-    "mac": "46494F47540072D5",
-    "rx": "-29.58",
-    "tx": "-31.55",
-    "endereco": {
-      "rua": "Avenida Ecologista de João de Oliveira Ramos de Sá",
-      "numero": "761",
-      "bairro": "Perove"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99519-9448",
-      "celular": "(11) 99519-9448",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "35914",
     "id_contrato": "59138",
     "olt": "OLT_COTIA_01_ANTIGA",
@@ -13121,8 +12869,8 @@
     "login": "32680",
     "ponid": "0/1/9",
     "mac": "4857544329CD19A3",
-    "rx": "-25.68",
-    "tx": "-30.46",
+    "rx": "-26.02",
+    "tx": "-30.00",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
       "numero": "373",
@@ -13205,8 +12953,8 @@
     "login": "32168",
     "ponid": "0/1/9",
     "mac": "48575443848A35A2",
-    "rx": "-24.43",
-    "tx": "-31.55",
+    "rx": "-24.20",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
       "numero": "350",
@@ -13416,7 +13164,7 @@
     "ponid": "0/10/10",
     "mac": "485754431D9351A1",
     "rx": "-27.69",
-    "tx": "-30.00",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Est.do Lutero",
       "numero": "65",
@@ -13530,6 +13278,27 @@
     }
   },
   {
+    "id_cliente": "31366",
+    "id_contrato": "53600",
+    "olt": "OLT_CPTR_01",
+    "login": "29003",
+    "ponid": "0/4/7",
+    "mac": "485754431B12637F",
+    "rx": "-23.46",
+    "tx": "-30.04",
+    "endereco": {
+      "rua": "Estrada Tanabe",
+      "numero": "72",
+      "bairro": "Ressaca"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 94775-1636",
+      "celular": "(11) 94775-1636",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "31063",
     "id_contrato": "53217",
     "olt": "OLT_EMBU_01",
@@ -13557,8 +13326,8 @@
     "login": "10879",
     "ponid": "0/4/13",
     "mac": "485754431B81BB7F",
-    "rx": "-24.68",
-    "tx": "-30.97",
+    "rx": "-24.81",
+    "tx": "-30.46",
     "endereco": {
       "rua": "Rua Agostinho dos Santos",
       "numero": "17",
@@ -13595,9 +13364,9 @@
   {
     "id_cliente": "29158",
     "id_contrato": "50943",
-    "olt": "OLT_COTIA_04",
+    "olt": "OLT_COTIA_05",
     "login": "26650",
-    "ponid": "0/14/1",
+    "ponid": "0/7/9",
     "mac": "48575443A6FEEF9F",
     "rx": "-28.24",
     "tx": "-30.00",
@@ -13950,27 +13719,6 @@
     }
   },
   {
-    "id_cliente": "19286",
-    "id_contrato": "32884",
-    "olt": "OLT_COTIA_02",
-    "login": "22970",
-    "ponid": "0/12/15",
-    "mac": "485754438C94E89D",
-    "rx": "-29.58",
-    "tx": "-31.55",
-    "endereco": {
-      "rua": "Rua Doutora Aparecida Fernandes de Jesus Domingues",
-      "numero": "583",
-      "bairro": "Bairro Jardim Nossa Senhora das Graças"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 97691-4564",
-      "celular": "(11) 97691-4564",
-      "comercial": ""
-    }
-  },
-  {
     "id_cliente": "7815",
     "id_contrato": "12019",
     "olt": "OLT_COTIA_02",
@@ -14160,27 +13908,6 @@
     }
   },
   {
-    "id_cliente": "2154",
-    "id_contrato": "1995",
-    "olt": "OLT_TRMS_01",
-    "login": "8111",
-    "ponid": "0/16/13",
-    "mac": "46494F475400F84F",
-    "rx": "-32.21",
-    "tx": "-30.00",
-    "endereco": {
-      "rua": "Estrada dos Fischer's",
-      "numero": "1357",
-      "bairro": "Jardim Sandra"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "(11) 99598-7389",
-      "celular": "(11) 99598-7389",
-      "comercial": "(11) 99947-7781"
-    }
-  },
-  {
     "id_cliente": "15623",
     "id_contrato": "27256",
     "olt": "OLT_TRMS_01",
@@ -14241,27 +13968,6 @@
       "whatsapp": "(11) 97107-2948",
       "celular": "(11) 97107-2948",
       "comercial": ""
-    }
-  },
-  {
-    "id_cliente": "3471",
-    "id_contrato": "3783",
-    "olt": "OLT_COTIA_03",
-    "login": "7291",
-    "ponid": "0/7/4",
-    "mac": "46494F475400B497",
-    "rx": "-30.45",
-    "tx": "-32.22",
-    "endereco": {
-      "rua": "R .Ziembinsky",
-      "numero": "102",
-      "bairro": "Jd.Nossa Sra das Graças"
-    },
-    "contatos": {
-      "contato": "",
-      "whatsapp": "",
-      "celular": "(11",
-      "comercial": "(11) 95302-4546"
     }
   },
   {
@@ -14629,7 +14335,7 @@
     "ponid": "0/1/14",
     "mac": "48575443EBB1BD9F",
     "rx": "-25.85",
-    "tx": "-30.46",
+    "tx": "-30.97",
     "endereco": {
       "rua": "R. Serra do Dourador",
       "numero": "227",
@@ -14666,9 +14372,9 @@
   {
     "id_cliente": "23537",
     "id_contrato": "41365",
-    "olt": "OLT_COTIA_02",
+    "olt": "OLT_COTIA_05",
     "login": "3193",
-    "ponid": "0/10/11",
+    "ponid": "0/15/3",
     "mac": "485754436E32C49C",
     "rx": "-27.69",
     "tx": "-33.02",
@@ -15105,6 +14811,27 @@
     }
   },
   {
+    "id_cliente": "12726",
+    "id_contrato": "21499",
+    "olt": "OLT_TRMS_02",
+    "login": "16995",
+    "ponid": "0/4/13",
+    "mac": "41534B590005EA60",
+    "rx": "-22.01",
+    "tx": "-30.46",
+    "endereco": {
+      "rua": "Rua Agostinho dos Santos",
+      "numero": "58",
+      "bairro": "Parque Mirante da Mata"
+    },
+    "contatos": {
+      "contato": "",
+      "whatsapp": "(11) 99940-0950",
+      "celular": "(11) 99940-0950",
+      "comercial": ""
+    }
+  },
+  {
     "id_cliente": "18239",
     "id_contrato": "30877",
     "olt": "OLT_COTIA_01_ANTIGA",
@@ -15384,8 +15111,8 @@
     "login": "23725",
     "ponid": "0/2/14",
     "mac": "485754432AD5849D",
-    "rx": "-26.57",
-    "tx": "-30.97",
+    "rx": "-26.38",
+    "tx": "-31.55",
     "endereco": {
       "rua": "Rua Nigéria",
       "numero": "54",

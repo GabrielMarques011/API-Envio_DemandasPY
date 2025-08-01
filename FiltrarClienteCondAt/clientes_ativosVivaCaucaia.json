@@ -1,0 +1,90 @@
+[
+  {
+    "id_cliente": "82105",
+    "nome": "Joslaine Sales da Silva",
+    "cpf_cnpj": "537.803.018-81",
+    "telefone_comercial": "(11) 95595-0821",
+    "telefone_celular": "(11) 91407-0240",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "81344",
+    "nome": "Adriano José da Silva",
+    "cpf_cnpj": "008.191.434-21",
+    "telefone_comercial": "(11) 96714-5470",
+    "telefone_celular": "(11) 95306-9573",
+    "whatsapp": "(11) 96714-5470"
+  },
+  {
+    "id_cliente": "80964",
+    "nome": "Sara Rodrigues Palma",
+    "cpf_cnpj": "473.719.808-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96393-3519",
+    "whatsapp": "(11) 96393-3519"
+  },
+  {
+    "id_cliente": "78623",
+    "nome": "Marvley Alves Batista",
+    "cpf_cnpj": "333.483.468-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99682-4483",
+    "whatsapp": "(11) 99682-4483"
+  },
+  {
+    "id_cliente": "76532",
+    "nome": "Fábio Soares da Silva",
+    "cpf_cnpj": "184.195.958-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94701-9277",
+    "whatsapp": "(11) 98846-5679"
+  },
+  {
+    "id_cliente": "74544",
+    "nome": "Danielly Santiago dos Santos",
+    "cpf_cnpj": "473.680.838-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94867-2298",
+    "whatsapp": "(11) 94867-2298"
+  },
+  {
+    "id_cliente": "73430",
+    "nome": "Lilian de Sena Souza Rodrigues Oliveira",
+    "cpf_cnpj": "762.478.808-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(13) 99640-6503",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "73137",
+    "nome": "Andreia Alves Gomes Rabelo",
+    "cpf_cnpj": "362.696.958-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94453-9322",
+    "whatsapp": "(11) 94453-9322"
+  },
+  {
+    "id_cliente": "71747",
+    "nome": "Filomena Aparecida Aranha",
+    "cpf_cnpj": "068.296.368-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99800-5518",
+    "whatsapp": "(11) 91322-2736"
+  },
+  {
+    "id_cliente": "71415",
+    "nome": "Luciana Torres Blaia da Silva",
+    "cpf_cnpj": "476.997.118-40",
+    "telefone_comercial": "(18) 99164-3299",
+    "telefone_celular": "(18) 99129-5069",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "59786",
+    "nome": "Juliana Souza de Oliveira",
+    "cpf_cnpj": "329.851.328-86",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94356-8214",
+    "whatsapp": "(11) 93713-0935"
+  }
+]

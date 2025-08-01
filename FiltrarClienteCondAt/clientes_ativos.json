@@ -1,0 +1,4594 @@
+[
+  {
+    "id_cliente": "87000",
+    "nome": "Vitor Lamano",
+    "cpf_cnpj": "670.468.518-91",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95311-8397",
+    "whatsapp": "(11) 95311-8397"
+  },
+  {
+    "id_cliente": "86947",
+    "nome": "Luciana Santos de Sousa",
+    "cpf_cnpj": "316.460.968-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96990-4092",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "86732",
+    "nome": "Elany Cristina Fernandes do Nascimento",
+    "cpf_cnpj": "110.084.624-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96089-6188",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "86688",
+    "nome": "Leticia de Souza Laborão",
+    "cpf_cnpj": "452.626.208-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94002-0578",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "85629",
+    "nome": "Marçal de Mancilha Junior",
+    "cpf_cnpj": "307.075.438-43",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95666-9621",
+    "whatsapp": "(11) 95666-9621"
+  },
+  {
+    "id_cliente": "85386",
+    "nome": "Michael Esteves Santos",
+    "cpf_cnpj": "338.082.388-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99855-3278",
+    "whatsapp": "(11) 99855-3278"
+  },
+  {
+    "id_cliente": "85326",
+    "nome": "Klisman Santos de Souza",
+    "cpf_cnpj": "453.923.448-01",
+    "telefone_comercial": "(11) 99590-0798",
+    "telefone_celular": "(11) 95316-1427",
+    "whatsapp": "(11) 95316-1427"
+  },
+  {
+    "id_cliente": "85150",
+    "nome": "Alberto Rampazzo Filho",
+    "cpf_cnpj": "091.910.988-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(47) 99907-6657",
+    "whatsapp": "(47) 99907-6657"
+  },
+  {
+    "id_cliente": "84847",
+    "nome": "Monique Fernanda Citadini",
+    "cpf_cnpj": "384.348.918-16",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96627-8571",
+    "whatsapp": "(11) 96506-5885"
+  },
+  {
+    "id_cliente": "84295",
+    "nome": "Daiane Oliveira Vieira",
+    "cpf_cnpj": "065.716.005-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95892-5489",
+    "whatsapp": "(11) 95892-5489"
+  },
+  {
+    "id_cliente": "83862",
+    "nome": "Fabio Joaquim Macedo Silva",
+    "cpf_cnpj": "704.308.751-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(62) 99287-9035",
+    "whatsapp": "(62) 99287-9035"
+  },
+  {
+    "id_cliente": "83740",
+    "nome": "Joao Paulo Bastos da Costa",
+    "cpf_cnpj": "035.480.003-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96369-6402",
+    "whatsapp": "(11) 96369-9402"
+  },
+  {
+    "id_cliente": "83607",
+    "nome": "Sueli da Rocha Queiroz",
+    "cpf_cnpj": "227.131.428-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95242-5927",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "83579",
+    "nome": "Jeferson Francisco Rosa",
+    "cpf_cnpj": "073.089.845-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95134-1218",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "83520",
+    "nome": "João Paulo De Freitas Xavier Silva",
+    "cpf_cnpj": "428.204.538-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91175-9522",
+    "whatsapp": "(11) 91175-9522"
+  },
+  {
+    "id_cliente": "83438",
+    "nome": "Everton Rodrigues Nascimento",
+    "cpf_cnpj": "385.090.058-42",
+    "telefone_comercial": "(11) 97374-0314",
+    "telefone_celular": "(11) 96901-6542",
+    "whatsapp": "(11) 97374-0314"
+  },
+  {
+    "id_cliente": "83125",
+    "nome": "Marcos Luiz do Nascimento",
+    "cpf_cnpj": "060.189.658-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98053-8726",
+    "whatsapp": "(11) 98053-8726"
+  },
+  {
+    "id_cliente": "82994",
+    "nome": "Lucas Nunes Delfino",
+    "cpf_cnpj": "409.995.398-09",
+    "telefone_comercial": "(11) 96444-8891",
+    "telefone_celular": "(11) 97632-6434",
+    "whatsapp": "(11) 97632-6434"
+  },
+  {
+    "id_cliente": "82879",
+    "nome": "Ana Carolina Gonçalves Felizardo",
+    "cpf_cnpj": "483.527.878-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94146-1894",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "82711",
+    "nome": "Rose Santos Mota",
+    "cpf_cnpj": "277.588.138-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93029-5971",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "82117",
+    "nome": "Igor Brito da Silva",
+    "cpf_cnpj": "709.888.541-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95955-4769",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "82088",
+    "nome": "Luis Alessandro da Silva",
+    "cpf_cnpj": "148.207.938-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96100-0864",
+    "whatsapp": "(11) 97654-0506"
+  },
+  {
+    "id_cliente": "81895",
+    "nome": "Tatiane Schattner Andrade",
+    "cpf_cnpj": "387.832.488-03",
+    "telefone_comercial": "(11) 95901-4759",
+    "telefone_celular": "(11) 97096-5305",
+    "whatsapp": "(11) 97096-5305"
+  },
+  {
+    "id_cliente": "81586",
+    "nome": "Estefani Clementino da Rocha",
+    "cpf_cnpj": "399.133.028-89",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93411-7421",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "81442",
+    "nome": "Jose Ricardo Santos Silva",
+    "cpf_cnpj": "228.324.618-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96645-4146",
+    "whatsapp": "(11) 96645-4146"
+  },
+  {
+    "id_cliente": "81419",
+    "nome": "Simone de Cassia Silva",
+    "cpf_cnpj": "299.820.608-56",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91747-6869",
+    "whatsapp": "(11) 91671-3833"
+  },
+  {
+    "id_cliente": "81339",
+    "nome": "Matheus de Oliveira Lopes",
+    "cpf_cnpj": "446.727.838-98",
+    "telefone_comercial": "(11) 99405-3395",
+    "telefone_celular": "(11) 99405-3395",
+    "whatsapp": "(11) 99410-0221"
+  },
+  {
+    "id_cliente": "81031",
+    "nome": "Anizio Sousa Silva",
+    "cpf_cnpj": "269.203.538-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96263-8822",
+    "whatsapp": "(11) 96263-8822"
+  },
+  {
+    "id_cliente": "80945",
+    "nome": "Eliel dos Santos",
+    "cpf_cnpj": "140.738.108-39",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98228-9222",
+    "whatsapp": "(11) 98228-9222"
+  },
+  {
+    "id_cliente": "80848",
+    "nome": "Christian da Silva Aires",
+    "cpf_cnpj": "150.540.177-12",
+    "telefone_comercial": "(22) 98845-9182",
+    "telefone_celular": "(61) 98126-2831",
+    "whatsapp": "(06) 19812-62831"
+  },
+  {
+    "id_cliente": "80534",
+    "nome": "Jonatas Santos Dos Nascimentos",
+    "cpf_cnpj": "367.882.118-92",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98327-7604",
+    "whatsapp": "(11) 98327-7604"
+  },
+  {
+    "id_cliente": "80272",
+    "nome": "Fabiano Douglas de Souza",
+    "cpf_cnpj": "286.754.398-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97688-1679",
+    "whatsapp": "(11) 97688-1679"
+  },
+  {
+    "id_cliente": "80263",
+    "nome": "Larissa de Azevedo Barros",
+    "cpf_cnpj": "468.930.018-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99977-9740",
+    "whatsapp": "(11) 99977-9740"
+  },
+  {
+    "id_cliente": "80229",
+    "nome": "Arlene Alves da Cruz",
+    "cpf_cnpj": "227.089.328-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99002-9761",
+    "whatsapp": "(11) 99129-2555"
+  },
+  {
+    "id_cliente": "80082",
+    "nome": "Glailton Rodrigues Da Silva",
+    "cpf_cnpj": "382.275.998-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95986-5289",
+    "whatsapp": "(11) 95986-5289"
+  },
+  {
+    "id_cliente": "79931",
+    "nome": "Jean Jesus de Souza",
+    "cpf_cnpj": "394.445.108-24",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95466-2131",
+    "whatsapp": "(11) 95466-2131"
+  },
+  {
+    "id_cliente": "79874",
+    "nome": "Amanda Beatriz Costa",
+    "cpf_cnpj": "398.335.248-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(12) 98169-0426",
+    "whatsapp": "(12) 98169-0426"
+  },
+  {
+    "id_cliente": "79812",
+    "nome": "Thamiris Mota Santos",
+    "cpf_cnpj": "471.659.028-30",
+    "telefone_comercial": "(11) 94455-0414",
+    "telefone_celular": "(11) 94235-5614",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "79786",
+    "nome": "Gustavo Jota Silva",
+    "cpf_cnpj": "414.248.958-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95798-8671",
+    "whatsapp": "(11) 95798-8671"
+  },
+  {
+    "id_cliente": "79525",
+    "nome": "Raimundo Ferreira Messias",
+    "cpf_cnpj": "762.778.523-53",
+    "telefone_comercial": "(11) 91265-6813",
+    "telefone_celular": "(11) 96243-0825",
+    "whatsapp": "(11) 96243-0825"
+  },
+  {
+    "id_cliente": "79380",
+    "nome": "Leonardo Lemos de Almeida",
+    "cpf_cnpj": "452.284.378-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98951-6901",
+    "whatsapp": "(11) 98951-6901"
+  },
+  {
+    "id_cliente": "79169",
+    "nome": "Anderson Cesar de Castro",
+    "cpf_cnpj": "439.411.648-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98984-2847",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "79116",
+    "nome": "Flavio Justino da Silva",
+    "cpf_cnpj": "329.520.108-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97160-3235",
+    "whatsapp": "(11) 92090-0697"
+  },
+  {
+    "id_cliente": "78984",
+    "nome": "Edisio Pereira Alves",
+    "cpf_cnpj": "155.680.588-81",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93416-3292",
+    "whatsapp": "(11) 93416-3292"
+  },
+  {
+    "id_cliente": "78572",
+    "nome": "Natalia de Almeida Ribeiro",
+    "cpf_cnpj": "446.268.558-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99021-2784",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "78570",
+    "nome": "Elizandra Pompilio",
+    "cpf_cnpj": "177.023.818-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96438-1013",
+    "whatsapp": "(11) 96438-1013"
+  },
+  {
+    "id_cliente": "78522",
+    "nome": "Caio Santos da Silva",
+    "cpf_cnpj": "431.103.328-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94043-7371",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "78452",
+    "nome": "Kheysin Hellen Alves Nascimento Ribeiro",
+    "cpf_cnpj": "326.516.378-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99235-4218",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "78405",
+    "nome": "Gilson Santos Pereira",
+    "cpf_cnpj": "126.900.925-73",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96179-4673",
+    "whatsapp": "(11) 96179-4673"
+  },
+  {
+    "id_cliente": "78292",
+    "nome": "Diego Alves Vicente",
+    "cpf_cnpj": "467.304.458-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95207-6374",
+    "whatsapp": "(11) 95207-6374"
+  },
+  {
+    "id_cliente": "77357",
+    "nome": "Jaciara Cerbel dos Santos",
+    "cpf_cnpj": "464.167.808-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95952-4083",
+    "whatsapp": "(11) 95952-4083"
+  },
+  {
+    "id_cliente": "76832",
+    "nome": "Maria José Pereira Das Neves",
+    "cpf_cnpj": "029.199.785-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97986-5940",
+    "whatsapp": "(11) 96207-7852"
+  },
+  {
+    "id_cliente": "76660",
+    "nome": "Beatriz Soares Melim da Rocha",
+    "cpf_cnpj": "527.979.448-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94190-3053",
+    "whatsapp": "(11) 96595-4264"
+  },
+  {
+    "id_cliente": "76518",
+    "nome": "Samantha",
+    "cpf_cnpj": "275.097.878-58",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99644-4320",
+    "whatsapp": "(11) 99644-4320"
+  },
+  {
+    "id_cliente": "76310",
+    "nome": "Lucilia Silva Costa",
+    "cpf_cnpj": "460.888.458-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99492-3828",
+    "whatsapp": "(11) 99492-3828"
+  },
+  {
+    "id_cliente": "76297",
+    "nome": "Ellen Cristina de Souza",
+    "cpf_cnpj": "305.272.628-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98537-1105",
+    "whatsapp": "(11) 98537-1105"
+  },
+  {
+    "id_cliente": "75787",
+    "nome": "Patricia Santos de Mendonça",
+    "cpf_cnpj": "299.754.198-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93706-4053",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "75634",
+    "nome": "Maria Daiane Batista Ruivo Silva",
+    "cpf_cnpj": "410.057.378-27",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97700-3986",
+    "whatsapp": "(11) 97700-3986"
+  },
+  {
+    "id_cliente": "75622",
+    "nome": "Renan Ruivo Silva",
+    "cpf_cnpj": "332.051.428-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97700-3986",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "75401",
+    "nome": "Maria José dos Santos",
+    "cpf_cnpj": "047.298.418-75",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99629-2162",
+    "whatsapp": "(11) 99629-2162"
+  },
+  {
+    "id_cliente": "75326",
+    "nome": "Maria Eduarda Oliveira Souza",
+    "cpf_cnpj": "496.611.498-52",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98882-8137",
+    "whatsapp": "(11) 98882-8137"
+  },
+  {
+    "id_cliente": "75286",
+    "nome": "Vanessa Oliveira de Jesus",
+    "cpf_cnpj": "458.767.418-41",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98348-9481",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "75143",
+    "nome": "Marcelo Marques Tindou",
+    "cpf_cnpj": "364.151.408-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96607-2471",
+    "whatsapp": "(11) 96607-2471"
+  },
+  {
+    "id_cliente": "74993",
+    "nome": "Flavio da Conceição Leite",
+    "cpf_cnpj": "320.193.138-12",
+    "telefone_comercial": "",
+    "telefone_celular": "(13) 99747-4500",
+    "whatsapp": "(01) 39974-74500"
+  },
+  {
+    "id_cliente": "74504",
+    "nome": "Rodrigo Vericio dos Santos",
+    "cpf_cnpj": "384.651.448-93",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95648-6822",
+    "whatsapp": "(11) 95648-6822"
+  },
+  {
+    "id_cliente": "74440",
+    "nome": "Carlos Henrique Mota da Silva",
+    "cpf_cnpj": "807.355.503-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97567-3218",
+    "whatsapp": "(11) 97567-3218"
+  },
+  {
+    "id_cliente": "74423",
+    "nome": "Henrique Fernandes Silva",
+    "cpf_cnpj": "389.257.918-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93013-9153",
+    "whatsapp": "(11) 94469-1192"
+  },
+  {
+    "id_cliente": "73554",
+    "nome": "Luciene Aparecida Da Rocha",
+    "cpf_cnpj": "454.521.638-24",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96739-5210",
+    "whatsapp": "(11) 96739-5210"
+  },
+  {
+    "id_cliente": "72797",
+    "nome": "José Batista do Nascimento",
+    "cpf_cnpj": "319.924.488-25",
+    "telefone_comercial": "(11) 96598-3430",
+    "telefone_celular": "(11) 94589-7424",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "72507",
+    "nome": "TAKE OFF CURSOS DE IDIOMAS LTDA",
+    "cpf_cnpj": "19.790.411/0001-56",
+    "telefone_comercial": "",
+    "telefone_celular": "(71) 99739-5302",
+    "whatsapp": "(07) 19913-95532"
+  },
+  {
+    "id_cliente": "71666",
+    "nome": "Lucas Felipe Gomes de Souza",
+    "cpf_cnpj": "426.427.998-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99777-0728",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "71151",
+    "nome": "Kaue Batista das Chagas",
+    "cpf_cnpj": "471.206.918-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99729-9299",
+    "whatsapp": "(11) 96477-6593"
+  },
+  {
+    "id_cliente": "71011",
+    "nome": "Aline Ribeiro da Silva",
+    "cpf_cnpj": "425.714.278-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(15) 99642-0464",
+    "whatsapp": "(11) 96475-6032"
+  },
+  {
+    "id_cliente": "70643",
+    "nome": "Ana Claudia Souza Santos",
+    "cpf_cnpj": "451.035.708-74",
+    "telefone_comercial": "(11) 91245-3832",
+    "telefone_celular": "(11) 95520-2101",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "70610",
+    "nome": "Viviane Soares Lima",
+    "cpf_cnpj": "460.680.698-26",
+    "telefone_comercial": "(11) 99761-5738",
+    "telefone_celular": "(11) 99559-3793",
+    "whatsapp": "(11) 93491-9693"
+  },
+  {
+    "id_cliente": "70420",
+    "nome": "Samuel Lucas Novaes da Silva",
+    "cpf_cnpj": "483.448.388-60",
+    "telefone_comercial": "(11) 95055-5200",
+    "telefone_celular": "(11) 95055-5200",
+    "whatsapp": "(11) 95055-5200"
+  },
+  {
+    "id_cliente": "70413",
+    "nome": "Washington Luiz de França Junior",
+    "cpf_cnpj": "364.332.578-95",
+    "telefone_comercial": "(11) 97976-9309",
+    "telefone_celular": "(11) 93051-8374",
+    "whatsapp": "(11) 97976-9309"
+  },
+  {
+    "id_cliente": "70408",
+    "nome": "Mateus de Oliveira Oliveira",
+    "cpf_cnpj": "087.610.405-76",
+    "telefone_comercial": "",
+    "telefone_celular": "(71) 99408-9352",
+    "whatsapp": "(71) 99408-9352"
+  },
+  {
+    "id_cliente": "70387",
+    "nome": "Vitor Almeida dos Angelos",
+    "cpf_cnpj": "358.788.148-03",
+    "telefone_comercial": "(11) 98378-7315",
+    "telefone_celular": "(11) 94575-6878",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "70336",
+    "nome": "Danilo Sales do Nascimento",
+    "cpf_cnpj": "374.204.918-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95285-9417",
+    "whatsapp": "(11) 95285-9417"
+  },
+  {
+    "id_cliente": "70215",
+    "nome": "Pamela Coutinho de Matos Cordeiro",
+    "cpf_cnpj": "423.398.858-41",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96370-6140",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "70118",
+    "nome": "Ruan Marins dos Santos",
+    "cpf_cnpj": "429.483.888-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99295-3150",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "70074",
+    "nome": "Vinicius Campana Pereira Silva",
+    "cpf_cnpj": "455.053.348-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99996-2002",
+    "whatsapp": "(11) 99996-2002"
+  },
+  {
+    "id_cliente": "69945",
+    "nome": "Gabriel Polis dos Santos",
+    "cpf_cnpj": "457.320.548-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97095-1350",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "69691",
+    "nome": "Andressa Cristina de Oliveira Marcelino",
+    "cpf_cnpj": "488.408.938-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94746-2065",
+    "whatsapp": "(11) 94023-9759"
+  },
+  {
+    "id_cliente": "69613",
+    "nome": "Henry Gabriel Francisco",
+    "cpf_cnpj": "496.635.788-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99420-7566",
+    "whatsapp": "(06) 29998-58258"
+  },
+  {
+    "id_cliente": "69495",
+    "nome": "Alisson Galdino Guerra",
+    "cpf_cnpj": "393.874.788-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94700-6466",
+    "whatsapp": "(11) 94700-6466"
+  },
+  {
+    "id_cliente": "69484",
+    "nome": "Daniel Coelho dos Santos",
+    "cpf_cnpj": "343.418.518-61",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91438-3373",
+    "whatsapp": "(11) 91438-3373"
+  },
+  {
+    "id_cliente": "69397",
+    "nome": "Douglas Aparecido dos Santos",
+    "cpf_cnpj": "056.563.144-64",
+    "telefone_comercial": "",
+    "telefone_celular": "(82) 99976-8005",
+    "whatsapp": "(82) 99976-8005"
+  },
+  {
+    "id_cliente": "69244",
+    "nome": "Jheniffer Silva Alves",
+    "cpf_cnpj": "232.749.928-36",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95455-4596",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "69162",
+    "nome": "Leandro Costa Amorim",
+    "cpf_cnpj": "328.178.908-09",
+    "telefone_comercial": "(11) 94055-5686",
+    "telefone_celular": "(11) 97079-0354",
+    "whatsapp": "(11) 97079-0354"
+  },
+  {
+    "id_cliente": "68939",
+    "nome": "Felipe da Silva Fogaça",
+    "cpf_cnpj": "448.837.868-46",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97092-2132",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "68891",
+    "nome": "Murilo Augusto Ferreira",
+    "cpf_cnpj": "508.033.168-28",
+    "telefone_comercial": "(11) 97423-7676",
+    "telefone_celular": "(11) 91276-8648",
+    "whatsapp": "(11) 97821-8460"
+  },
+  {
+    "id_cliente": "68237",
+    "nome": "Valdemir Lucas de Sousa",
+    "cpf_cnpj": "432.151.078-30",
+    "telefone_comercial": "(11) 98636-3047",
+    "telefone_celular": "(11) 98719-9834",
+    "whatsapp": "(11) 98719-9834"
+  },
+  {
+    "id_cliente": "68117",
+    "nome": "Alisson ",
+    "cpf_cnpj": "",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94700-6466",
+    "whatsapp": "(11) 94700-6466"
+  },
+  {
+    "id_cliente": "67931",
+    "nome": "Jonathan Amaro José Domingos",
+    "cpf_cnpj": "448.132.138-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94797-1518",
+    "whatsapp": "(11) 94797-1518"
+  },
+  {
+    "id_cliente": "67291",
+    "nome": "Camila de Lima Pereira",
+    "cpf_cnpj": "477.134.468-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99213-5201",
+    "whatsapp": "(11) 99213-5201"
+  },
+  {
+    "id_cliente": "67029",
+    "nome": "Debora",
+    "cpf_cnpj": "",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96765-9425",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "66966",
+    "nome": "Denise Machado Correia dos Santos",
+    "cpf_cnpj": "037.722.155-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99494-6124",
+    "whatsapp": "(11) 99494-6124"
+  },
+  {
+    "id_cliente": "66875",
+    "nome": "Francisco Raysson Oliveira Chagas",
+    "cpf_cnpj": "411.683.918-30",
+    "telefone_comercial": "(11) 99170-9200",
+    "telefone_celular": "(11) 98464-1162",
+    "whatsapp": "(11) 98464-1162"
+  },
+  {
+    "id_cliente": "66582",
+    "nome": "Flavia dos Santos Costa",
+    "cpf_cnpj": "217.214.828-81",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91243-4141",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "66112",
+    "nome": "Marco Aurelio Moreira da Silva",
+    "cpf_cnpj": "200.893.088-24",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97566-0307",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "66058",
+    "nome": "Felipe Zacarias Noronha Melo",
+    "cpf_cnpj": "485.739.788-99",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99385-1504",
+    "whatsapp": "(11) 98103-4660"
+  },
+  {
+    "id_cliente": "65480",
+    "nome": "Josileide Paz do Nascimento",
+    "cpf_cnpj": "349.178.558-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93277-2702",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "65406",
+    "nome": "Marcia Aparecida Texluk",
+    "cpf_cnpj": "180.185.368-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96307-3297",
+    "whatsapp": "(11) 96307-3297"
+  },
+  {
+    "id_cliente": "65259",
+    "nome": "Silas de Oliveira Bomfim",
+    "cpf_cnpj": "416.283.378-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91196-8519",
+    "whatsapp": "(11) 96670-9379"
+  },
+  {
+    "id_cliente": "65241",
+    "nome": "Erick da Silva Ezequiel",
+    "cpf_cnpj": "409.716.748-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94747-9004",
+    "whatsapp": "(11) 94747-9004"
+  },
+  {
+    "id_cliente": "65040",
+    "nome": "Rahoney de Paula Vieira",
+    "cpf_cnpj": "380.108.768-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98531-6787",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "64839",
+    "nome": "Sarah Luana Andrade Ribeiro",
+    "cpf_cnpj": "388.303.098-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95710-4187",
+    "whatsapp": "(11) 95710-4187"
+  },
+  {
+    "id_cliente": "64591",
+    "nome": "André Miranda de Araújo",
+    "cpf_cnpj": "407.207.978-29",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97066-0480",
+    "whatsapp": "(11) 97066-0480"
+  },
+  {
+    "id_cliente": "64470",
+    "nome": "Luiz Fernando da Silva Ramos",
+    "cpf_cnpj": "495.025.628-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98743-7801",
+    "whatsapp": "(11) 98743-7801"
+  },
+  {
+    "id_cliente": "64427",
+    "nome": "Sonia Maria da Silva Almeida",
+    "cpf_cnpj": "296.577.478-56",
+    "telefone_comercial": "(11) 91242-9295",
+    "telefone_celular": "(11) 99947-9994",
+    "whatsapp": "(11) 99947-9994"
+  },
+  {
+    "id_cliente": "63795",
+    "nome": "Lucas Santos Silva",
+    "cpf_cnpj": "460.515.528-71",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95333-2859",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "63482",
+    "nome": "Carlos Eduardo dos Santos Silva",
+    "cpf_cnpj": "270.589.208-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99622-8467",
+    "whatsapp": "(11) 99810-4613"
+  },
+  {
+    "id_cliente": "63458",
+    "nome": "Carlos ",
+    "cpf_cnpj": "",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99622-8467",
+    "whatsapp": "(11) 99622-8467"
+  },
+  {
+    "id_cliente": "62963",
+    "nome": "Paloma Barbosa Costa",
+    "cpf_cnpj": "448.273.288-54",
+    "telefone_comercial": "(11) 97960-1635",
+    "telefone_celular": "(11) 95235-8572",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "62917",
+    "nome": "Mariana Barboza Clementino",
+    "cpf_cnpj": "346.975.598-19",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98622-5396",
+    "whatsapp": "(11) 98622-5396"
+  },
+  {
+    "id_cliente": "62748",
+    "nome": "Rubens ",
+    "cpf_cnpj": "",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99467-5880",
+    "whatsapp": "(11) 99467-5880"
+  },
+  {
+    "id_cliente": "62572",
+    "nome": "Berenice",
+    "cpf_cnpj": "",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99535-7160",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "62231",
+    "nome": "Fernando Stanley Benah Silva",
+    "cpf_cnpj": "398.593.528-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93921-9111",
+    "whatsapp": "(11) 93921-9111"
+  },
+  {
+    "id_cliente": "62042",
+    "nome": "Claudia Ferreira de Souza Silva",
+    "cpf_cnpj": "392.341.918-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91726-4025",
+    "whatsapp": "(11) 91726-4025"
+  },
+  {
+    "id_cliente": "62006",
+    "nome": "Ana Paula Gonçalves de Oliveira",
+    "cpf_cnpj": "185.592.598-21",
+    "telefone_comercial": "(11) 96364-0803",
+    "telefone_celular": "(11) 99214-2965",
+    "whatsapp": "(11) 99214-2965"
+  },
+  {
+    "id_cliente": "61957",
+    "nome": "Kelli Cristina da Silva Martins",
+    "cpf_cnpj": "001.728.563-10",
+    "telefone_comercial": "(11) 9755-0178",
+    "telefone_celular": "(11) 91474-1341",
+    "whatsapp": "(11) 91474-1341"
+  },
+  {
+    "id_cliente": "61936",
+    "nome": "Alice Barbosa Gomes de Andrade",
+    "cpf_cnpj": "303.722.658-71",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98727-1347",
+    "whatsapp": "(11) 98727-1347"
+  },
+  {
+    "id_cliente": "61879",
+    "nome": "Beatriz Correia de Sousa",
+    "cpf_cnpj": "495.599.128-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96324-6242",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "61648",
+    "nome": "Marcos Vinícius Nogueira Amaral",
+    "cpf_cnpj": "535.376.638-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94985-1065",
+    "whatsapp": "(11) 94985-1065"
+  },
+  {
+    "id_cliente": "61607",
+    "nome": "Jonas Elcio de Souza",
+    "cpf_cnpj": "444.736.438-75",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97015-0721",
+    "whatsapp": "(11) 97015-0721"
+  },
+  {
+    "id_cliente": "61535",
+    "nome": "Lairson Pereira dos Santos Junior",
+    "cpf_cnpj": "539.905.898-73",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99500-9392",
+    "whatsapp": "(11) 99500-9392"
+  },
+  {
+    "id_cliente": "61365",
+    "nome": "Gabriela do Nascimento Silva",
+    "cpf_cnpj": "434.092.978-63",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94476-6995",
+    "whatsapp": "(11) 94476-6995"
+  },
+  {
+    "id_cliente": "61181",
+    "nome": "Hilario Carlos de Jesus Santos",
+    "cpf_cnpj": "181.817.488-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96116-4110",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "60871",
+    "nome": "David Dias dos Santos",
+    "cpf_cnpj": "380.216.398-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99857-6439",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "59871",
+    "nome": "Ademir Eduardo Pereira Leal",
+    "cpf_cnpj": "413.747.718-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97488-0886",
+    "whatsapp": "(11) 97488-0886"
+  },
+  {
+    "id_cliente": "59761",
+    "nome": "Marina Tavares da Silva",
+    "cpf_cnpj": "219.284.048-98",
+    "telefone_comercial": "(11) 97264-1853",
+    "telefone_celular": "(11) 96492-7531",
+    "whatsapp": "(11) 96492-7531"
+  },
+  {
+    "id_cliente": "59759",
+    "nome": "Gabriel Luis da Silva",
+    "cpf_cnpj": "372.374.158-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91236-2237",
+    "whatsapp": "(11) 91236-2237"
+  },
+  {
+    "id_cliente": "59505",
+    "nome": "Pedro Henrique Samuel da Silva Ferreira",
+    "cpf_cnpj": "425.212.778-51",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96909-9786",
+    "whatsapp": "(11) 96909-9786"
+  },
+  {
+    "id_cliente": "59482",
+    "nome": "Érica Santos de Oliveira",
+    "cpf_cnpj": "860.863.105-99",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94861-4638",
+    "whatsapp": "(11) 94861-4638"
+  },
+  {
+    "id_cliente": "59079",
+    "nome": "Victor Matheus Cardoso da Silva",
+    "cpf_cnpj": "454.617.888-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95487-7710",
+    "whatsapp": "(11) 95006-0139"
+  },
+  {
+    "id_cliente": "58833",
+    "nome": "Ana Lídia da Silva Santos",
+    "cpf_cnpj": "066.985.036-57",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96429-3937",
+    "whatsapp": "(11) 96429-3937"
+  },
+  {
+    "id_cliente": "58759",
+    "nome": "Katia Cristina Lopes da Silva",
+    "cpf_cnpj": "291.630.678-11",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98399-2615",
+    "whatsapp": "(11) 98399-2615"
+  },
+  {
+    "id_cliente": "58661",
+    "nome": "André Oliveira da Silva",
+    "cpf_cnpj": "314.592.798-16",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95724-7510",
+    "whatsapp": "(11) 93230-0287"
+  },
+  {
+    "id_cliente": "58620",
+    "nome": "Alexsandra Gonçalo Benhara",
+    "cpf_cnpj": "283.057.348-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94993-1650",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "58450",
+    "nome": "Cristiano José Alves de Souza",
+    "cpf_cnpj": "367.482.718-27",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97883-2003",
+    "whatsapp": "(11) 97883-2003"
+  },
+  {
+    "id_cliente": "58309",
+    "nome": "Carlos Henrique Liberato",
+    "cpf_cnpj": "409.864.218-20",
+    "telefone_comercial": "(11) 94204-5556",
+    "telefone_celular": "(11) 97565-2612",
+    "whatsapp": "(11) 97565-2612"
+  },
+  {
+    "id_cliente": "58116",
+    "nome": "Samara da Silva Arruda",
+    "cpf_cnpj": "373.337.818-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96467-4582",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "58021",
+    "nome": "Hernani Soares Junior",
+    "cpf_cnpj": "365.357.528-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98145-7236",
+    "whatsapp": "(11) 96964-1798"
+  },
+  {
+    "id_cliente": "57850",
+    "nome": "Iesus Machado Santos Barros",
+    "cpf_cnpj": "065.033.525-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(71) 98347-0401",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "57367",
+    "nome": "Aline Cristina Pereira",
+    "cpf_cnpj": "307.527.588-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99576-3020",
+    "whatsapp": "(11) 99576-3020"
+  },
+  {
+    "id_cliente": "57052",
+    "nome": "Danilo Nascimento Gonzaga",
+    "cpf_cnpj": "371.616.708-88",
+    "telefone_comercial": "(11) 98703-1855",
+    "telefone_celular": "(11) 94707-3938",
+    "whatsapp": "(11) 94707-3938"
+  },
+  {
+    "id_cliente": "56554",
+    "nome": "Brendo Camargo Wenceslau",
+    "cpf_cnpj": "453.075.708-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99153-6207",
+    "whatsapp": "(11) 99153-6207"
+  },
+  {
+    "id_cliente": "56364",
+    "nome": "Carlos Alberto dos Santos",
+    "cpf_cnpj": "338.304.248-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98277-9881",
+    "whatsapp": "(11) 98277-9881"
+  },
+  {
+    "id_cliente": "56260",
+    "nome": "Iraildes dos Reis",
+    "cpf_cnpj": "039.131.515-32",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98968-6074",
+    "whatsapp": "(11) 96931-6494"
+  },
+  {
+    "id_cliente": "56046",
+    "nome": "Bruno Felipe SantAna da Silva Santos",
+    "cpf_cnpj": "431.839.608-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95479-8921",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "55818",
+    "nome": "Elaine Rodrigues Correia",
+    "cpf_cnpj": "362.443.398-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94006-2433",
+    "whatsapp": "(11) 95811-8787"
+  },
+  {
+    "id_cliente": "55723",
+    "nome": "Fábio Fernandes de Oliveira",
+    "cpf_cnpj": "349.793.178-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(24) 99994-5163",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "55512",
+    "nome": "Otávio Leite de Oliveira Souza",
+    "cpf_cnpj": "397.271.348-74",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94393-7294",
+    "whatsapp": "(11) 94393-7294"
+  },
+  {
+    "id_cliente": "55481",
+    "nome": "Célia Rodrigues dos Santos",
+    "cpf_cnpj": "057.053.018-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98893-4053",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "55220",
+    "nome": "Henrique Oliveira de Araújo",
+    "cpf_cnpj": "035.105.591-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94265-6539",
+    "whatsapp": "(11) 94265-6539"
+  },
+  {
+    "id_cliente": "55169",
+    "nome": "Roni Batista da Silva",
+    "cpf_cnpj": "312.713.238-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99933-4828",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "55119",
+    "nome": "Cintia da Conceição Peçanha Souza",
+    "cpf_cnpj": "054.559.097-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97483-0404",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "55091",
+    "nome": "Roberta Franciele Andrade Ferreira",
+    "cpf_cnpj": "403.400.268-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94247-4181",
+    "whatsapp": "(11) 94247-4181"
+  },
+  {
+    "id_cliente": "54911",
+    "nome": "Alessandra Ribeiro Lima",
+    "cpf_cnpj": "224.062.978-96",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93212-6864",
+    "whatsapp": "(11) 99336-0417"
+  },
+  {
+    "id_cliente": "54890",
+    "nome": "Maria Cristiane Araújo de Oliveira",
+    "cpf_cnpj": "426.431.458-52",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99735-7964",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "54791",
+    "nome": "Juliana Carolina Santos",
+    "cpf_cnpj": "351.670.718-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99597-3649",
+    "whatsapp": "(11) 99597-3649"
+  },
+  {
+    "id_cliente": "54788",
+    "nome": "Byanka Vasconcelos Teodoro",
+    "cpf_cnpj": "456.748.008-20",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97286-1626",
+    "whatsapp": "(11) 98645-1703"
+  },
+  {
+    "id_cliente": "54415",
+    "nome": "Luana Higino do Nascimento",
+    "cpf_cnpj": "494.136.978-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95891-5839",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "54385",
+    "nome": "Joaquim Francisco da Silva Neto",
+    "cpf_cnpj": "432.632.888-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97355-6342",
+    "whatsapp": "(11) 96802-8320"
+  },
+  {
+    "id_cliente": "54324",
+    "nome": "Anailton Antonio Figueredo",
+    "cpf_cnpj": "072.803.416-67",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97360-7451",
+    "whatsapp": "(11) 97360-7451"
+  },
+  {
+    "id_cliente": "54217",
+    "nome": "Daiana Silva de Souza",
+    "cpf_cnpj": "360.107.928-35",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98141-5847",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "54158",
+    "nome": "Paulo Henrique Lopes do Couto",
+    "cpf_cnpj": "361.152.128-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95485-7613",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "53937",
+    "nome": "Jane Stephanie Mota Reis",
+    "cpf_cnpj": "398.142.508-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94989-4956",
+    "whatsapp": "(11) 94989-4956"
+  },
+  {
+    "id_cliente": "53410",
+    "nome": "Jackson Batista Soares",
+    "cpf_cnpj": "427.418.028-07",
+    "telefone_comercial": "(11) 98518-9878",
+    "telefone_celular": "(11) 95482-8818",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "53209",
+    "nome": "Francinni Agners Pereira Domingues Lopes",
+    "cpf_cnpj": "387.050.388-20",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95869-1945",
+    "whatsapp": "(11) 91972-3198"
+  },
+  {
+    "id_cliente": "53121",
+    "nome": "Wellington Galindo Amancio",
+    "cpf_cnpj": "423.754.138-06",
+    "telefone_comercial": "(11) 99597-6968",
+    "telefone_celular": "(11) 94789-0696",
+    "whatsapp": "(11) 94789-0696"
+  },
+  {
+    "id_cliente": "53028",
+    "nome": "Quercia Tamara Carvalho da Silva",
+    "cpf_cnpj": "392.732.288-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98767-2257",
+    "whatsapp": "(11) 98767-2257"
+  },
+  {
+    "id_cliente": "53017",
+    "nome": "Douglas Carlos da Silva",
+    "cpf_cnpj": "351.667.948-42",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93947-9549",
+    "whatsapp": "(11) 95927-9295"
+  },
+  {
+    "id_cliente": "52953",
+    "nome": "Edivaldo Nogueira dos Santos Junior",
+    "cpf_cnpj": "031.429.705-76",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95869-1405",
+    "whatsapp": "(11) 98383-8148"
+  },
+  {
+    "id_cliente": "52906",
+    "nome": "Josilaine Silva Santana",
+    "cpf_cnpj": "466.653.538-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94819-4320",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "52884",
+    "nome": "Tamires Maria Alves",
+    "cpf_cnpj": "710.097.904-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91267-4608",
+    "whatsapp": "(11) 91186-6784"
+  },
+  {
+    "id_cliente": "52829",
+    "nome": "Lenin Moreira Viana",
+    "cpf_cnpj": "229.301.478-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95236-0088",
+    "whatsapp": "(11) 95236-0088"
+  },
+  {
+    "id_cliente": "52230",
+    "nome": "THAYNA BRAGANÇA BISPO",
+    "cpf_cnpj": "158.274.397-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94832-1785",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "51664",
+    "nome": "Aline de Souza Machado",
+    "cpf_cnpj": "426.484.488-61",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94233-9552",
+    "whatsapp": "(11) 94233-9552"
+  },
+  {
+    "id_cliente": "51482",
+    "nome": "Alex Clementino da Silva",
+    "cpf_cnpj": "478.965.968-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93005-9970",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "50942",
+    "nome": "Gilberto da Silva Carvalho",
+    "cpf_cnpj": "454.868.298-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99342-8310",
+    "whatsapp": "(11) 94002-0578"
+  },
+  {
+    "id_cliente": "50905",
+    "nome": "Nicolas Eduardo Scalambrine Santos de Oliveira",
+    "cpf_cnpj": "494.008.598-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97450-1974",
+    "whatsapp": "(11) 97450-1974"
+  },
+  {
+    "id_cliente": "50871",
+    "nome": "Dayana Santos Alves",
+    "cpf_cnpj": "448.222.248-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97740-9528",
+    "whatsapp": "(11) 97740-9528"
+  },
+  {
+    "id_cliente": "50629",
+    "nome": "Ariane de Freitas Moitinho",
+    "cpf_cnpj": "445.673.048-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(77) 99140-9607",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "50514",
+    "nome": "Janete Silva Almeida",
+    "cpf_cnpj": "218.109.488-86",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96661-8711",
+    "whatsapp": "(11) 96661-8711"
+  },
+  {
+    "id_cliente": "50377",
+    "nome": "Guilherme Fernandes Julio",
+    "cpf_cnpj": "453.907.478-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99925-3210",
+    "whatsapp": "(11) 94259-6268"
+  },
+  {
+    "id_cliente": "50188",
+    "nome": "Aruana Alves Prado",
+    "cpf_cnpj": "382.760.068-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96151-3644",
+    "whatsapp": "(11) 96151-3644"
+  },
+  {
+    "id_cliente": "50064",
+    "nome": "Matheus Bellini Tacio",
+    "cpf_cnpj": "223.645.708-16",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96958-4026",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "49807",
+    "nome": "Gabriela Fernandes Marinho Matsuda Tavares da Silva",
+    "cpf_cnpj": "101.816.057-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(21) 97540-9627",
+    "whatsapp": "(21) 97540-9627"
+  },
+  {
+    "id_cliente": "49618",
+    "nome": "Emerson Gonzaga Pereira",
+    "cpf_cnpj": "069.805.866-61",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97389-4522",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "49432",
+    "nome": "Severino Ferreira da Silva",
+    "cpf_cnpj": "317.393.694-91",
+    "telefone_comercial": "(11) 4614-1562",
+    "telefone_celular": "(11) 91220-6044",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "48989",
+    "nome": "Robson Mariano Souza",
+    "cpf_cnpj": "331.788.728-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94794-8912",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "48769",
+    "nome": "Jennyfer Messias da Silva",
+    "cpf_cnpj": "495.159.618-07",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94518-3385",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "48715",
+    "nome": "Barbara Cristina Souza Moreira",
+    "cpf_cnpj": "453.394.838-35",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96495-4987",
+    "whatsapp": "(11) 96495-4987"
+  },
+  {
+    "id_cliente": "48701",
+    "nome": "Verônica Chagas da Silva",
+    "cpf_cnpj": "400.873.978-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97822-9705",
+    "whatsapp": "(11) 97822-9705"
+  },
+  {
+    "id_cliente": "48611",
+    "nome": "Marcos de Souza Silva",
+    "cpf_cnpj": "424.567.358-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98718-1762",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "48466",
+    "nome": "Sabrina Ellen Pereira",
+    "cpf_cnpj": "483.736.778-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97708-8939",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "48367",
+    "nome": "Alexandre Andrade Fonseca dos Reis",
+    "cpf_cnpj": "358.452.918-28",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99316-3661",
+    "whatsapp": "(11) 99316-3661"
+  },
+  {
+    "id_cliente": "48301",
+    "nome": "Talita Cristina Bastos Ramos de Oliveira",
+    "cpf_cnpj": "425.435.528-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94992-5182",
+    "whatsapp": "(11) 98936-3143"
+  },
+  {
+    "id_cliente": "48065",
+    "nome": "Franciele Maciel Narciso",
+    "cpf_cnpj": "466.778.508-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(13) 98142-7450",
+    "whatsapp": "(13) 98142-7450"
+  },
+  {
+    "id_cliente": "48010",
+    "nome": "Viviani Preite",
+    "cpf_cnpj": "276.803.018-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99535-1018",
+    "whatsapp": "(11) 99535-1018"
+  },
+  {
+    "id_cliente": "47846",
+    "nome": "Thais Cristina Schmith Ribeiro",
+    "cpf_cnpj": "437.046.418-80",
+    "telefone_comercial": "(11) 98510-3530",
+    "telefone_celular": "(11) 95997-9878",
+    "whatsapp": "(11) 95997-9878"
+  },
+  {
+    "id_cliente": "47775",
+    "nome": "Fábio da Costa Braz",
+    "cpf_cnpj": "224.815.108-01",
+    "telefone_comercial": "(11) 94229-2420",
+    "telefone_celular": "(11) 94229-2420",
+    "whatsapp": "(11) 94700-9724"
+  },
+  {
+    "id_cliente": "47503",
+    "nome": "Thais Sousa e Silva Rodrigues",
+    "cpf_cnpj": "436.419.668-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98534-9792",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "47448",
+    "nome": "Tamires Fernanda Deodato de Campos",
+    "cpf_cnpj": "409.102.048-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97548-4456",
+    "whatsapp": "(11) 97548-4456"
+  },
+  {
+    "id_cliente": "47225",
+    "nome": "Maíalla de Araujo Santana",
+    "cpf_cnpj": "491.974.618-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96100-4825",
+    "whatsapp": "(11) 96100-4825"
+  },
+  {
+    "id_cliente": "47029",
+    "nome": "Deygiane de Jesus Gomes",
+    "cpf_cnpj": "338.862.738-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99757-9734",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46862",
+    "nome": "Romário Dionísio Florido",
+    "cpf_cnpj": "386.456.148-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98420-1144",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46798",
+    "nome": "Alex Costa de Paula",
+    "cpf_cnpj": "412.010.828-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98572-3455",
+    "whatsapp": "(11) 99443-1319"
+  },
+  {
+    "id_cliente": "46754",
+    "nome": "Márcio Lourenço Silva",
+    "cpf_cnpj": "182.760.768-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94019-2559",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46750",
+    "nome": "Sarah Freitas Dantas dos Santos",
+    "cpf_cnpj": "390.015.078-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94853-1690",
+    "whatsapp": "(11) 94853-1690"
+  },
+  {
+    "id_cliente": "46743",
+    "nome": "Vitória Gabrieli da Silva Oguazu",
+    "cpf_cnpj": "464.420.378-51",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96265-1302",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46634",
+    "nome": "Vanessa dos Santos Simões",
+    "cpf_cnpj": "440.097.708-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94815-4928",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46623",
+    "nome": "Rodrigo Moraes da Silva Junior",
+    "cpf_cnpj": "479.554.198-12",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96393-3878",
+    "whatsapp": "(11) 98922-0556"
+  },
+  {
+    "id_cliente": "46596",
+    "nome": "Vinicius Henrique Pinheiro da Silva Ferreira",
+    "cpf_cnpj": "503.427.068-45",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93309-6759",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46256",
+    "nome": "Romário Batista dos Santos",
+    "cpf_cnpj": "061.515.705-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98519-8367",
+    "whatsapp": "(11) 98519-8367"
+  },
+  {
+    "id_cliente": "46148",
+    "nome": "Kleber Oliveira Souza",
+    "cpf_cnpj": "187.274.408-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98284-8380",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "46096",
+    "nome": "Monica Pereira de Sousa",
+    "cpf_cnpj": "360.947.398-33",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95203-4122",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45963",
+    "nome": "Lúcio Siqueira",
+    "cpf_cnpj": "372.811.018-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95072-7571",
+    "whatsapp": "(11) 95072-7571"
+  },
+  {
+    "id_cliente": "45939",
+    "nome": "Matheus Gonçalves",
+    "cpf_cnpj": "457.161.528-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(15) 99662-0039",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45936",
+    "nome": "Alex Messias dos Santos",
+    "cpf_cnpj": "370.766.248-93",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99846-3115",
+    "whatsapp": "(11) 99846-3115"
+  },
+  {
+    "id_cliente": "45924",
+    "nome": "Cláudio Tadeu Machado Júnior",
+    "cpf_cnpj": "485.698.118-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96870-2897",
+    "whatsapp": "(01) 99828-53112"
+  },
+  {
+    "id_cliente": "45837",
+    "nome": "Yazz da Silva Fazzio",
+    "cpf_cnpj": "103.220.574-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98602-1489",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45642",
+    "nome": "Gabriel Aparecido França Batista",
+    "cpf_cnpj": "460.984.398-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94985-6380",
+    "whatsapp": "(11) 94985-6380"
+  },
+  {
+    "id_cliente": "45560",
+    "nome": "Keli Cristina Nunes da Silva",
+    "cpf_cnpj": "341.728.058-33",
+    "telefone_comercial": "",
+    "telefone_celular": "(15) 99836-7128",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45515",
+    "nome": "Ana Amélia Bezerra",
+    "cpf_cnpj": "369.483.018-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95636-7357",
+    "whatsapp": "(11) 95636-7357"
+  },
+  {
+    "id_cliente": "45493",
+    "nome": "Carla Moura da Silva",
+    "cpf_cnpj": "357.324.348-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98752-1500",
+    "whatsapp": "(11) 98752-1500"
+  },
+  {
+    "id_cliente": "45402",
+    "nome": "Ketlyn Aparecida Barboza Da Silva",
+    "cpf_cnpj": "349.246.548-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94254-8691",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45387",
+    "nome": "Edson Jerônimo Hipólito",
+    "cpf_cnpj": "368.110.238-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94497-4584",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "45083",
+    "nome": "Ítalo Santos Balduino",
+    "cpf_cnpj": "441.000.988-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99742-8591",
+    "whatsapp": "(11) 99742-8591"
+  },
+  {
+    "id_cliente": "45078",
+    "nome": "Rogério Santos de Oliveira Junior",
+    "cpf_cnpj": "480.224.098-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94772-9503",
+    "whatsapp": "(11) 99925-0769"
+  },
+  {
+    "id_cliente": "44917",
+    "nome": "André Guerra Bento",
+    "cpf_cnpj": "449.116.828-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98775-0884",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "44629",
+    "nome": "Isaías Medeiros Barbosa",
+    "cpf_cnpj": "306.666.308-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97823-6403",
+    "whatsapp": "(11) 97823-6403"
+  },
+  {
+    "id_cliente": "44266",
+    "nome": "Renato Gluber Candido Prates",
+    "cpf_cnpj": "353.301.448-76",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96058-2691",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "44038",
+    "nome": "Raquel Correa da Silva Lima",
+    "cpf_cnpj": "450.890.578-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98829-9350",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "44000",
+    "nome": "Thiago de Jesus Sombra",
+    "cpf_cnpj": "429.450.028-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95174-3205",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "43822",
+    "nome": "Raquel Medeiro",
+    "cpf_cnpj": "057.052.698-11",
+    "telefone_comercial": "",
+    "telefone_celular": "(13) 99207-3041",
+    "whatsapp": "(13) 99207-3041"
+  },
+  {
+    "id_cliente": "43690",
+    "nome": "Fernando Ribeiro Licuci",
+    "cpf_cnpj": "315.331.698-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96893-2012",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "43513",
+    "nome": "Ana Claudia Viana Ramos",
+    "cpf_cnpj": "390.839.238-19",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94085-9090",
+    "whatsapp": "(11) 94085-9090"
+  },
+  {
+    "id_cliente": "43469",
+    "nome": "Jaqueline Alves de Souza",
+    "cpf_cnpj": "432.962.018-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95829-6251",
+    "whatsapp": "(11) 94563-8843"
+  },
+  {
+    "id_cliente": "43430",
+    "nome": "Ingrid Costa Silva",
+    "cpf_cnpj": "503.807.998-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94073-0682",
+    "whatsapp": "(11) 94073-0682"
+  },
+  {
+    "id_cliente": "43366",
+    "nome": "Renato César da Silva Fogaça",
+    "cpf_cnpj": "422.092.288-16",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94015-1133",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "43336",
+    "nome": "Guilherme Augusto silva",
+    "cpf_cnpj": "435.436.718-12",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99294-8647",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "43322",
+    "nome": "Michele Pereira costa",
+    "cpf_cnpj": "427.682.518-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96048-6451",
+    "whatsapp": "(11) 96048-6451"
+  },
+  {
+    "id_cliente": "43059",
+    "nome": "Alexandre Alves da Silva",
+    "cpf_cnpj": "289.909.708-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99673-0922",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42977",
+    "nome": "Ronaldo Moura Lima Junior",
+    "cpf_cnpj": "372.162.168-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98629-4360",
+    "whatsapp": "(11) 96622-9760"
+  },
+  {
+    "id_cliente": "42971",
+    "nome": "Vinícius Cavalcante Oliveira",
+    "cpf_cnpj": "382.633.618-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94727-4756",
+    "whatsapp": "(11) 94727-4756"
+  },
+  {
+    "id_cliente": "42899",
+    "nome": "Emerson Fernandes Batista",
+    "cpf_cnpj": "333.852.588-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94783-2023",
+    "whatsapp": "(13) 99732-6639"
+  },
+  {
+    "id_cliente": "42800",
+    "nome": "Mayara Siqueira Rodrigues",
+    "cpf_cnpj": "416.386.368-00",
+    "telefone_comercial": "(95) 9964-657",
+    "telefone_celular": "(95) 9964-657",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42713",
+    "nome": "Ligia de Moraes Victor",
+    "cpf_cnpj": "317.228.968-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97303-2399",
+    "whatsapp": "(11) 97303-2399"
+  },
+  {
+    "id_cliente": "42709",
+    "nome": "Rogerio Rodrigues de Souza",
+    "cpf_cnpj": "273.794.378-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96918-7425",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42572",
+    "nome": "Claudiane da Silva",
+    "cpf_cnpj": "115.910.664-92",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99842-3345",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42568",
+    "nome": "Thiago Fernando Bragança Bispo",
+    "cpf_cnpj": "227.886.848-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98533-0634",
+    "whatsapp": "(11) 98533-0634"
+  },
+  {
+    "id_cliente": "42439",
+    "nome": "Marcelo Florentino Gomes",
+    "cpf_cnpj": "342.303.388-64",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91032-2498",
+    "whatsapp": "(11) 91032-2498"
+  },
+  {
+    "id_cliente": "42329",
+    "nome": "Luciana Tomiochi Kikuchi Nascimento",
+    "cpf_cnpj": "268.684.978-90",
+    "telefone_comercial": "(11) 95799-6184",
+    "telefone_celular": "(11) 94790-5039",
+    "whatsapp": "(11) 95799-6184"
+  },
+  {
+    "id_cliente": "42170",
+    "nome": "Cássio Rodrigo da Mata",
+    "cpf_cnpj": "446.887.628-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94891-6185",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42079",
+    "nome": "Laercio Garcia",
+    "cpf_cnpj": "012.849.218-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 91079-4356",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "42058",
+    "nome": "Claudia Aparecida de Camargo",
+    "cpf_cnpj": "469.212.358-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97253-1654",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "41875",
+    "nome": "Maristela Ribeiro dos Santos",
+    "cpf_cnpj": "067.395.405-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97547-8605",
+    "whatsapp": "(11) 97547-8605"
+  },
+  {
+    "id_cliente": "41791",
+    "nome": "Alan Severino da Silva",
+    "cpf_cnpj": "332.960.278-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98338-2018",
+    "whatsapp": "(11) 98338-2018"
+  },
+  {
+    "id_cliente": "41385",
+    "nome": "Rafael Rocha de Oliveira",
+    "cpf_cnpj": "414.858.968-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95880-6116",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "41175",
+    "nome": "Raul Henrique Teixeira",
+    "cpf_cnpj": "412.858.138-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96463-2995",
+    "whatsapp": "(11) 96463-2995"
+  },
+  {
+    "id_cliente": "41106",
+    "nome": "Sandra Alves dos Santos",
+    "cpf_cnpj": "105.544.828-43",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99439-7358",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "41101",
+    "nome": "Jarbiano Constantino",
+    "cpf_cnpj": "102.531.964-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95917-0547",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "41033",
+    "nome": "Claudia Lina Francisco",
+    "cpf_cnpj": "349.718.148-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98098-3579",
+    "whatsapp": "(11) 98098-3579"
+  },
+  {
+    "id_cliente": "41017",
+    "nome": "Roberto Gonsalves Costa Junior",
+    "cpf_cnpj": "422.021.538-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95117-4721",
+    "whatsapp": "(11) 95117-4721"
+  },
+  {
+    "id_cliente": "40998",
+    "nome": "Wladimir Silva de Oliveira",
+    "cpf_cnpj": "471.167.268-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94989-3681",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "40842",
+    "nome": "Leticia Ribeiro de Lima",
+    "cpf_cnpj": "437.495.848-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99299-7726",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "40816",
+    "nome": "Patricia Sousa da Silva",
+    "cpf_cnpj": "395.295.288-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95100-4917",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "40790",
+    "nome": "Barbara Luana Donizete Vieira",
+    "cpf_cnpj": "458.043.068-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96648-8010",
+    "whatsapp": "(11) 91904-1773"
+  },
+  {
+    "id_cliente": "40787",
+    "nome": "Angelica Batista Dias Perreira",
+    "cpf_cnpj": "454.089.588-50",
+    "telefone_comercial": "(11) 94025-1578",
+    "telefone_celular": "(11) 98429-4241",
+    "whatsapp": "(11) 98429-4241"
+  },
+  {
+    "id_cliente": "40747",
+    "nome": "Valdir Primo da Silva Filho",
+    "cpf_cnpj": "283.675.428-19",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94727-3041",
+    "whatsapp": "(11) 97964-7152"
+  },
+  {
+    "id_cliente": "40633",
+    "nome": "Douglas Lima da Silva",
+    "cpf_cnpj": "063.950.143-58",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98301-6933",
+    "whatsapp": "(11) 98301-6933"
+  },
+  {
+    "id_cliente": "40626",
+    "nome": "Ana Paula Pegoraro Benigno",
+    "cpf_cnpj": "273.156.318-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99160-6801",
+    "whatsapp": "(11) 99160-6801"
+  },
+  {
+    "id_cliente": "40528",
+    "nome": "Wanderson do Nascimento Silva",
+    "cpf_cnpj": "425.878.258-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95852-4540",
+    "whatsapp": "(11) 95852-4540"
+  },
+  {
+    "id_cliente": "40455",
+    "nome": "Gleidvan Holanda da Silva",
+    "cpf_cnpj": "390.800.198-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97986-6206",
+    "whatsapp": "(11) 97986-6206"
+  },
+  {
+    "id_cliente": "40060",
+    "nome": "Paula Moreira Freitas Silva",
+    "cpf_cnpj": "398.226.248-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99674-4596",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "40055",
+    "nome": "João Vitor Conceição de Sales",
+    "cpf_cnpj": "444.641.048-27",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99014-0636",
+    "whatsapp": "(11) 99014-0636"
+  },
+  {
+    "id_cliente": "40048",
+    "nome": "Sérgio Silva Ferreira",
+    "cpf_cnpj": "884.882.845-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98021-7989",
+    "whatsapp": "(11) 98021-7989"
+  },
+  {
+    "id_cliente": "39993",
+    "nome": "Luiz Henrique da Silva Souza Veloso",
+    "cpf_cnpj": "861.263.945-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94912-4164",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39954",
+    "nome": "Janice Ferreira de Oliveira",
+    "cpf_cnpj": "309.425.698-81",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98333-7736",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39952",
+    "nome": "Thales Raimundo da Silva Santos",
+    "cpf_cnpj": "450.632.198-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97087-1731",
+    "whatsapp": "(11) 97087-1731"
+  },
+  {
+    "id_cliente": "39901",
+    "nome": "Fabiana Gomes da Silva",
+    "cpf_cnpj": "328.353.998-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95403-5736",
+    "whatsapp": "(11) 95403-5736"
+  },
+  {
+    "id_cliente": "39787",
+    "nome": "Antônio Rogério Calaffia",
+    "cpf_cnpj": "111.372.968-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95342-1747",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39761",
+    "nome": "Tamires Gabriela Moura Lima",
+    "cpf_cnpj": "389.522.028-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96664-2274",
+    "whatsapp": "(11) 96664-2274"
+  },
+  {
+    "id_cliente": "39691",
+    "nome": "Patrícia Caroline de Lima Mendes da Silva",
+    "cpf_cnpj": "406.829.398-89",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94797-7784",
+    "whatsapp": "(11) 94797-7784"
+  },
+  {
+    "id_cliente": "39565",
+    "nome": "Neide Sanchez de Lima",
+    "cpf_cnpj": "034.555.398-58",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94000-6537",
+    "whatsapp": "(11) 94000-6537"
+  },
+  {
+    "id_cliente": "39528",
+    "nome": "Poliana Paula da Silva",
+    "cpf_cnpj": "401.887.928-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97404-7671",
+    "whatsapp": "(11) 97404-7671"
+  },
+  {
+    "id_cliente": "39526",
+    "nome": "Victor Henrique Torres Pinto",
+    "cpf_cnpj": "454.828.048-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96915-8350",
+    "whatsapp": "(11) 94859-5816"
+  },
+  {
+    "id_cliente": "39506",
+    "nome": "Alexsandro da Silva",
+    "cpf_cnpj": "301.877.038-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99649-5261",
+    "whatsapp": "(11) 99649-5261"
+  },
+  {
+    "id_cliente": "39437",
+    "nome": "Rogério Manoel Oliveira Barbosa",
+    "cpf_cnpj": "228.684.128-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98737-1587",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39417",
+    "nome": "Anderson Barbosa de Oliveira",
+    "cpf_cnpj": "393.875.168-14",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94464-1616",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39400",
+    "nome": "Renata Sena De Macedo",
+    "cpf_cnpj": "297.848.208-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97631-4370",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39391",
+    "nome": "Paulo Henrique Ferreira Cerqueira",
+    "cpf_cnpj": "408.467.678-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99404-1355",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39357",
+    "nome": "Weslley Garcia",
+    "cpf_cnpj": "379.985.348-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95358-0986",
+    "whatsapp": "(11) 95358-0986"
+  },
+  {
+    "id_cliente": "39307",
+    "nome": "Gabriel da Silva Martins",
+    "cpf_cnpj": "379.537.638-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97420-3889",
+    "whatsapp": "(11) 97420-3889"
+  },
+  {
+    "id_cliente": "39255",
+    "nome": "Deborah de Oliveira Moitinho",
+    "cpf_cnpj": "412.793.068-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98470-2510",
+    "whatsapp": "(11) 98470-2510"
+  },
+  {
+    "id_cliente": "39206",
+    "nome": "Bruna Gonçalves Rodrigues",
+    "cpf_cnpj": "402.383.638-99",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97351-0686",
+    "whatsapp": "(11) 97351-0686"
+  },
+  {
+    "id_cliente": "39170",
+    "nome": "Josinaldo Felipe da Silva",
+    "cpf_cnpj": "268.305.328-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99486-6804",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39087",
+    "nome": "Karina Almeida dos Santos",
+    "cpf_cnpj": "372.365.538-67",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95715-1813",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39071",
+    "nome": "Carlos José Gonçalves",
+    "cpf_cnpj": "173.328.298-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97522-4478",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39061",
+    "nome": "Gilberto de Souza da Silva",
+    "cpf_cnpj": "288.959.308-86",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95493-9906",
+    "whatsapp": "(11) 95493-9906"
+  },
+  {
+    "id_cliente": "39023",
+    "nome": "Karina Santana da Silva",
+    "cpf_cnpj": "382.917.248-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95169-5907",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "39003",
+    "nome": "Nayara Cristina Gomes Sossai",
+    "cpf_cnpj": "464.105.868-76",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96865-2995",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38999",
+    "nome": "Ezequias de Oliveira Brito",
+    "cpf_cnpj": "319.156.488-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94940-6339",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38996",
+    "nome": "Francisco das Chagas Lopes dos Santos",
+    "cpf_cnpj": "607.077.963-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96651-3814",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38976",
+    "nome": "Douglas da Silva Ferreira",
+    "cpf_cnpj": "401.991.468-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97271-5910",
+    "whatsapp": "(11) 97271-5910"
+  },
+  {
+    "id_cliente": "38944",
+    "nome": "Ana Paula Alves de Paiva",
+    "cpf_cnpj": "055.481.644-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98187-6614",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38907",
+    "nome": "Edilson Pereira",
+    "cpf_cnpj": "214.528.698-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97019-4105",
+    "whatsapp": "(11) 98198-3507"
+  },
+  {
+    "id_cliente": "38889",
+    "nome": "Railda Josefa da Rocha Silva",
+    "cpf_cnpj": "436.535.188-57",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 6804-5004",
+    "whatsapp": "(11) 6804-5004"
+  },
+  {
+    "id_cliente": "38872",
+    "nome": "Leandra Aparecida Leite",
+    "cpf_cnpj": "345.196.258-66",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99433-5044",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38867",
+    "nome": "Samuel de Sales Pereira",
+    "cpf_cnpj": "139.618.726-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95335-0782",
+    "whatsapp": "(11) 95335-0782"
+  },
+  {
+    "id_cliente": "38832",
+    "nome": "Alessandro da Silva Dias",
+    "cpf_cnpj": "177.968.248-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98049-2504",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38823",
+    "nome": "Auan Cleinson Goes da Silva",
+    "cpf_cnpj": "388.829.288-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97242-9617",
+    "whatsapp": "(11) 97242-9617"
+  },
+  {
+    "id_cliente": "38811",
+    "nome": "Rogério da Silva Martins Júnior",
+    "cpf_cnpj": "483.169.798-29",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95372-2079",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38684",
+    "nome": "Ana Paula de Araújo Souza",
+    "cpf_cnpj": "348.841.608-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95114-1250",
+    "whatsapp": "(11) 96303-0994"
+  },
+  {
+    "id_cliente": "38665",
+    "nome": "Dayanne Pereira Amorim",
+    "cpf_cnpj": "357.307.838-92",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98516-9667",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38644",
+    "nome": "Barbara Rodrigues de Souza",
+    "cpf_cnpj": "470.881.598-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98776-3061",
+    "whatsapp": "(11) 98776-3061"
+  },
+  {
+    "id_cliente": "38631",
+    "nome": "Fernanda Cristiane Rodrigues",
+    "cpf_cnpj": "297.610.288-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96211-1550",
+    "whatsapp": "(11) 96568-6538"
+  },
+  {
+    "id_cliente": "38604",
+    "nome": "Robin Soares",
+    "cpf_cnpj": "145.045.418-66",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94749-8978",
+    "whatsapp": "(11) 92001-4116"
+  },
+  {
+    "id_cliente": "38563",
+    "nome": "Telma Almeida da Silva",
+    "cpf_cnpj": "068.104.134-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98583-1665",
+    "whatsapp": "(11) 98583-1665"
+  },
+  {
+    "id_cliente": "38535",
+    "nome": "Vanessa Marques Freire",
+    "cpf_cnpj": "345.498.698-28",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96754-5608",
+    "whatsapp": "(11) 96754-5608"
+  },
+  {
+    "id_cliente": "38533",
+    "nome": "Antônio José dos Santos Ferreira",
+    "cpf_cnpj": "029.360.683-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94231-0489",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38523",
+    "nome": "Cintia xavier dos santos alves",
+    "cpf_cnpj": "358.804.698-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(15) 99823-4166",
+    "whatsapp": "(11) 99894-6118"
+  },
+  {
+    "id_cliente": "38514",
+    "nome": "Hagda Dalleti Ferreira de Amorim Silva",
+    "cpf_cnpj": "449.444.868-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98981-4363",
+    "whatsapp": "(11) 98981-4363"
+  },
+  {
+    "id_cliente": "38489",
+    "nome": "José Iuri Franco",
+    "cpf_cnpj": "224.789.808-43",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97676-9146",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38418",
+    "nome": "Silvia Aparecida Costa de Oliveira",
+    "cpf_cnpj": "255.375.698-41",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96986-4148",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38361",
+    "nome": "Adriana Degeny de Souza Santos",
+    "cpf_cnpj": "373.762.328-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95983-9722",
+    "whatsapp": "(11) 95983-9722"
+  },
+  {
+    "id_cliente": "38337",
+    "nome": "Alexsandro Souza Rocha",
+    "cpf_cnpj": "802.841.403-68",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96693-1044",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38329",
+    "nome": "Luciano Pereira de Oliveira",
+    "cpf_cnpj": "334.769.908-42",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97999-4295",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38317",
+    "nome": "Airton Dos Santos",
+    "cpf_cnpj": "100.034.256-57",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97423-7676",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38233",
+    "nome": "Cleber Silva Rodrigues",
+    "cpf_cnpj": "342.523.998-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99336-2468",
+    "whatsapp": "(11) 99336-2468"
+  },
+  {
+    "id_cliente": "38225",
+    "nome": "Breno da Conceição Vera Cruz",
+    "cpf_cnpj": "032.908.792-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99313-8301",
+    "whatsapp": "(11) 99313-8301"
+  },
+  {
+    "id_cliente": "38220",
+    "nome": "Ronaldo Maria de Jesus",
+    "cpf_cnpj": "028.826.455-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96637-3383",
+    "whatsapp": "(11) 96637-3383"
+  },
+  {
+    "id_cliente": "38214",
+    "nome": "Samira Santana Pinheiro",
+    "cpf_cnpj": "284.518.778-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98926-0926",
+    "whatsapp": "(11) 98926-0926"
+  },
+  {
+    "id_cliente": "38203",
+    "nome": "Iuri Rocha Passos",
+    "cpf_cnpj": "441.527.198-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98271-0921",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38198",
+    "nome": "Thais Bernardes",
+    "cpf_cnpj": "360.954.668-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97700-2249",
+    "whatsapp": "(11) 97700-2249"
+  },
+  {
+    "id_cliente": "38196",
+    "nome": "Cláudio Marcio de Oliveira",
+    "cpf_cnpj": "144.952.588-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96375-1418",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38187",
+    "nome": "Isaac de Jesus Amorim",
+    "cpf_cnpj": "446.075.218-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99393-4329",
+    "whatsapp": "(11) 95404-5512"
+  },
+  {
+    "id_cliente": "38182",
+    "nome": "Erica Dias de Souza",
+    "cpf_cnpj": "321.034.448-50",
+    "telefone_comercial": "(11) 99300-8760",
+    "telefone_celular": "(11) 97530-6087",
+    "whatsapp": "(11) 99300-8760"
+  },
+  {
+    "id_cliente": "38176",
+    "nome": "Daniel dos Santos",
+    "cpf_cnpj": "318.090.428-36",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97704-2182",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38172",
+    "nome": "Karla Regina Menezes dos Santos",
+    "cpf_cnpj": "356.030.098-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93090-5566",
+    "whatsapp": "(11) 93090-5566"
+  },
+  {
+    "id_cliente": "38160",
+    "nome": "Andre Matheus Barbosa Balduino",
+    "cpf_cnpj": "178.340.477-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93389-3199",
+    "whatsapp": "(11) 93389-3199"
+  },
+  {
+    "id_cliente": "38150",
+    "nome": "Fernando Cerqueira Nunes",
+    "cpf_cnpj": "370.435.568-21",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94755-9538",
+    "whatsapp": "(11) 94755-9538"
+  },
+  {
+    "id_cliente": "38142",
+    "nome": "Julliano Rene Silva",
+    "cpf_cnpj": "376.114.848-85",
+    "telefone_comercial": "(11) 97088-4364",
+    "telefone_celular": "(11) 97088-4364",
+    "whatsapp": "(11) 97088-4364"
+  },
+  {
+    "id_cliente": "38126",
+    "nome": "Valdemar Diego Queiroz de Oliveira",
+    "cpf_cnpj": "405.761.878-36",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96415-4617",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38093",
+    "nome": "João Carlos Soares de Lima",
+    "cpf_cnpj": "054.737.294-95",
+    "telefone_comercial": "",
+    "telefone_celular": "(81) 99410-7068",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38074",
+    "nome": "Luciana Santos Gouveia",
+    "cpf_cnpj": "054.794.395-45",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93444-6879",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38069",
+    "nome": "Michele da Silva Pereira",
+    "cpf_cnpj": "428.740.958-26",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95381-3335",
+    "whatsapp": "(11) 95381-3335"
+  },
+  {
+    "id_cliente": "38046",
+    "nome": "Bruna Fernanda Marcelino Silva",
+    "cpf_cnpj": "403.151.608-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97259-1692",
+    "whatsapp": "(11) 97259-1692"
+  },
+  {
+    "id_cliente": "38024",
+    "nome": "Oscar Meira Pereira",
+    "cpf_cnpj": "283.383.078-58",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96397-2416",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "38019",
+    "nome": "Ana Caroline da Silva",
+    "cpf_cnpj": "236.058.338-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94143-2932",
+    "whatsapp": "(11) 94143-2932"
+  },
+  {
+    "id_cliente": "38012",
+    "nome": "Davi Lisboa Ferreira",
+    "cpf_cnpj": "042.419.765-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93477-8446",
+    "whatsapp": "(11) 93477-8446"
+  },
+  {
+    "id_cliente": "37994",
+    "nome": "José Antônio dos Santos",
+    "cpf_cnpj": "080.621.664-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95951-9394",
+    "whatsapp": "(11) 98957-1052"
+  },
+  {
+    "id_cliente": "37987",
+    "nome": "Valdivino cordeiro de Azevedo",
+    "cpf_cnpj": "099.084.306-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99980-3743",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37967",
+    "nome": "Caroline Baracho da Silva",
+    "cpf_cnpj": "441.595.178-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98398-9255",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37930",
+    "nome": "Pablo Amâncio de Brito",
+    "cpf_cnpj": "382.479.888-36",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96506-9023",
+    "whatsapp": "(11) 96031-3281"
+  },
+  {
+    "id_cliente": "37926",
+    "nome": "Maria de Lourdes Bastos de Oliveira Andrade",
+    "cpf_cnpj": "075.905.008-28",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96749-8505",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37924",
+    "nome": "Edivania Calazans",
+    "cpf_cnpj": "009.228.185-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95229-4764",
+    "whatsapp": "(11) 95229-4764"
+  },
+  {
+    "id_cliente": "37918",
+    "nome": "Francisca Keila Teixeira de Oliveira",
+    "cpf_cnpj": "330.758.628-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96656-6622",
+    "whatsapp": "(11) 97621-6276"
+  },
+  {
+    "id_cliente": "37876",
+    "nome": "Gabriel Ramos da Silva",
+    "cpf_cnpj": "439.026.548-21",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98579-0738",
+    "whatsapp": "(11) 98579-0738"
+  },
+  {
+    "id_cliente": "37867",
+    "nome": "Adriana Taschini dos Santos",
+    "cpf_cnpj": "161.053.218-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96361-3811",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37854",
+    "nome": "Michael Menezes Santos",
+    "cpf_cnpj": "362.145.958-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94531-0769",
+    "whatsapp": "(11) 94531-0769"
+  },
+  {
+    "id_cliente": "37837",
+    "nome": "Rita de Cassia Arcoverde",
+    "cpf_cnpj": "164.073.438-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98971-9541",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37827",
+    "nome": "Kristian de Lima Pereira",
+    "cpf_cnpj": "469.770.898-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94361-1935",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37813",
+    "nome": "João Borges Cordeiro Neto",
+    "cpf_cnpj": "265.241.088-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95024-6574",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37812",
+    "nome": "Robson Santos Santiago",
+    "cpf_cnpj": "344.707.148-60",
+    "telefone_comercial": "(11) 96081-0891",
+    "telefone_celular": "(92) 99267-0395",
+    "whatsapp": "(09) 29926-70395"
+  },
+  {
+    "id_cliente": "37801",
+    "nome": "Stefani Araujo Alves",
+    "cpf_cnpj": "427.363.378-75",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93932-3151",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37799",
+    "nome": "Fernanda da Silva Sousa",
+    "cpf_cnpj": "319.747.898-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94584-3842",
+    "whatsapp": "(11) 94584-3842"
+  },
+  {
+    "id_cliente": "37778",
+    "nome": "Thais Lopes de Freitas Saia",
+    "cpf_cnpj": "439.620.268-78",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94153-1409",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37762",
+    "nome": "Henrique Falcão de Lima",
+    "cpf_cnpj": "308.381.028-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98881-3859",
+    "whatsapp": "(11) 98833-0108"
+  },
+  {
+    "id_cliente": "37759",
+    "nome": "Caroline Cristine Lima da Costa",
+    "cpf_cnpj": "443.894.438-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94923-0938",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37757",
+    "nome": "Adson Pedro da Silva",
+    "cpf_cnpj": "338.018.758-57",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97310-9148",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37753",
+    "nome": "Gabriela Ferreira da Cruz",
+    "cpf_cnpj": "388.229.518-08",
+    "telefone_comercial": "(11) 97519-2993",
+    "telefone_celular": "(11) 97096-2605",
+    "whatsapp": "(11) 97096-2605"
+  },
+  {
+    "id_cliente": "37750",
+    "nome": "Flávia André da Silva",
+    "cpf_cnpj": "134.624.326-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98948-5024",
+    "whatsapp": "(11) 98948-5024"
+  },
+  {
+    "id_cliente": "37737",
+    "nome": "Delia Gonçalves dos Santos",
+    "cpf_cnpj": "297.245.738-26",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97970-1889",
+    "whatsapp": "(11) 97970-1889"
+  },
+  {
+    "id_cliente": "37718",
+    "nome": "Luciene da Silva Ventura",
+    "cpf_cnpj": "349.385.078-62",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98232-8892",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37709",
+    "nome": "Morgana de Almeida Neves",
+    "cpf_cnpj": "107.193.966-11",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96059-8599",
+    "whatsapp": "(11) 96059-8599"
+  },
+  {
+    "id_cliente": "37703",
+    "nome": "Maria Rafaela Rodrigues Medeiros",
+    "cpf_cnpj": "094.634.284-96",
+    "telefone_comercial": "",
+    "telefone_celular": "(83) 9863-3689",
+    "whatsapp": "(11) 99215-0410"
+  },
+  {
+    "id_cliente": "37696",
+    "nome": "Karina Maciel de Souza",
+    "cpf_cnpj": "353.946.478-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97443-1703",
+    "whatsapp": "(11) 97443-1703"
+  },
+  {
+    "id_cliente": "37693",
+    "nome": "Aparecida Souza",
+    "cpf_cnpj": "268.253.528-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93016-2390",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37666",
+    "nome": "Thyerres Ferreira da Silva",
+    "cpf_cnpj": "400.585.208-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95882-7879",
+    "whatsapp": "(11) 95882-7879"
+  },
+  {
+    "id_cliente": "37664",
+    "nome": "Dayany Teresinha Correia Pereira",
+    "cpf_cnpj": "450.339.158-51",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97733-1753",
+    "whatsapp": "(11) 97733-1753"
+  },
+  {
+    "id_cliente": "37658",
+    "nome": "Agatha Lionela Peres Delgado",
+    "cpf_cnpj": "400.010.468-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94303-3875",
+    "whatsapp": "(11) 94303-3875"
+  },
+  {
+    "id_cliente": "37644",
+    "nome": "Marislanne Leite dos Santos",
+    "cpf_cnpj": "205.912.818-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98789-3089",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37625",
+    "nome": "Jossivaldo dos Santos Sa",
+    "cpf_cnpj": "405.133.208-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94712-2801",
+    "whatsapp": "(11) 96738-3729"
+  },
+  {
+    "id_cliente": "37620",
+    "nome": "Mônica Belarmino da Silva",
+    "cpf_cnpj": "305.612.328-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97861-7861",
+    "whatsapp": "(11) 97861-7861"
+  },
+  {
+    "id_cliente": "37611",
+    "nome": "Leonardo Freitas Moreira Ramos",
+    "cpf_cnpj": "333.515.998-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96226-9675",
+    "whatsapp": "(11) 93001-4327"
+  },
+  {
+    "id_cliente": "37605",
+    "nome": "Geovany Kam Bizinoto",
+    "cpf_cnpj": "359.190.058-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98962-1988",
+    "whatsapp": "(11) 98962-1988"
+  },
+  {
+    "id_cliente": "37591",
+    "nome": "Antônio Garcia Mariano Souza",
+    "cpf_cnpj": "419.299.853-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95286-8415",
+    "whatsapp": "(11) 95286-8415"
+  },
+  {
+    "id_cliente": "37590",
+    "nome": "Givanildo Souza Bispo",
+    "cpf_cnpj": "341.855.238-23",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96219-0502",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37588",
+    "nome": "Henrique de Sousa Viana",
+    "cpf_cnpj": "438.298.578-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95158-2619",
+    "whatsapp": "(11) 95158-2619"
+  },
+  {
+    "id_cliente": "37586",
+    "nome": "Ricardo Milihomem Lúcia",
+    "cpf_cnpj": "287.695.688-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98341-7657",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37582",
+    "nome": "Wellington Bezerra de Medeiros Messias",
+    "cpf_cnpj": "087.342.704-18",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95848-5590",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37578",
+    "nome": "Daniel de Souza Nascimento",
+    "cpf_cnpj": "339.448.168-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99867-7673",
+    "whatsapp": "(11) 97540-0968"
+  },
+  {
+    "id_cliente": "37567",
+    "nome": "Thaís Bianca Dadário Rocha",
+    "cpf_cnpj": "428.291.348-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98338-8120",
+    "whatsapp": "(11) 98338-8120"
+  },
+  {
+    "id_cliente": "37530",
+    "nome": "Luiz Felipe Mariano",
+    "cpf_cnpj": "357.270.658-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98912-7120",
+    "whatsapp": "(11) 98912-7120"
+  },
+  {
+    "id_cliente": "37512",
+    "nome": "Thamiris Machado de Almeida",
+    "cpf_cnpj": "436.174.778-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95848-3402",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37505",
+    "nome": "Amanda Turassi Matias de Campos",
+    "cpf_cnpj": "431.016.328-97",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94316-1188",
+    "whatsapp": "(11) 94316-1188"
+  },
+  {
+    "id_cliente": "37473",
+    "nome": "Washington da Conceição santos",
+    "cpf_cnpj": "351.746.678-62",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95778-1912",
+    "whatsapp": "(11) 95778-1912"
+  },
+  {
+    "id_cliente": "37463",
+    "nome": "Tiago da Silva Matos",
+    "cpf_cnpj": "961.391.702-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98879-9319",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37457",
+    "nome": "Jessica de Jesus Bitencourt",
+    "cpf_cnpj": "437.709.048-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97034-4391",
+    "whatsapp": "(11) 97034-4391"
+  },
+  {
+    "id_cliente": "37450",
+    "nome": "Carticleria Oliveira da Silva",
+    "cpf_cnpj": "273.976.448-05",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98243-1449",
+    "whatsapp": "(11) 98243-1449"
+  },
+  {
+    "id_cliente": "37442",
+    "nome": "Marcia Rosa Silva",
+    "cpf_cnpj": "014.190.015-66",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94170-9780",
+    "whatsapp": "(11) 98683-9918"
+  },
+  {
+    "id_cliente": "37433",
+    "nome": "Eder Maciel da Silva",
+    "cpf_cnpj": "306.182.398-04",
+    "telefone_comercial": "(11) 98460-0060",
+    "telefone_celular": "(11) 98649-3189",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37394",
+    "nome": "Glauce Karen Souza de Araújo",
+    "cpf_cnpj": "351.067.458-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97098-3421",
+    "whatsapp": "(11) 97098-3421"
+  },
+  {
+    "id_cliente": "37366",
+    "nome": "Marquitiel Sampaio Moura",
+    "cpf_cnpj": "033.565.275-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93312-2446",
+    "whatsapp": "(11) 98621-0612"
+  },
+  {
+    "id_cliente": "37341",
+    "nome": "Guilherme Dantas Neri dos Santos",
+    "cpf_cnpj": "378.268.798-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96641-1600",
+    "whatsapp": "(11) 96641-1600"
+  },
+  {
+    "id_cliente": "37339",
+    "nome": "Ana Micheli Parecida Ferreira",
+    "cpf_cnpj": "320.967.468-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99793-6958",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37328",
+    "nome": "Sonia Regina de Oliveira Penteado",
+    "cpf_cnpj": "116.011.718-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99914-3309",
+    "whatsapp": "(11) 99914-3309"
+  },
+  {
+    "id_cliente": "37317",
+    "nome": "Hediwiw Santos de Jesus",
+    "cpf_cnpj": "045.589.715-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94838-1661",
+    "whatsapp": "(11) 94838-1661"
+  },
+  {
+    "id_cliente": "37312",
+    "nome": "Nayara Oliveira Rocha dos Santos",
+    "cpf_cnpj": "065.038.665-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98408-9353",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37311",
+    "nome": "Geisa Estella Sheilla Valentise",
+    "cpf_cnpj": "412.162.118-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96430-3066",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37308",
+    "nome": "Antônia Neres Da Silva",
+    "cpf_cnpj": "335.892.518-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94652-8617",
+    "whatsapp": "(11) 94652-8617"
+  },
+  {
+    "id_cliente": "37303",
+    "nome": "Edmilson Domingues Pedroso",
+    "cpf_cnpj": "325.133.478-62",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97590-7621",
+    "whatsapp": "(11) 97590-7621"
+  },
+  {
+    "id_cliente": "37286",
+    "nome": "Karoline Gonsalves Nogueira",
+    "cpf_cnpj": "451.314.048-86",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98817-4932",
+    "whatsapp": "(11) 98817-4932"
+  },
+  {
+    "id_cliente": "37278",
+    "nome": "Fernando Alves do Nascimento",
+    "cpf_cnpj": "270.530.548-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96944-3682",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37274",
+    "nome": "Adriano de Lima Passos",
+    "cpf_cnpj": "283.431.708-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96707-4626",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37267",
+    "nome": "Cristiano da Silva Pereira Dantas",
+    "cpf_cnpj": "377.006.958-73",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97609-7568",
+    "whatsapp": "(11) 97609-7568"
+  },
+  {
+    "id_cliente": "37264",
+    "nome": "Cleidia Santos Fideles",
+    "cpf_cnpj": "357.348.938-97",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95020-1429",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37247",
+    "nome": "Margarida Maria da Silva",
+    "cpf_cnpj": "327.249.258-58",
+    "telefone_comercial": "(11) 98576-6645",
+    "telefone_celular": "(11) 95898-3866",
+    "whatsapp": "(11) 98576-6645"
+  },
+  {
+    "id_cliente": "37227",
+    "nome": "Ana Lucia Sena de Jesus",
+    "cpf_cnpj": "334.805.478-85",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99700-7510",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37222",
+    "nome": "Sara Raquel de Oliveira Andrade Barros",
+    "cpf_cnpj": "090.166.214-31",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95917-4651",
+    "whatsapp": "(11) 95917-4651"
+  },
+  {
+    "id_cliente": "37215",
+    "nome": "Elizane Marlene da Silva Oliveira",
+    "cpf_cnpj": "321.431.118-27",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99002-8492",
+    "whatsapp": "(11) 99002-8492"
+  },
+  {
+    "id_cliente": "37211",
+    "nome": "Paulo Wilian Santos Sanches",
+    "cpf_cnpj": "018.404.815-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96424-1723",
+    "whatsapp": "(11) 96424-1723"
+  },
+  {
+    "id_cliente": "37192",
+    "nome": "Jadem Freitas dos Santos",
+    "cpf_cnpj": "042.236.447-93",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99808-3991",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37189",
+    "nome": "Mariana Bulhões da Silva",
+    "cpf_cnpj": "380.139.738-67",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98015-3707",
+    "whatsapp": "(11) 98015-3707"
+  },
+  {
+    "id_cliente": "37178",
+    "nome": "Luiz Ricardo Angra Guerra",
+    "cpf_cnpj": "328.039.088-59",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95769-5930",
+    "whatsapp": "(11) 95769-5930"
+  },
+  {
+    "id_cliente": "37172",
+    "nome": "Felipe de Almeida Silva",
+    "cpf_cnpj": "357.619.598-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99666-5116",
+    "whatsapp": "(11) 99203-2508"
+  },
+  {
+    "id_cliente": "37170",
+    "nome": "Sheila Bernardo da Silva",
+    "cpf_cnpj": "365.978.848-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96759-7282",
+    "whatsapp": "(11) 96759-7282"
+  },
+  {
+    "id_cliente": "37169",
+    "nome": "Kleber Mendez Gomez",
+    "cpf_cnpj": "429.889.538-64",
+    "telefone_comercial": "(11) 94811-1182",
+    "telefone_celular": "(11) 98616-1523",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37167",
+    "nome": "Fábio Hespanhol",
+    "cpf_cnpj": "348.340.008-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94037-7959",
+    "whatsapp": "(11) 94037-7959"
+  },
+  {
+    "id_cliente": "37163",
+    "nome": "Luana da Rocha Stecconi",
+    "cpf_cnpj": "229.186.088-74",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93146-4437",
+    "whatsapp": "(11) 93146-4437"
+  },
+  {
+    "id_cliente": "37142",
+    "nome": "Catrine Alves Cardoso",
+    "cpf_cnpj": "493.985.568-63",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96412-3728",
+    "whatsapp": "(11) 99764-6022"
+  },
+  {
+    "id_cliente": "37137",
+    "nome": "Ivone Ramos Nogueira",
+    "cpf_cnpj": "206.025.068-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99770-2786",
+    "whatsapp": "(11) 99770-2786"
+  },
+  {
+    "id_cliente": "37135",
+    "nome": "Rosângela Candido de Oliveira",
+    "cpf_cnpj": "313.815.318-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98424-6287",
+    "whatsapp": "(11) 98424-6287"
+  },
+  {
+    "id_cliente": "37130",
+    "nome": "Robson Martins dos Anjos",
+    "cpf_cnpj": "039.857.565-70",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99891-7016",
+    "whatsapp": "(11) 99256-4674"
+  },
+  {
+    "id_cliente": "37122",
+    "nome": "Talita Patriarchi",
+    "cpf_cnpj": "379.742.228-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95369-3683",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37120",
+    "nome": "Alessandra Silva Santos",
+    "cpf_cnpj": "361.826.328-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97788-0666",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37117",
+    "nome": "Joel Pimenta de Moraes",
+    "cpf_cnpj": "181.653.808-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99360-2295",
+    "whatsapp": "(11) 99360-2295"
+  },
+  {
+    "id_cliente": "37089",
+    "nome": "Noemia Tenória da Silva Martins",
+    "cpf_cnpj": "161.183.388-41",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94780-3526",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37087",
+    "nome": "Flávio Bezerra Lima Junior",
+    "cpf_cnpj": "431.965.998-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95451-8202",
+    "whatsapp": "(11) 95451-8202"
+  },
+  {
+    "id_cliente": "37086",
+    "nome": "Priscila Inácio Ferreira da Silva",
+    "cpf_cnpj": "420.689.288-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96779-5695",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37084",
+    "nome": "Andreza Cristina da Silva",
+    "cpf_cnpj": "401.013.428-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96925-7217",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37077",
+    "nome": "Sara Regina Bernardes Custódio",
+    "cpf_cnpj": "413.608.898-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98577-1131",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37063",
+    "nome": "Weverton dos Reis Santana",
+    "cpf_cnpj": "424.903.648-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98504-8249",
+    "whatsapp": "(11) 98291-4146"
+  },
+  {
+    "id_cliente": "37037",
+    "nome": "Roniclecio de Santana Viana",
+    "cpf_cnpj": "433.218.838-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97769-2505",
+    "whatsapp": "(11) 97769-2505"
+  },
+  {
+    "id_cliente": "37035",
+    "nome": "Tanira Barbosa dos Santos",
+    "cpf_cnpj": "011.967.775-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94922-5850",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37023",
+    "nome": "Adriana Menezes dos Santos",
+    "cpf_cnpj": "360.229.118-93",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95158-9719",
+    "whatsapp": "(11) 95088-4530"
+  },
+  {
+    "id_cliente": "37016",
+    "nome": "Patrícia Silvestre Olegário",
+    "cpf_cnpj": "265.062.878-29",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99785-2449",
+    "whatsapp": "(11) 99785-2449"
+  },
+  {
+    "id_cliente": "37014",
+    "nome": "Maqiseul Andrade Souza",
+    "cpf_cnpj": "016.952.635-61",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98891-7595",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37004",
+    "nome": "Adimilton Barbaresco de Oliveira",
+    "cpf_cnpj": "185.218.838-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98040-3262",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "37003",
+    "nome": "Gabrielle Silva Santos",
+    "cpf_cnpj": "391.744.078-48",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94790-6599",
+    "whatsapp": "(11) 96212-4098"
+  },
+  {
+    "id_cliente": "36999",
+    "nome": "Eric Lincoln Soares dos Santos",
+    "cpf_cnpj": "332.302.638-12",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96839-3383",
+    "whatsapp": "(11) 94742-1109"
+  },
+  {
+    "id_cliente": "36997",
+    "nome": "Renan Pereira Belira",
+    "cpf_cnpj": "419.863.298-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98790-7629",
+    "whatsapp": "(11) 98790-7629"
+  },
+  {
+    "id_cliente": "36989",
+    "nome": "Gabriel Ferreira Pires",
+    "cpf_cnpj": "418.116.958-84",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97569-8755",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36986",
+    "nome": "Daniele Ferreira de Almeida Silva",
+    "cpf_cnpj": "357.614.898-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96989-4946",
+    "whatsapp": "(11) 99450-2353"
+  },
+  {
+    "id_cliente": "36982",
+    "nome": "Gessica Marques de Souza",
+    "cpf_cnpj": "353.108.848-31",
+    "telefone_comercial": "(11) 96299-7334",
+    "telefone_celular": "(11) 96092-5417",
+    "whatsapp": "(11) 96092-5417"
+  },
+  {
+    "id_cliente": "36978",
+    "nome": "Everton Moises Madurera",
+    "cpf_cnpj": "340.095.478-04",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96816-2918",
+    "whatsapp": "(11) 91325-7882"
+  },
+  {
+    "id_cliente": "36976",
+    "nome": "Sabrina Tamarozzi",
+    "cpf_cnpj": "341.263.788-20",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98258-0729",
+    "whatsapp": "(11) 98258-0729"
+  },
+  {
+    "id_cliente": "36973",
+    "nome": "Jonadab da Silva Oliveira",
+    "cpf_cnpj": "116.777.498-14",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96371-1019",
+    "whatsapp": "(11) 99131-7222"
+  },
+  {
+    "id_cliente": "36965",
+    "nome": "Tiago Silva de Oliveira",
+    "cpf_cnpj": "311.214.308-64",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94957-2894",
+    "whatsapp": "(11) 97726-8523"
+  },
+  {
+    "id_cliente": "36957",
+    "nome": "Camila Araújo Lima",
+    "cpf_cnpj": "314.763.038-27",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97091-6982",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36946",
+    "nome": "Kilma Katia da Silva",
+    "cpf_cnpj": "362.142.918-26",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99908-9224",
+    "whatsapp": "(11) 91760-4709"
+  },
+  {
+    "id_cliente": "36944",
+    "nome": "Valdeci de Campos",
+    "cpf_cnpj": "087.791.949-66",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96368-5623",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36941",
+    "nome": "Alef Ribeiro Do Nascimento",
+    "cpf_cnpj": "434.099.538-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96979-8383",
+    "whatsapp": "(11) 96528-5016"
+  },
+  {
+    "id_cliente": "36939",
+    "nome": "Mylena Lanzi da Silveira",
+    "cpf_cnpj": "465.566.968-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98154-0267",
+    "whatsapp": "(11) 98154-0267"
+  },
+  {
+    "id_cliente": "36934",
+    "nome": "Paloma Santana Pereira",
+    "cpf_cnpj": "434.881.678-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98716-6810",
+    "whatsapp": "(11) 98716-6810"
+  },
+  {
+    "id_cliente": "36933",
+    "nome": "Vinícius Aparecido Prado Camargo",
+    "cpf_cnpj": "478.840.678-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94444-9571",
+    "whatsapp": "(11) 94444-9571"
+  },
+  {
+    "id_cliente": "36926",
+    "nome": "Andressa Gonçalves de Souza do Nascimento",
+    "cpf_cnpj": "353.820.578-77",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98777-3833",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36917",
+    "nome": "Samuel Gonzaga da Silva",
+    "cpf_cnpj": "101.976.504-65",
+    "telefone_comercial": "(11) 99130-5524",
+    "telefone_celular": "(11) 99329-0523",
+    "whatsapp": "(11) 99329-0523"
+  },
+  {
+    "id_cliente": "36914",
+    "nome": "Sandra Cerquiaro",
+    "cpf_cnpj": "089.587.718-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97338-8225",
+    "whatsapp": "(11) 97338-8225"
+  },
+  {
+    "id_cliente": "36909",
+    "nome": "Elisete Ferreira da Silva",
+    "cpf_cnpj": "185.473.148-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96592-6412",
+    "whatsapp": "(11) 96592-6412"
+  },
+  {
+    "id_cliente": "36872",
+    "nome": "Luana Pontes dos Santos",
+    "cpf_cnpj": "425.503.538-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96365-3066",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36866",
+    "nome": "Caio Martins Dos Santos",
+    "cpf_cnpj": "412.197.718-13",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95914-0874",
+    "whatsapp": "(11) 95914-0874"
+  },
+  {
+    "id_cliente": "36864",
+    "nome": "Thiago Andrade da Silva",
+    "cpf_cnpj": "332.340.658-37",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99293-7173",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36847",
+    "nome": "Marcos Victor Nascimento Sucupira",
+    "cpf_cnpj": "141.541.587-08",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93008-5616",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36839",
+    "nome": "Francisca valcicleide das chagas",
+    "cpf_cnpj": "369.848.208-80",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95143-2806",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36828",
+    "nome": "Ivanilton Costa da Cruz",
+    "cpf_cnpj": "321.009.988-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96606-3278",
+    "whatsapp": "(11) 96606-3278"
+  },
+  {
+    "id_cliente": "36818",
+    "nome": "Gabriel dos Santos Silva",
+    "cpf_cnpj": "432.714.508-46",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99536-1926",
+    "whatsapp": "(11) 95245-6779"
+  },
+  {
+    "id_cliente": "36813",
+    "nome": "Lucas Maciel da Costa",
+    "cpf_cnpj": "416.487.518-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96189-5427",
+    "whatsapp": "(11) 91761-5212"
+  },
+  {
+    "id_cliente": "36812",
+    "nome": "Walter de Azevedo Martins da Silva",
+    "cpf_cnpj": "445.543.588-36",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95461-7782",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36798",
+    "nome": "Tatiane Pereira sobrinho",
+    "cpf_cnpj": "216.215.768-33",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97439-4254",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36794",
+    "nome": "Ana Cristina Gama",
+    "cpf_cnpj": "324.711.928-07",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94902-8151",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36792",
+    "nome": "Aline Dantas martins",
+    "cpf_cnpj": "408.153.418-73",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94861-4646",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36790",
+    "nome": "Isac Francisco Silva Santos",
+    "cpf_cnpj": "011.647.495-52",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97215-3594",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36785",
+    "nome": "Jessica Valesca",
+    "cpf_cnpj": "320.962.298-12",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95747-4742",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36784",
+    "nome": "CONQUISTA COTIA",
+    "cpf_cnpj": "37.658.769/0001-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96666-3266",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36780",
+    "nome": "Aline Rodrigues Valim Vieira",
+    "cpf_cnpj": "405.395.728-10",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98647-3544",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36749",
+    "nome": "Pâmela Cícera Gomes",
+    "cpf_cnpj": "387.682.388-94",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99719-5109",
+    "whatsapp": "(11) 99719-5109"
+  },
+  {
+    "id_cliente": "36744",
+    "nome": "Jane de Paula Machado",
+    "cpf_cnpj": "295.774.138-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 4320-5399",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36679",
+    "nome": "Lindenberg Fernandes e Silva",
+    "cpf_cnpj": "342.047.478-41",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95241-5938",
+    "whatsapp": "(11) 95240-5271"
+  },
+  {
+    "id_cliente": "36671",
+    "nome": "Sergio Henrique Gois Da Silva",
+    "cpf_cnpj": "493.508.748-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96186-2160",
+    "whatsapp": "(11) 96186-2160"
+  },
+  {
+    "id_cliente": "36659",
+    "nome": "Rita de Cassia Siqueira da Silva",
+    "cpf_cnpj": "318.431.388-32",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99385-7645",
+    "whatsapp": "(11) 94317-6403"
+  },
+  {
+    "id_cliente": "36648",
+    "nome": "Isabelly Costa Trindade",
+    "cpf_cnpj": "450.641.118-86",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96815-8412",
+    "whatsapp": "(11) 96815-8412"
+  },
+  {
+    "id_cliente": "36635",
+    "nome": "Manoel Da Cruz Alves Rodrigues",
+    "cpf_cnpj": "352.719.478-90",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94809-3459",
+    "whatsapp": "(11) 94809-3459"
+  },
+  {
+    "id_cliente": "36630",
+    "nome": "Wesley Mafra Pereira Candido",
+    "cpf_cnpj": "382.080.888-46",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94167-7152",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36629",
+    "nome": "Valquíria Lemos de Souza",
+    "cpf_cnpj": "314.905.288-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95805-1496",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36622",
+    "nome": "Erick Aparecido dos Santos Calegari",
+    "cpf_cnpj": "449.916.888-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98321-6033",
+    "whatsapp": "(11) 94876-4142"
+  },
+  {
+    "id_cliente": "36619",
+    "nome": "Vanessa de Freitas",
+    "cpf_cnpj": "395.759.848-62",
+    "telefone_comercial": "(11) 96592-9764",
+    "telefone_celular": "(11) 99975-2974",
+    "whatsapp": "(11) 96592-9764"
+  },
+  {
+    "id_cliente": "36612",
+    "nome": "Patricia Sumie dos Reis Aota",
+    "cpf_cnpj": "329.372.388-82",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95456-2703",
+    "whatsapp": "(11) 95456-2703"
+  },
+  {
+    "id_cliente": "36602",
+    "nome": "Icaro Rocha Passos",
+    "cpf_cnpj": "397.201.828-22",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99407-2477",
+    "whatsapp": "(11) 99407-2477"
+  },
+  {
+    "id_cliente": "36595",
+    "nome": "Maria Aparecida Pinheiro Coelho Ferreira",
+    "cpf_cnpj": "431.851.568-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98981-5688",
+    "whatsapp": "(11) 98981-5688"
+  },
+  {
+    "id_cliente": "36589",
+    "nome": "Mirella Aparecida Carvalho da Silva",
+    "cpf_cnpj": "475.249.558-98",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96566-0636",
+    "whatsapp": "(11) 96566-0636"
+  },
+  {
+    "id_cliente": "36584",
+    "nome": "Douglas Silva de Souza",
+    "cpf_cnpj": "382.674.318-02",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94680-1004",
+    "whatsapp": "(11) 94680-1004"
+  },
+  {
+    "id_cliente": "36578",
+    "nome": "Tillara Itsuka de Jesus Yamaguti Yoshioka",
+    "cpf_cnpj": "433.157.248-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97589-6996",
+    "whatsapp": "(11) 97589-6996"
+  },
+  {
+    "id_cliente": "36576",
+    "nome": "Fabiene Maria das Graças Chaves Barreto",
+    "cpf_cnpj": "316.869.918-78",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96736-6106",
+    "whatsapp": "(11) 96736-6106"
+  },
+  {
+    "id_cliente": "36573",
+    "nome": "Yngrid Naiara Teixeira de lima",
+    "cpf_cnpj": "439.985.318-23",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96462-7511",
+    "whatsapp": "(11) 96462-7511"
+  },
+  {
+    "id_cliente": "36570",
+    "nome": "Aline Fernanda Bezerra da Silva",
+    "cpf_cnpj": "331.838.928-55",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94911-7763",
+    "whatsapp": "(11) 94911-7763"
+  },
+  {
+    "id_cliente": "36568",
+    "nome": "Cristina Ferreira Barros",
+    "cpf_cnpj": "143.042.118-54",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98753-3857",
+    "whatsapp": "(11) 98753-3857"
+  },
+  {
+    "id_cliente": "36557",
+    "nome": "Eloiza Passos Romeu",
+    "cpf_cnpj": "297.663.578-11",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96512-3152",
+    "whatsapp": "(11) 96512-3152"
+  },
+  {
+    "id_cliente": "36527",
+    "nome": "Sulamita Gonçalves",
+    "cpf_cnpj": "354.110.258-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98861-5851",
+    "whatsapp": "(11) 98861-5851"
+  },
+  {
+    "id_cliente": "36523",
+    "nome": "Israel Evangelista de Souza Filho",
+    "cpf_cnpj": "112.908.306-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93460-6131",
+    "whatsapp": "(11) 97367-4977"
+  },
+  {
+    "id_cliente": "36514",
+    "nome": "Tatiana Cristina Pereira",
+    "cpf_cnpj": "288.226.478-07",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94768-5597",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36512",
+    "nome": "Ricardo Moreira de Barros",
+    "cpf_cnpj": "258.377.358-52",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96015-4122",
+    "whatsapp": "(11) 96015-4122"
+  },
+  {
+    "id_cliente": "36503",
+    "nome": "Priscila Batista Santos",
+    "cpf_cnpj": "418.634.238-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98661-2669",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36502",
+    "nome": "Wellyngton Alex Silva de Almeida",
+    "cpf_cnpj": "444.569.678-11",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97964-6017",
+    "whatsapp": "(11) 95956-3830"
+  },
+  {
+    "id_cliente": "36477",
+    "nome": "Gabriel Barbosa Nogueria Antonini",
+    "cpf_cnpj": "448.282.668-52",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98354-0581",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36463",
+    "nome": "Marcel Garzzesi",
+    "cpf_cnpj": "302.421.588-38",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99641-6772",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36445",
+    "nome": "Thamiris Rosa Rodrigues",
+    "cpf_cnpj": "350.793.378-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99584-7656",
+    "whatsapp": "(11) 99584-7656"
+  },
+  {
+    "id_cliente": "36401",
+    "nome": "Elenice de Oliveira Toledo",
+    "cpf_cnpj": "079.087.978-65",
+    "telefone_comercial": "(11) 5112-0555",
+    "telefone_celular": "(11) 98444-7366",
+    "whatsapp": "(11) 98444-7366"
+  },
+  {
+    "id_cliente": "36399",
+    "nome": "Diego Ferreira Duarte",
+    "cpf_cnpj": "375.266.928-43",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96894-7252",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36397",
+    "nome": "Vanessa Cavalcanti Victor Delfino",
+    "cpf_cnpj": "368.717.798-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96589-6306",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36396",
+    "nome": "Camila Santos da Silva",
+    "cpf_cnpj": "234.814.118-39",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94942-4124",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "36394",
+    "nome": "Daniele Cristina Silva Souza",
+    "cpf_cnpj": "041.931.593-45",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95337-4561",
+    "whatsapp": "(11) 95337-4561"
+  },
+  {
+    "id_cliente": "36092",
+    "nome": "Valdemir Alberto Martinez",
+    "cpf_cnpj": "259.358.558-79",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98519-4929",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "34505",
+    "nome": "Matheus de Almeida",
+    "cpf_cnpj": "442.782.598-24",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98825-3697",
+    "whatsapp": "(11) 91315-0641"
+  },
+  {
+    "id_cliente": "33882",
+    "nome": "Valdenice Soares",
+    "cpf_cnpj": "260.827.428-50",
+    "telefone_comercial": "(11) 97533-3458",
+    "telefone_celular": "(11) 97533-3458",
+    "whatsapp": "(11) 97533-3458"
+  },
+  {
+    "id_cliente": "32718",
+    "nome": "Robson Alves Barbosa",
+    "cpf_cnpj": "215.317.678-69",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94870-7227",
+    "whatsapp": "(11) 94870-7227"
+  },
+  {
+    "id_cliente": "32298",
+    "nome": "Jefferson Menezes Da Rocha",
+    "cpf_cnpj": "485.448.578-76",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97504-2512",
+    "whatsapp": "(11) 97504-2512"
+  },
+  {
+    "id_cliente": "30721",
+    "nome": "Guaraci De Souza Dourado",
+    "cpf_cnpj": "041.175.585-44",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93205-1806",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "30562",
+    "nome": "Leonardo Campos Barbosa",
+    "cpf_cnpj": "366.341.608-99",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94683-1741",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "30239",
+    "nome": "Adriana Splendore de Souza",
+    "cpf_cnpj": "221.349.518-18",
+    "telefone_comercial": "(11) 99980-6290",
+    "telefone_celular": "(11) 94180-4059",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "29021",
+    "nome": "Paulo Henrique Teófilo",
+    "cpf_cnpj": "298.649.448-00",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98970-6838",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "27200",
+    "nome": "Denapoles Santos Silva",
+    "cpf_cnpj": "371.868.038-65",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98592-4000",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "25515",
+    "nome": "Cristina Aparecida Leandro",
+    "cpf_cnpj": "843.588.908-49",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97184-3260",
+    "whatsapp": "(11) 97184-3260"
+  },
+  {
+    "id_cliente": "25191",
+    "nome": "Daniela Perreira Wauke",
+    "cpf_cnpj": "311.562.438-74",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99257-6755",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "24352",
+    "nome": "Edicarlos Barbosa da Silva Pereira",
+    "cpf_cnpj": "294.013.538-08",
+    "telefone_comercial": "(11) 94713-3485",
+    "telefone_celular": "(11) 94728-4845",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "23293",
+    "nome": "Ana Paula de Oliveira Gomes",
+    "cpf_cnpj": "216.574.588-81",
+    "telefone_comercial": "(13) 99624-9063",
+    "telefone_celular": "(13) 99608-3551",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "23279",
+    "nome": "Rogério de Oliveira",
+    "cpf_cnpj": "215.574.018-29",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94707-2007",
+    "whatsapp": "(11) 94707-2007"
+  },
+  {
+    "id_cliente": "22820",
+    "nome": "Natalia Moreira dos Santos",
+    "cpf_cnpj": "464.159.201-20",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99909-6406",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "22082",
+    "nome": "Rogerio Da Silva Junior",
+    "cpf_cnpj": "350.914.358-24",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96842-5912",
+    "whatsapp": "(11) 98461-5791"
+  },
+  {
+    "id_cliente": "20534",
+    "nome": "Kelvin Lima de Andrade",
+    "cpf_cnpj": "379.806.988-35",
+    "telefone_comercial": "(11) 94939-3661",
+    "telefone_celular": "(11) 94939-3661",
+    "whatsapp": "(11) 94939-3661"
+  },
+  {
+    "id_cliente": "20324",
+    "nome": "Meiriely Da Silva Góis",
+    "cpf_cnpj": "366.758.328-16",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94772-2048",
+    "whatsapp": "(11) 99484-8523"
+  },
+  {
+    "id_cliente": "19944",
+    "nome": "Denis Amaral da Silva",
+    "cpf_cnpj": "117.186.936-30",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95046-3066",
+    "whatsapp": "(11) 95046-3066"
+  },
+  {
+    "id_cliente": "19782",
+    "nome": "Maedson Sousa Biço Albergaria",
+    "cpf_cnpj": "034.185.755-60",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95650-7417",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "19697",
+    "nome": "Denise Costa Matias",
+    "cpf_cnpj": "436.432.318-73",
+    "telefone_comercial": "(11) 4158-2660",
+    "telefone_celular": "(11) 97433-2346",
+    "whatsapp": "(11) 97433-2346"
+  },
+  {
+    "id_cliente": "19522",
+    "nome": "Luiz Hambert Dias da Silva",
+    "cpf_cnpj": "484.246.438-01",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99864-8576",
+    "whatsapp": "(11) 97711-5126"
+  },
+  {
+    "id_cliente": "18464",
+    "nome": "Fernando dos Santos Santana",
+    "cpf_cnpj": "327.640.078-25",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97261-8034",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "18449",
+    "nome": "Adriana Silvia da Silva Pinho",
+    "cpf_cnpj": "703.824.842-15",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 94669-5242",
+    "whatsapp": "(11) 94669-5242"
+  },
+  {
+    "id_cliente": "16649",
+    "nome": "Claudia Navarro Ribeiro",
+    "cpf_cnpj": "386.329.178-62",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 93411-9237",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "16550",
+    "nome": "Edvania Lemos Paulo Da Silva",
+    "cpf_cnpj": "030.107.653-71",
+    "telefone_comercial": "(11) 96602-7762",
+    "telefone_celular": "(11) 97478-1659",
+    "whatsapp": "(11) 97478-1659"
+  },
+  {
+    "id_cliente": "16045",
+    "nome": "Priscila Pereira da Silva",
+    "cpf_cnpj": "377.764.638-50",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99927-5471",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "15345",
+    "nome": "Alexandre Wenceslau",
+    "cpf_cnpj": "205.074.668-70",
+    "telefone_comercial": "(11) 97888-8589",
+    "telefone_celular": "(11) 97888-8589",
+    "whatsapp": "(11) 97888-8589"
+  },
+  {
+    "id_cliente": "15180",
+    "nome": "Priscila Augusta de Sousa",
+    "cpf_cnpj": "343.782.828-28",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95382-7448",
+    "whatsapp": "(11) 95382-7448"
+  },
+  {
+    "id_cliente": "11146",
+    "nome": "Julio Cesar Caetano",
+    "cpf_cnpj": "337.030.558-55",
+    "telefone_comercial": "(11) 98844-1032",
+    "telefone_celular": "(11) 98119-3818",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "10290",
+    "nome": "Monica Aparecida de Oliveira Moraes",
+    "cpf_cnpj": "145.018.748-05",
+    "telefone_comercial": "(11) 99340-0396",
+    "telefone_celular": "(11) 99404-7063",
+    "whatsapp": "(11) 93207-8253"
+  },
+  {
+    "id_cliente": "9934",
+    "nome": "Francisco Adriano Sales De Lima",
+    "cpf_cnpj": "821.838.483-91",
+    "telefone_comercial": "(11) 4703-0008",
+    "telefone_celular": "(11) 91353-9339",
+    "whatsapp": "(11) 91353-9339"
+  },
+  {
+    "id_cliente": "9801",
+    "nome": "Tiago Nascimento",
+    "cpf_cnpj": "370.686.988-83",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 98383-2197",
+    "whatsapp": "(11) 98383-2197"
+  },
+  {
+    "id_cliente": "9460",
+    "nome": "Clodoaldo Da Silva Santos",
+    "cpf_cnpj": "247.886.858-09",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96759-3120",
+    "whatsapp": "(11) 96759-3120"
+  },
+  {
+    "id_cliente": "7553",
+    "nome": "Zenivaldo Araujo de Oliveira",
+    "cpf_cnpj": "134.856.358-39",
+    "telefone_comercial": "(11) 96648-2420",
+    "telefone_celular": "(11) 94604-6852",
+    "whatsapp": "(11) 94604-6852"
+  },
+  {
+    "id_cliente": "7489",
+    "nome": "Sandra da Silva Brito Santos",
+    "cpf_cnpj": "161.132.968-06",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97441-1778",
+    "whatsapp": "(11) 97441-1778"
+  },
+  {
+    "id_cliente": "7332",
+    "nome": "Fernando Augusto Paulino",
+    "cpf_cnpj": "368.868.888-03",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 95606-9303",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "6348",
+    "nome": "Juliana Das Virgens Santos",
+    "cpf_cnpj": "416.573.428-40",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96144-7497",
+    "whatsapp": "(11) 96144-7497"
+  },
+  {
+    "id_cliente": "6114",
+    "nome": "Caramuru Ferreira Baracuhy",
+    "cpf_cnpj": "225.692.004-68",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97184-6982",
+    "whatsapp": "(11) 97184-6982"
+  },
+  {
+    "id_cliente": "5856",
+    "nome": "Gilmar Santos Souza",
+    "cpf_cnpj": "126.880.988-88",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99301-5243",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "4190",
+    "nome": "Nilza Maria de Oliveira Nascimento",
+    "cpf_cnpj": "222.479.738-92",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97387-4333",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "3235",
+    "nome": "Lucas de Souza Sá",
+    "cpf_cnpj": "433.659.198-99",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 97507-7550",
+    "whatsapp": "(11) 97507-7550"
+  },
+  {
+    "id_cliente": "2815",
+    "nome": "Rogerio Gonzaga Teles",
+    "cpf_cnpj": "051.136.565-93",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99647-3459",
+    "whatsapp": ""
+  },
+  {
+    "id_cliente": "2480",
+    "nome": "Roberto de Jesus Santos",
+    "cpf_cnpj": "686.249.055-91",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96657-9301",
+    "whatsapp": "(11) 96657-9301"
+  },
+  {
+    "id_cliente": "1774",
+    "nome": "Rosimeire Miranda de Oliveira",
+    "cpf_cnpj": "282.499.868-73",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 96384-4846",
+    "whatsapp": "(11) 97184-2145"
+  },
+  {
+    "id_cliente": "887",
+    "nome": "Luzenira Gonçalo Macedo",
+    "cpf_cnpj": "275.043.998-17",
+    "telefone_comercial": "",
+    "telefone_celular": "(11) 99722-6478",
+    "whatsapp": "(11) 99722-6478"
+  }
+]

@@ -265,13 +265,13 @@ def consulta_demandas():
 def main():
     scheduler = BlockingScheduler(timezone="America/Sao_Paulo")
 
-    # Cron de 10 em 10 minutos entre 7h e 21h
-    trigger = CronTrigger(minute="*/40", hour="7-21", second="0")
+    # Agendar a função consulta_feed para rodar a cada 2 horas, das 7h às 19h
+    trigger = CronTrigger(minute=0, hour='7-19/2', second=0)
     scheduler.add_job(consulta_demandas, trigger=trigger)
 
     # consulta_demandas()  # Executa imediatamente
 
-    print("🚀 Agendado para rodar a cada 30 minutos.")
+    print("🚀 Agendado para rodar a cada 2 horas, das 7h às 19h.")
     try:
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):

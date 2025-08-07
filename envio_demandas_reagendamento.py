@@ -20,14 +20,14 @@ BASE_URL = 'http://10.0.100.128:5009'
 # Expediente dos colaboradores
 expediente_colaboradores = {
     307: { 'inicio': '06:00', 'fim': '16:00' },  # ROSA
-    355: { 'inicio': '15:00', 'fim': '21:00' },  # RUBENS
-    345: { 'inicio': '06:00', 'fim': '16:00' },  # JOÃO MIYAKE
-    359: { 'inicio': '10:00', 'fim': '17:00' },  # PEDRO
-    354: { 'inicio': '06:00', 'fim': '11:00' },  # EDUARDO
-    337: { 'inicio': '11:00', 'fim': '21:00' },  # ALISON
-    313: { 'inicio': '11:00', 'fim': '21:00' },  # JOÃO GOMES
+    337: { 'inicio': '06:00', 'fim': '16:00' },  # ALISON
     367: { 'inicio': '06:00', 'fim': '16:00' },  # RODRIGO
+    345: { 'inicio': '06:00', 'fim': '16:00' },  # JOÃO MIYAKE
+    354: { 'inicio': '06:00', 'fim': '11:00' },  # EDUARDO
+    359: { 'inicio': '10:00', 'fim': '17:00' },  # PEDRO
     377: { 'inicio': '10:00', 'fim': '16:00' },  # DIEGO
+    313: { 'inicio': '11:00', 'fim': '21:00' },  # JOÃO GOMES
+    355: { 'inicio': '15:00', 'fim': '21:00' },  # RUBENS
 }
 
 # Lista de assuntos permitidos

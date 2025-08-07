@@ -118,7 +118,7 @@ def distribuir_feed():
         nome_assunto = assuntos_map.get(assunto_id, 'Desconhecido')
         print(f"Total chamados abertos com assunto {assunto_id} ({nome_assunto}): {contagem_por_assunto[assunto_id]}")
 
-    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307] #307 REMOVENDO O ROSA DEVIDO FERIAS
+    ids_tecnicos = [355, 345, 359, 354, 337, 313, 367, 377, 307]
 
     chamados_por_tecnico = defaultdict(int)
 
